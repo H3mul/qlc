@@ -3,8 +3,8 @@
 <Workspace xmlns="http://www.qlcplus.org/Workspace" CurrentWindow="VirtualConsole">
  <Creator>
   <Name>Q Light Controller Plus</Name>
-  <Version>4.12.6</Version>
-  <Author>Hemul</Author>
+  <Version>4.12.7</Version>
+  <Author>hemul</Author>
  </Creator>
  <Engine>
   <InputOutputMap>
@@ -625,7 +625,7 @@
      </Playback>
     </Slider>
     <SpeedDial Caption="Fade In/Out" ID="8">
-     <WindowState Visible="True" X="530" Y="40" Width="45" Height="305"/>
+     <WindowState Visible="True" X="530" Y="40" Width="45" Height="345"/>
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
       <ForegroundColor>4294967295</ForegroundColor>
