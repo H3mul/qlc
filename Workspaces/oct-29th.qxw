@@ -3,13 +3,15 @@
 <Workspace xmlns="http://www.qlcplus.org/Workspace" CurrentWindow="VirtualConsole">
  <Creator>
   <Name>Q Light Controller Plus</Name>
-  <Version>4.12.6</Version>
-  <Author>Hemul</Author>
+  <Version>4.12.7</Version>
+  <Author>hemul</Author>
  </Creator>
  <Engine>
   <InputOutputMap>
    <Universe Name="Universe 1" ID="0">
-    <Output Plugin="DMX USB" UID="None" Line="0"/>
+    <Output Plugin="DMX USB" UID="FT232R USB UART (S/N: A10KPF27)" Line="0">
+     <PluginParameters UniverseChannels="16"/>
+    </Output>
    </Universe>
    <Universe Name="Universe 2" ID="1"/>
    <Universe Name="Universe 3" ID="2"/>
@@ -56,20 +58,20 @@
    <Channels>4</Channels>
   </Fixture>
   <Function ID="0" Type="Scene" Name="Stage Right">
-   <Speed FadeIn="1000" FadeOut="1000" Duration="1000"/>
+   <Speed FadeIn="2000" FadeOut="2000" Duration="2000"/>
    <FixtureVal ID="1">1,200,3,200</FixtureVal>
   </Function>
   <Function ID="1" Type="Scene" Name="Stage Left">
-   <Speed FadeIn="1000" FadeOut="1000" Duration="1000"/>
+   <Speed FadeIn="2000" FadeOut="2000" Duration="2000"/>
    <FixtureVal ID="2">1,255,2,255,3,255</FixtureVal>
   </Function>
   <Function ID="2" Type="Scene" Name="Shadow">
-   <Speed FadeIn="1000" FadeOut="1000" Duration="1000"/>
+   <Speed FadeIn="2000" FadeOut="2000" Duration="2000"/>
    <FixtureVal ID="0">0,255</FixtureVal>
    <FixtureVal ID="3">0,255</FixtureVal>
   </Function>
   <Function ID="3" Type="Scene" Name="Blue">
-   <Speed FadeIn="1000" FadeOut="1000" Duration="1000"/>
+   <Speed FadeIn="2000" FadeOut="2000" Duration="2000"/>
    <FixtureVal ID="3">1,255</FixtureVal>
   </Function>
   <Function ID="4" Type="Scene" Name="New Scene 4">
@@ -78,21 +80,37 @@
   <Function ID="5" Type="Scene" Name="Snow Machine">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
   </Function>
+  <Function ID="6" Type="Video" Name="Dina - Lora.mp4">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <RunOrder>SingleShot</RunOrder>
+   <Source Screen="1" Fullscreen="1">glass-zoo/video/Dina - Lora.mp4</Source>
+  </Function>
+  <Function ID="7" Type="Video" Name="Window HD_1.mp4">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <RunOrder>SingleShot</RunOrder>
+   <Source Screen="1" Fullscreen="1">glass-zoo/video/Window HD_1.mp4</Source>
+  </Function>
   <Function ID="8" Type="Scene" Name="Black">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,0,1,0,2,0,3,0</FixtureVal>
+   <FixtureVal ID="1">0,0,1,0,2,0,3,0</FixtureVal>
+   <FixtureVal ID="2">0,0,1,0,2,0,3,0</FixtureVal>
+   <FixtureVal ID="3">0,0,1,0,2,0,3,0</FixtureVal>
   </Function>
   <Function ID="9" Type="Chaser" Name="Glass Zoo">
    <Speed FadeIn="1000" FadeOut="0" Duration="4294967294"/>
    <Direction>Forward</Direction>
    <RunOrder>SingleShot</RunOrder>
    <SpeedModes FadeIn="PerStep" FadeOut="PerStep" Duration="Common"/>
-   <Step Number="0" FadeIn="500" Hold="0" FadeOut="750">2</Step>
-   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">8</Step>
-   <Step Number="2" FadeIn="500" Hold="0" FadeOut="2500">10</Step>
-   <Step Number="3" FadeIn="0" Hold="0" FadeOut="0">8</Step>
-   <Step Number="4" FadeIn="1000" Hold="0" FadeOut="0">3</Step>
-   <Step Number="5" FadeIn="1500" Hold="0" FadeOut="1500">11</Step>
-   <Step Number="6" FadeIn="0" Hold="4294967294" FadeOut="0">8</Step>
+   <Step Number="0" FadeIn="500" Hold="0" FadeOut="1000">2</Step>
+   <Step Number="1" FadeIn="0" Hold="4294967294" FadeOut="0">8</Step>
+   <Step Number="2" FadeIn="1000" Hold="0" FadeOut="2000" Note="Sasha comes out">10</Step>
+   <Step Number="3" FadeIn="0" Hold="0" FadeOut="0" Note="Zhenya goes away, video">8</Step>
+   <Step Number="4" FadeIn="1500" Hold="4294967294" FadeOut="1500">10</Step>
+   <Step Number="5" FadeIn="0" Hold="4294967294" FadeOut="0">8</Step>
+   <Step Number="6" FadeIn="1000" Hold="0" FadeOut="0">3</Step>
+   <Step Number="7" FadeIn="1000" Hold="0" FadeOut="1500">17</Step>
+   <Step Number="8" FadeIn="0" Hold="4294967294" FadeOut="0">8</Step>
   </Function>
   <Function ID="10" Type="Collection" Name="Stage Full">
    <Step Number="0">1</Step>
@@ -100,7 +118,44 @@
   </Function>
   <Function ID="11" Type="Scene" Name="Visitor Bobrov">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
-   <FixtureVal ID="2">1,51,2,51,3,51</FixtureVal>
+   <FixtureVal ID="2">1,152,2,143,3,169</FixtureVal>
+   <FixtureVal ID="3">1,255</FixtureVal>
+  </Function>
+  <Function ID="12" Type="Video" Name="TOM FALLS AI.mp4">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <RunOrder>SingleShot</RunOrder>
+   <Source Screen="1" Fullscreen="1">glass-zoo/video/TOM FALLS AI.mp4</Source>
+  </Function>
+  <Function ID="13" Type="Chaser" Name="Glass Zoo Video">
+   <Speed FadeIn="0" FadeOut="0" Duration="4294967294"/>
+   <Direction>Forward</Direction>
+   <RunOrder>SingleShot</RunOrder>
+   <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">7</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">6</Step>
+   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0">12</Step>
+  </Function>
+  <Function ID="14" Type="Chaser" Name="Chudo">
+   <Speed FadeIn="0" FadeOut="0" Duration="4294967294"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="PerStep" FadeOut="PerStep" Duration="Common"/>
+   <Step Number="0" FadeIn="1500" Hold="0" FadeOut="1000">10</Step>
+   <Step Number="1" FadeIn="1000" Hold="4294967294" FadeOut="1000">15</Step>
+   <Step Number="2" FadeIn="1000" Hold="4294967294" FadeOut="2500">10</Step>
+   <Step Number="3" FadeIn="0" Hold="0" FadeOut="0">8</Step>
+  </Function>
+  <Function ID="15" Type="Scene" Name="Amelia">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">1,169,2,172,3,170</FixtureVal>
+   <FixtureVal ID="1">1,163,3,132</FixtureVal>
+  </Function>
+  <Function ID="16" Type="Scene" Name="Dina">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+  </Function>
+  <Function ID="17" Type="Scene" Name="Visitor v2">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">1,134,2,98,3,143</FixtureVal>
    <FixtureVal ID="3">1,255</FixtureVal>
   </Function>
   <Monitor DisplayMode="0" ShowLabels="0">
@@ -690,7 +745,7 @@
      </Appearance>
      <Visibility>96</Visibility>
      <AbsoluteValue Minimum="0" Maximum="10000"/>
-     <Time>1000</Time>
+     <Time>2000</Time>
      <Function FadeIn="6" FadeOut="6" Duration="6">3</Function>
      <Function FadeIn="6" FadeOut="6" Duration="6">2</Function>
      <Function FadeIn="6" FadeOut="6" Duration="6">1</Function>
@@ -746,18 +801,19 @@
      <BackgroundImage>None</BackgroundImage>
      <Font>Default</Font>
     </Appearance>
-    <WindowState Visible="True" X="1380" Y="0" Width="535" Height="580"/>
+    <WindowState Visible="True" X="1380" Y="0" Width="535" Height="905"/>
     <AllowChildren>True</AllowChildren>
     <AllowResize>True</AllowResize>
     <ShowHeader>True</ShowHeader>
     <ShowEnableButton>True</ShowEnableButton>
     <Collapsed>False</Collapsed>
     <Disabled>False</Disabled>
-    <Multipage PagesNum="1" CurrentPage="0"/>
+    <Multipage PagesNum="2" CurrentPage="0"/>
     <Shortcut Page="0" Name="Glass Zoo"/>
+    <Shortcut Page="1" Name="Chudo"/>
     <PagesLoop>False</PagesLoop>
     <CueList Caption="Cue list" ID="13">
-     <WindowState Visible="True" X="5" Y="40" Width="525" Height="535"/>
+     <WindowState Visible="True" X="5" Y="40" Width="525" Height="460"/>
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -766,6 +822,46 @@
       <Font>Default</Font>
      </Appearance>
      <Chaser>9</Chaser>
+     <NextPrevBehavior>0</NextPrevBehavior>
+     <Next>
+      <Key>Space</Key>
+     </Next>
+     <Previous/>
+     <Playback>
+      <Key>Shift+Space</Key>
+     </Playback>
+     <Stop>
+      <Key>S</Key>
+     </Stop>
+     <SlidersMode>Crossfade</SlidersMode>
+    </CueList>
+    <CueList Caption="Cue list" ID="7">
+     <WindowState Visible="True" X="5" Y="505" Width="525" Height="250"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Chaser>13</Chaser>
+     <NextPrevBehavior>0</NextPrevBehavior>
+     <Next/>
+     <Previous/>
+     <Playback/>
+     <Stop/>
+     <SlidersMode>Crossfade</SlidersMode>
+    </CueList>
+    <CueList Caption="Cue list" ID="14" Page="1">
+     <WindowState Visible="False" X="5" Y="45" Width="525" Height="360"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Chaser>14</Chaser>
      <NextPrevBehavior>0</NextPrevBehavior>
      <Next>
       <Key>Space</Key>
