@@ -690,7 +690,7 @@
      </Playback>
     </Slider>
     <Slider Caption="Scene 3" ID="3" WidgetStyle="Slider" InvertedAppearance="false">
-     <WindowState Visible="True" X="320" Y="35" Width="100" Height="655"/>
+     <WindowState Visible="True" X="320" Y="40" Width="100" Height="650"/>
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
       <ForegroundColor>4294967295</ForegroundColor>
@@ -837,50 +837,9 @@
     <ShowEnableButton>True</ShowEnableButton>
     <Collapsed>False</Collapsed>
     <Disabled>False</Disabled>
-    <Multipage PagesNum="2" CurrentPage="0"/>
-    <Shortcut Page="0" Name="Glass Zoo"/>
-    <Shortcut Page="1" Name="Chudo"/>
+    <Multipage PagesNum="1" CurrentPage="0"/>
+    <Shortcut Page="0" Name="Page: 1"/>
     <PagesLoop>False</PagesLoop>
-    <CueList Caption="Cue list" ID="13">
-     <WindowState Visible="True" X="5" Y="40" Width="525" Height="465"/>
-     <Appearance>
-      <FrameStyle>Sunken</FrameStyle>
-      <ForegroundColor>Default</ForegroundColor>
-      <BackgroundColor>Default</BackgroundColor>
-      <BackgroundImage>None</BackgroundImage>
-      <Font>Default</Font>
-     </Appearance>
-     <Chaser>19</Chaser>
-     <NextPrevBehavior>0</NextPrevBehavior>
-     <Next>
-      <Key>Space</Key>
-     </Next>
-     <Previous/>
-     <Playback/>
-     <Stop>
-      <Key>Q</Key>
-     </Stop>
-     <SlidersMode>Crossfade</SlidersMode>
-    </CueList>
-    <CueList Caption="Cue list" ID="7">
-     <WindowState Visible="True" X="5" Y="650" Width="525" Height="250"/>
-     <Appearance>
-      <FrameStyle>Sunken</FrameStyle>
-      <ForegroundColor>Default</ForegroundColor>
-      <BackgroundColor>Default</BackgroundColor>
-      <BackgroundImage>None</BackgroundImage>
-      <Font>Default</Font>
-     </Appearance>
-     <Chaser>13</Chaser>
-     <NextPrevBehavior>0</NextPrevBehavior>
-     <Next/>
-     <Previous/>
-     <Playback/>
-     <Stop>
-      <Key>Q</Key>
-     </Stop>
-     <SlidersMode>Crossfade</SlidersMode>
-    </CueList>
     <CueList Caption="Cue list" ID="14" Page="1">
      <WindowState Visible="False" X="5" Y="45" Width="525" Height="360"/>
      <Appearance>
