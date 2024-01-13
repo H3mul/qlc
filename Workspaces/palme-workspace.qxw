@@ -18,161 +18,164 @@
   <Fixture>
    <Manufacturer>Generic</Manufacturer>
    <Model>Generic</Model>
-   <Mode>4 Channel</Mode>
+   <Mode>1 Channel</Mode>
    <ID>0</ID>
-   <Name>Dimmers #1</Name>
+   <Name>Dimmer light #01</Name>
    <Universe>0</Universe>
    <Address>0</Address>
-   <Channels>4</Channels>
+   <Channels>1</Channels>
   </Fixture>
   <Fixture>
    <Manufacturer>Generic</Manufacturer>
    <Model>Generic</Model>
-   <Mode>4 Channel</Mode>
+   <Mode>1 Channel</Mode>
    <ID>1</ID>
-   <Name>Dimmers #2</Name>
+   <Name>Dimmer light #02</Name>
+   <Universe>0</Universe>
+   <Address>1</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>2</ID>
+   <Name>Dimmer light #03</Name>
+   <Universe>0</Universe>
+   <Address>2</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>3</ID>
+   <Name>Dimmer light #04</Name>
+   <Universe>0</Universe>
+   <Address>3</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>4</ID>
+   <Name>Dimmer light #05</Name>
    <Universe>0</Universe>
    <Address>4</Address>
-   <Channels>4</Channels>
+   <Channels>1</Channels>
   </Fixture>
   <Fixture>
    <Manufacturer>Generic</Manufacturer>
    <Model>Generic</Model>
-   <Mode>4 Channel</Mode>
-   <ID>2</ID>
-   <Name>Dimmers #3</Name>
+   <Mode>1 Channel</Mode>
+   <ID>5</ID>
+   <Name>Dimmer light #06</Name>
+   <Universe>0</Universe>
+   <Address>5</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>6</ID>
+   <Name>Dimmer light #07</Name>
+   <Universe>0</Universe>
+   <Address>6</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>7</ID>
+   <Name>Dimmer light #08</Name>
+   <Universe>0</Universe>
+   <Address>7</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>8</ID>
+   <Name>Dimmer light #09</Name>
    <Universe>0</Universe>
    <Address>8</Address>
-   <Channels>4</Channels>
+   <Channels>1</Channels>
   </Fixture>
   <Fixture>
    <Manufacturer>Generic</Manufacturer>
    <Model>Generic</Model>
-   <Mode>4 Channel</Mode>
-   <ID>3</ID>
-   <Name>Dimmers #4</Name>
+   <Mode>1 Channel</Mode>
+   <ID>9</ID>
+   <Name>Dimmer light #10</Name>
+   <Universe>0</Universe>
+   <Address>9</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>10</ID>
+   <Name>Dimmer light #11</Name>
+   <Universe>0</Universe>
+   <Address>10</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>11</ID>
+   <Name>Dimmer light #12</Name>
+   <Universe>0</Universe>
+   <Address>11</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>12</ID>
+   <Name>Dimmer light #13</Name>
    <Universe>0</Universe>
    <Address>12</Address>
-   <Channels>4</Channels>
+   <Channels>1</Channels>
   </Fixture>
-  <Function ID="0" Type="Scene" Name="Stage Right">
-   <Speed FadeIn="1000" FadeOut="1000" Duration="1000"/>
-   <FixtureVal ID="1">1,200,3,200</FixtureVal>
-  </Function>
-  <Function ID="1" Type="Scene" Name="Stage Left">
-   <Speed FadeIn="1000" FadeOut="1000" Duration="1000"/>
-   <FixtureVal ID="2">1,255,2,255,3,255</FixtureVal>
-  </Function>
-  <Function ID="2" Type="Scene" Name="Shadow">
-   <Speed FadeIn="1000" FadeOut="1000" Duration="1000"/>
-   <FixtureVal ID="3">0,255</FixtureVal>
-  </Function>
-  <Function ID="3" Type="Scene" Name="Blue">
-   <Speed FadeIn="1000" FadeOut="1000" Duration="1000"/>
-   <FixtureVal ID="3">1,255</FixtureVal>
-  </Function>
-  <Function ID="6" Type="Video" Name="Dina_Lora.mp4">
-   <Speed FadeIn="1000" FadeOut="1000" Duration="1000"/>
-   <RunOrder>SingleShot</RunOrder>
-   <Source Screen="1" Fullscreen="1">D:/Documents/Palme/29oct/new-video/Dina_Lora.mp4</Source>
-  </Function>
-  <Function ID="7" Type="Video" Name="Window_HD_1.mp4">
-   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
-   <RunOrder>SingleShot</RunOrder>
-   <Source Screen="1" Fullscreen="1">D:/Documents/Palme/29oct/new-video/Window_HD_1.mp4</Source>
-  </Function>
-  <Function ID="8" Type="Scene" Name="Black">
-   <Speed FadeIn="1000" FadeOut="1000" Duration="1000"/>
-   <FixtureVal ID="0">0,0,1,0,2,0,3,0</FixtureVal>
-   <FixtureVal ID="1">0,0,1,0,2,0,3,0</FixtureVal>
-   <FixtureVal ID="2">0,0,1,0,2,0,3,0</FixtureVal>
-   <FixtureVal ID="3">0,0,1,0,2,0,3,0</FixtureVal>
-  </Function>
-  <Function ID="9" Type="Chaser" Name="Glass Zoo">
-   <Speed FadeIn="1000" FadeOut="0" Duration="4294967294"/>
-   <Direction>Forward</Direction>
-   <RunOrder>SingleShot</RunOrder>
-   <SpeedModes FadeIn="PerStep" FadeOut="PerStep" Duration="Common"/>
-   <Step Number="0" FadeIn="500" Hold="0" FadeOut="1000">2</Step>
-   <Step Number="1" FadeIn="0" Hold="4294967294" FadeOut="0">8</Step>
-   <Step Number="2" FadeIn="1000" Hold="0" FadeOut="2000" Note="Sasha comes out">10</Step>
-   <Step Number="3" FadeIn="0" Hold="0" FadeOut="0" Note="Zhenya goes away, video">8</Step>
-   <Step Number="4" FadeIn="1500" Hold="4294967294" FadeOut="1500">10</Step>
-   <Step Number="5" FadeIn="0" Hold="4294967294" FadeOut="0">8</Step>
-   <Step Number="6" FadeIn="1000" Hold="0" FadeOut="1000">3</Step>
-   <Step Number="7" FadeIn="1000" Hold="4294967294" FadeOut="1500">18</Step>
-   <Step Number="8" FadeIn="0" Hold="4294967294" FadeOut="0">8</Step>
-  </Function>
-  <Function ID="10" Type="Collection" Name="Stage Full">
-   <Step Number="0">1</Step>
-   <Step Number="1">0</Step>
-  </Function>
-  <Function ID="12" Type="Video" Name="TOM_FALLS_AI.mp4">
-   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
-   <RunOrder>SingleShot</RunOrder>
-   <Source Screen="1" Fullscreen="1">D:/Documents/Palme/29oct/new-video/TOM_FALLS_AI.mp4</Source>
-  </Function>
-  <Function ID="13" Type="Chaser" Name="Glass Zoo Video">
-   <Speed FadeIn="0" FadeOut="0" Duration="4294967294"/>
-   <Direction>Forward</Direction>
-   <RunOrder>SingleShot</RunOrder>
-   <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
-   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">7</Step>
-   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0" Note="Mute">6</Step>
-   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0">12</Step>
-  </Function>
-  <Function ID="14" Type="Chaser" Name="Chudo">
-   <Speed FadeIn="0" FadeOut="0" Duration="4294967294"/>
-   <Direction>Forward</Direction>
-   <RunOrder>Loop</RunOrder>
-   <SpeedModes FadeIn="PerStep" FadeOut="PerStep" Duration="Common"/>
-   <Step Number="0" FadeIn="1500" Hold="0" FadeOut="1000">10</Step>
-   <Step Number="1" FadeIn="1000" Hold="4294967294" FadeOut="1000">15</Step>
-   <Step Number="2" FadeIn="1000" Hold="4294967294" FadeOut="2500">10</Step>
-   <Step Number="3" FadeIn="0" Hold="0" FadeOut="0">8</Step>
-  </Function>
-  <Function ID="15" Type="Scene" Name="Amelia">
-   <Speed FadeIn="1000" FadeOut="1000" Duration="1000"/>
-   <FixtureVal ID="2">1,169,2,172,3,170</FixtureVal>
-   <FixtureVal ID="1">1,163,3,132</FixtureVal>
-  </Function>
-  <Function ID="17" Type="Scene" Name="Low Left (Visitor Bobrov)">
-   <Speed FadeIn="1000" FadeOut="1000" Duration="1000"/>
-   <FixtureVal ID="2">1,134,2,98,3,143</FixtureVal>
-  </Function>
-  <Function ID="18" Type="Collection" Name="Blue and Visitor">
-   <Step Number="0">3</Step>
-   <Step Number="1">17</Step>
-  </Function>
-  <Function ID="19" Type="Chaser" Name="Glass Zoo With Video">
-   <Speed FadeIn="1000" FadeOut="0" Duration="4294967294"/>
-   <Direction>Forward</Direction>
-   <RunOrder>SingleShot</RunOrder>
-   <SpeedModes FadeIn="PerStep" FadeOut="PerStep" Duration="Common"/>
-   <Step Number="0" FadeIn="500" Hold="0" FadeOut="1000">2</Step>
-   <Step Number="1" FadeIn="0" Hold="4294967294" FadeOut="0">8</Step>
-   <Step Number="2" FadeIn="0" Hold="4294967294" FadeOut="0" Note="Muted">7</Step>
-   <Step Number="3" FadeIn="1000" Hold="0" FadeOut="2000" Note="Sasha comes out">10</Step>
-   <Step Number="4" FadeIn="1500" Hold="4294967294" FadeOut="1000" Note="Crash">20</Step>
-   <Step Number="5" FadeIn="1000" Hold="4294967294" FadeOut="750" Note="Sound">22</Step>
-   <Step Number="6" FadeIn="0" Hold="4294967294" FadeOut="0">8</Step>
-   <Step Number="7" FadeIn="1500" Hold="4294967294" FadeOut="1500">10</Step>
-   <Step Number="8" FadeIn="0" Hold="4294967294" FadeOut="0" Note="Grob trick">8</Step>
-   <Step Number="9" FadeIn="0" Hold="4294967294" FadeOut="0" Note="Sound">12</Step>
-   <Step Number="10" FadeIn="0" Hold="4294967294" FadeOut="0">8</Step>
-   <Step Number="11" FadeIn="1000" Hold="0" FadeOut="1000" Note="Comes out in front of blue">3</Step>
-   <Step Number="12" FadeIn="1000" Hold="4294967294" FadeOut="1500">18</Step>
-   <Step Number="13" FadeIn="0" Hold="4294967294" FadeOut="0">8</Step>
-  </Function>
-  <Function ID="20" Type="Scene" Name="Low Light Stairs">
-   <Speed FadeIn="1000" FadeOut="1000" Duration="1000"/>
-   <FixtureVal ID="3">2,100</FixtureVal>
-  </Function>
-  <Function ID="22" Type="Collection" Name="Dina Video With Low Stairs">
-   <Step Number="0">6</Step>
-   <Step Number="1">20</Step>
-  </Function>
-  <Monitor DisplayMode="0" ShowLabels="0">
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>13</ID>
+   <Name>Dimmer light #14</Name>
+   <Universe>0</Universe>
+   <Address>13</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>14</ID>
+   <Name>Dimmer light #15</Name>
+   <Universe>0</Universe>
+   <Address>14</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>15</ID>
+   <Name>Dimmer light #16</Name>
+   <Universe>0</Universe>
+   <Address>15</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Monitor DisplayMode="1" ShowLabels="1">
    <Font>Arial,9,-1,5,50,0,0,0,0,0</Font>
    <ChannelStyle>0</ChannelStyle>
    <ValueStyle>0</ValueStyle>
@@ -219,7 +222,7 @@
      <Collapsed>False</Collapsed>
      <Disabled>False</Disabled>
      <Slider Caption="Ch 1" ID="110" WidgetStyle="Slider" InvertedAppearance="false">
-      <WindowState Visible="True" X="5" Y="5" Width="95" Height="420"/>
+      <WindowState Visible="True" X="5" Y="5" Width="95" Height="380"/>
       <Appearance>
        <FrameStyle>Sunken</FrameStyle>
        <ForegroundColor>4294967295</ForegroundColor>
@@ -238,8 +241,18 @@
        <Function>4294967295</Function>
       </Playback>
      </Slider>
-     <Slider Caption="Ch 2" ID="0" WidgetStyle="Slider" InvertedAppearance="false">
-      <WindowState Visible="True" X="100" Y="5" Width="95" Height="420"/>
+     <Label Caption="Light" ID="19">
+      <WindowState Visible="True" X="100" Y="385" Width="95" Height="40"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>4294967295</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+     </Label>
+     <Slider Caption="Ch 2" ID="20" WidgetStyle="Slider" InvertedAppearance="false">
+      <WindowState Visible="True" X="100" Y="5" Width="95" Height="380"/>
       <Appearance>
        <FrameStyle>Sunken</FrameStyle>
        <ForegroundColor>4294967295</ForegroundColor>
@@ -248,18 +261,36 @@
        <Font>Default</Font>
       </Appearance>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="true">Level</SliderMode>
-      <Reset>
-       <Key>Q</Key>
-      </Reset>
+      <Reset/>
       <Level LowLimit="0" HighLimit="255" Value="0">
-       <Channel Fixture="0">1</Channel>
+       <Channel Fixture="1">0</Channel>
       </Level>
       <Playback>
        <Function>4294967295</Function>
       </Playback>
      </Slider>
-     <Slider Caption="Ch 3" ID="5" WidgetStyle="Slider" InvertedAppearance="false">
-      <WindowState Visible="True" X="195" Y="5" Width="95" Height="420"/>
+     <Label Caption="Light" ID="24">
+      <WindowState Visible="True" X="290" Y="385" Width="95" Height="40"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>4294967295</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+     </Label>
+     <Label Caption="Light" ID="25">
+      <WindowState Visible="True" X="195" Y="385" Width="95" Height="40"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>4294967295</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+     </Label>
+     <Slider Caption="Ch 4" ID="26" WidgetStyle="Slider" InvertedAppearance="false">
+      <WindowState Visible="True" X="290" Y="5" Width="95" Height="380"/>
       <Appearance>
        <FrameStyle>Sunken</FrameStyle>
        <ForegroundColor>4294967295</ForegroundColor>
@@ -268,18 +299,16 @@
        <Font>Default</Font>
       </Appearance>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="true">Level</SliderMode>
-      <Reset>
-       <Key>Q</Key>
-      </Reset>
+      <Reset/>
       <Level LowLimit="0" HighLimit="255" Value="0">
-       <Channel Fixture="0">2</Channel>
+       <Channel Fixture="3">0</Channel>
       </Level>
       <Playback>
        <Function>4294967295</Function>
       </Playback>
      </Slider>
-     <Slider Caption="Ch 4" ID="6" WidgetStyle="Slider" InvertedAppearance="false">
-      <WindowState Visible="True" X="290" Y="5" Width="95" Height="420"/>
+     <Slider Caption="Ch 3" ID="27" WidgetStyle="Slider" InvertedAppearance="false">
+      <WindowState Visible="True" X="195" Y="5" Width="95" Height="380"/>
       <Appearance>
        <FrameStyle>Sunken</FrameStyle>
        <ForegroundColor>4294967295</ForegroundColor>
@@ -288,45 +317,7 @@
        <Font>Default</Font>
       </Appearance>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="true">Level</SliderMode>
-      <Reset>
-       <Key>Q</Key>
-      </Reset>
-      <Level LowLimit="0" HighLimit="255" Value="0">
-       <Channel Fixture="0">3</Channel>
-      </Level>
-      <Playback>
-       <Function>4294967295</Function>
-      </Playback>
-     </Slider>
-    </Frame>
-    <Frame Caption="dimmer" ID="26">
-     <Appearance>
-      <FrameStyle>Sunken</FrameStyle>
-      <ForegroundColor>4294967295</ForegroundColor>
-      <BackgroundColor>4280559675</BackgroundColor>
-      <BackgroundImage>None</BackgroundImage>
-      <Font>Default</Font>
-     </Appearance>
-     <WindowState Visible="True" X="5" Y="470" Width="390" Height="430"/>
-     <AllowChildren>False</AllowChildren>
-     <AllowResize>False</AllowResize>
-     <ShowHeader>False</ShowHeader>
-     <ShowEnableButton>False</ShowEnableButton>
-     <Collapsed>False</Collapsed>
-     <Disabled>False</Disabled>
-     <Slider Caption="Ch 9" ID="22" WidgetStyle="Slider" InvertedAppearance="false">
-      <WindowState Visible="True" X="5" Y="5" Width="95" Height="420"/>
-      <Appearance>
-       <FrameStyle>Sunken</FrameStyle>
-       <ForegroundColor>4294967295</ForegroundColor>
-       <BackgroundColor>4280559675</BackgroundColor>
-       <BackgroundImage>None</BackgroundImage>
-       <Font>Default</Font>
-      </Appearance>
-      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="true">Level</SliderMode>
-      <Reset>
-       <Key>Q</Key>
-      </Reset>
+      <Reset/>
       <Level LowLimit="0" HighLimit="255" Value="0">
        <Channel Fixture="2">0</Channel>
       </Level>
@@ -334,68 +325,18 @@
        <Function>4294967295</Function>
       </Playback>
      </Slider>
-     <Slider Caption="Ch 10" ID="23" WidgetStyle="Slider" InvertedAppearance="false">
-      <WindowState Visible="True" X="100" Y="5" Width="95" Height="420"/>
+     <Label Caption="Light" ID="35">
+      <WindowState Visible="True" X="5" Y="385" Width="95" Height="40"/>
       <Appearance>
-       <FrameStyle>Sunken</FrameStyle>
+       <FrameStyle>None</FrameStyle>
        <ForegroundColor>4294967295</ForegroundColor>
-       <BackgroundColor>4280559675</BackgroundColor>
+       <BackgroundColor>Default</BackgroundColor>
        <BackgroundImage>None</BackgroundImage>
        <Font>Default</Font>
       </Appearance>
-      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="true">Level</SliderMode>
-      <Reset>
-       <Key>Q</Key>
-      </Reset>
-      <Level LowLimit="0" HighLimit="255" Value="0">
-       <Channel Fixture="2">1</Channel>
-      </Level>
-      <Playback>
-       <Function>4294967295</Function>
-      </Playback>
-     </Slider>
-     <Slider Caption="Ch 11" ID="24" WidgetStyle="Slider" InvertedAppearance="false">
-      <WindowState Visible="True" X="195" Y="5" Width="95" Height="420"/>
-      <Appearance>
-       <FrameStyle>Sunken</FrameStyle>
-       <ForegroundColor>4294967295</ForegroundColor>
-       <BackgroundColor>4280559675</BackgroundColor>
-       <BackgroundImage>None</BackgroundImage>
-       <Font>Default</Font>
-      </Appearance>
-      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="true">Level</SliderMode>
-      <Reset>
-       <Key>Q</Key>
-      </Reset>
-      <Level LowLimit="0" HighLimit="255" Value="0">
-       <Channel Fixture="2">2</Channel>
-      </Level>
-      <Playback>
-       <Function>4294967295</Function>
-      </Playback>
-     </Slider>
-     <Slider Caption="Ch 12" ID="25" WidgetStyle="Slider" InvertedAppearance="false">
-      <WindowState Visible="True" X="290" Y="5" Width="95" Height="420"/>
-      <Appearance>
-       <FrameStyle>Sunken</FrameStyle>
-       <ForegroundColor>4294967295</ForegroundColor>
-       <BackgroundColor>4280559675</BackgroundColor>
-       <BackgroundImage>None</BackgroundImage>
-       <Font>Default</Font>
-      </Appearance>
-      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="true">Level</SliderMode>
-      <Reset>
-       <Key>Q</Key>
-      </Reset>
-      <Level LowLimit="0" HighLimit="255" Value="0">
-       <Channel Fixture="2">3</Channel>
-      </Level>
-      <Playback>
-       <Function>4294967295</Function>
-      </Playback>
-     </Slider>
+     </Label>
     </Frame>
-    <Frame Caption="dimmer" ID="31">
+    <Frame Caption="dimmer" ID="61">
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
       <ForegroundColor>4294967295</ForegroundColor>
@@ -410,8 +351,8 @@
      <ShowEnableButton>False</ShowEnableButton>
      <Collapsed>False</Collapsed>
      <Disabled>False</Disabled>
-     <Slider Caption="Ch 5" ID="27" WidgetStyle="Slider" InvertedAppearance="false">
-      <WindowState Visible="True" X="5" Y="5" Width="95" Height="420"/>
+     <Slider Caption="Ch 5" ID="52" WidgetStyle="Slider" InvertedAppearance="false">
+      <WindowState Visible="True" X="5" Y="5" Width="95" Height="380"/>
       <Appearance>
        <FrameStyle>Sunken</FrameStyle>
        <ForegroundColor>4294967295</ForegroundColor>
@@ -420,18 +361,26 @@
        <Font>Default</Font>
       </Appearance>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="true">Level</SliderMode>
-      <Reset>
-       <Key>Q</Key>
-      </Reset>
+      <Reset/>
       <Level LowLimit="0" HighLimit="255" Value="0">
-       <Channel Fixture="1">0</Channel>
+       <Channel Fixture="4">0</Channel>
       </Level>
       <Playback>
        <Function>4294967295</Function>
       </Playback>
      </Slider>
-     <Slider Caption="Ch 6" ID="28" WidgetStyle="Slider" InvertedAppearance="false">
-      <WindowState Visible="True" X="100" Y="5" Width="95" Height="420"/>
+     <Label Caption="Light" ID="53">
+      <WindowState Visible="True" X="100" Y="385" Width="95" Height="40"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>4294967295</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+     </Label>
+     <Slider Caption="Ch 6" ID="54" WidgetStyle="Slider" InvertedAppearance="false">
+      <WindowState Visible="True" X="100" Y="5" Width="95" Height="380"/>
       <Appearance>
        <FrameStyle>Sunken</FrameStyle>
        <ForegroundColor>4294967295</ForegroundColor>
@@ -440,18 +389,36 @@
        <Font>Default</Font>
       </Appearance>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="true">Level</SliderMode>
-      <Reset>
-       <Key>Q</Key>
-      </Reset>
+      <Reset/>
       <Level LowLimit="0" HighLimit="255" Value="0">
-       <Channel Fixture="1">1</Channel>
+       <Channel Fixture="5">0</Channel>
       </Level>
       <Playback>
        <Function>4294967295</Function>
       </Playback>
      </Slider>
-     <Slider Caption="Ch 7" ID="29" WidgetStyle="Slider" InvertedAppearance="false">
-      <WindowState Visible="True" X="195" Y="5" Width="95" Height="420"/>
+     <Label Caption="Light" ID="56">
+      <WindowState Visible="True" X="290" Y="385" Width="95" Height="40"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>4294967295</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+     </Label>
+     <Label Caption="Light" ID="57">
+      <WindowState Visible="True" X="195" Y="385" Width="95" Height="40"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>4294967295</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+     </Label>
+     <Slider Caption="Ch 8" ID="58" WidgetStyle="Slider" InvertedAppearance="false">
+      <WindowState Visible="True" X="290" Y="5" Width="95" Height="380"/>
       <Appearance>
        <FrameStyle>Sunken</FrameStyle>
        <ForegroundColor>4294967295</ForegroundColor>
@@ -460,18 +427,16 @@
        <Font>Default</Font>
       </Appearance>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="true">Level</SliderMode>
-      <Reset>
-       <Key>Q</Key>
-      </Reset>
+      <Reset/>
       <Level LowLimit="0" HighLimit="255" Value="0">
-       <Channel Fixture="1">2</Channel>
+       <Channel Fixture="7">0</Channel>
       </Level>
       <Playback>
        <Function>4294967295</Function>
       </Playback>
      </Slider>
-     <Slider Caption="Ch 8" ID="30" WidgetStyle="Slider" InvertedAppearance="false">
-      <WindowState Visible="True" X="290" Y="5" Width="95" Height="420"/>
+     <Slider Caption="Ch 7" ID="59" WidgetStyle="Slider" InvertedAppearance="false">
+      <WindowState Visible="True" X="195" Y="5" Width="95" Height="380"/>
       <Appearance>
        <FrameStyle>Sunken</FrameStyle>
        <ForegroundColor>4294967295</ForegroundColor>
@@ -480,18 +445,154 @@
        <Font>Default</Font>
       </Appearance>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="true">Level</SliderMode>
-      <Reset>
-       <Key>Q</Key>
-      </Reset>
+      <Reset/>
       <Level LowLimit="0" HighLimit="255" Value="0">
-       <Channel Fixture="1">3</Channel>
+       <Channel Fixture="6">0</Channel>
       </Level>
       <Playback>
        <Function>4294967295</Function>
       </Playback>
      </Slider>
+     <Label Caption="Light" ID="60">
+      <WindowState Visible="True" X="5" Y="385" Width="95" Height="40"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>4294967295</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+     </Label>
     </Frame>
-    <Frame Caption="dimmer" ID="36">
+    <Frame Caption="dimmer" ID="70">
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>4294967295</ForegroundColor>
+      <BackgroundColor>4280559675</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <WindowState Visible="True" X="5" Y="470" Width="390" Height="430"/>
+     <AllowChildren>False</AllowChildren>
+     <AllowResize>False</AllowResize>
+     <ShowHeader>False</ShowHeader>
+     <ShowEnableButton>False</ShowEnableButton>
+     <Collapsed>False</Collapsed>
+     <Disabled>False</Disabled>
+     <Slider Caption="Ch 9" ID="62" WidgetStyle="Slider" InvertedAppearance="false">
+      <WindowState Visible="True" X="5" Y="5" Width="95" Height="380"/>
+      <Appearance>
+       <FrameStyle>Sunken</FrameStyle>
+       <ForegroundColor>4294967295</ForegroundColor>
+       <BackgroundColor>4280559675</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="true">Level</SliderMode>
+      <Reset/>
+      <Level LowLimit="0" HighLimit="255" Value="0">
+       <Channel Fixture="8">0</Channel>
+      </Level>
+      <Playback>
+       <Function>4294967295</Function>
+      </Playback>
+     </Slider>
+     <Label Caption="Light" ID="63">
+      <WindowState Visible="True" X="100" Y="385" Width="95" Height="40"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>4294967295</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+     </Label>
+     <Slider Caption="Ch 10" ID="64" WidgetStyle="Slider" InvertedAppearance="false">
+      <WindowState Visible="True" X="100" Y="5" Width="95" Height="380"/>
+      <Appearance>
+       <FrameStyle>Sunken</FrameStyle>
+       <ForegroundColor>4294967295</ForegroundColor>
+       <BackgroundColor>4280559675</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="true">Level</SliderMode>
+      <Reset/>
+      <Level LowLimit="0" HighLimit="255" Value="0">
+       <Channel Fixture="9">0</Channel>
+      </Level>
+      <Playback>
+       <Function>4294967295</Function>
+      </Playback>
+     </Slider>
+     <Label Caption="Light" ID="65">
+      <WindowState Visible="True" X="290" Y="385" Width="95" Height="40"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>4294967295</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+     </Label>
+     <Label Caption="Light" ID="66">
+      <WindowState Visible="True" X="195" Y="385" Width="95" Height="40"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>4294967295</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+     </Label>
+     <Slider Caption="Ch 12" ID="67" WidgetStyle="Slider" InvertedAppearance="false">
+      <WindowState Visible="True" X="290" Y="5" Width="95" Height="380"/>
+      <Appearance>
+       <FrameStyle>Sunken</FrameStyle>
+       <ForegroundColor>4294967295</ForegroundColor>
+       <BackgroundColor>4280559675</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="true">Level</SliderMode>
+      <Reset/>
+      <Level LowLimit="0" HighLimit="255" Value="0">
+       <Channel Fixture="11">0</Channel>
+      </Level>
+      <Playback>
+       <Function>4294967295</Function>
+      </Playback>
+     </Slider>
+     <Slider Caption="Ch 11" ID="68" WidgetStyle="Slider" InvertedAppearance="false">
+      <WindowState Visible="True" X="195" Y="5" Width="95" Height="380"/>
+      <Appearance>
+       <FrameStyle>Sunken</FrameStyle>
+       <ForegroundColor>4294967295</ForegroundColor>
+       <BackgroundColor>4280559675</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="true">Level</SliderMode>
+      <Reset/>
+      <Level LowLimit="0" HighLimit="255" Value="0">
+       <Channel Fixture="10">0</Channel>
+      </Level>
+      <Playback>
+       <Function>4294967295</Function>
+      </Playback>
+     </Slider>
+     <Label Caption="Light" ID="69">
+      <WindowState Visible="True" X="5" Y="385" Width="95" Height="40"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>4294967295</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+     </Label>
+    </Frame>
+    <Frame Caption="dimmer" ID="79">
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
       <ForegroundColor>4294967295</ForegroundColor>
@@ -506,8 +607,8 @@
      <ShowEnableButton>False</ShowEnableButton>
      <Collapsed>False</Collapsed>
      <Disabled>False</Disabled>
-     <Slider Caption="Ch 13" ID="32" WidgetStyle="Slider" InvertedAppearance="false">
-      <WindowState Visible="True" X="5" Y="5" Width="95" Height="420"/>
+     <Slider Caption="Ch 13" ID="71" WidgetStyle="Slider" InvertedAppearance="false">
+      <WindowState Visible="True" X="5" Y="5" Width="95" Height="380"/>
       <Appearance>
        <FrameStyle>Sunken</FrameStyle>
        <ForegroundColor>4294967295</ForegroundColor>
@@ -516,18 +617,26 @@
        <Font>Default</Font>
       </Appearance>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="true">Level</SliderMode>
-      <Reset>
-       <Key>Q</Key>
-      </Reset>
+      <Reset/>
       <Level LowLimit="0" HighLimit="255" Value="0">
-       <Channel Fixture="3">0</Channel>
+       <Channel Fixture="12">0</Channel>
       </Level>
       <Playback>
        <Function>4294967295</Function>
       </Playback>
      </Slider>
-     <Slider Caption="Ch 14" ID="33" WidgetStyle="Slider" InvertedAppearance="false">
-      <WindowState Visible="True" X="100" Y="5" Width="95" Height="420"/>
+     <Label Caption="Light" ID="72">
+      <WindowState Visible="True" X="100" Y="385" Width="95" Height="40"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>4294967295</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+     </Label>
+     <Slider Caption="Ch 14" ID="73" WidgetStyle="Slider" InvertedAppearance="false">
+      <WindowState Visible="True" X="100" Y="5" Width="95" Height="380"/>
       <Appearance>
        <FrameStyle>Sunken</FrameStyle>
        <ForegroundColor>4294967295</ForegroundColor>
@@ -536,18 +645,36 @@
        <Font>Default</Font>
       </Appearance>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="true">Level</SliderMode>
-      <Reset>
-       <Key>Q</Key>
-      </Reset>
+      <Reset/>
       <Level LowLimit="0" HighLimit="255" Value="0">
-       <Channel Fixture="3">1</Channel>
+       <Channel Fixture="13">0</Channel>
       </Level>
       <Playback>
        <Function>4294967295</Function>
       </Playback>
      </Slider>
-     <Slider Caption="Ch 15" ID="34" WidgetStyle="Slider" InvertedAppearance="false">
-      <WindowState Visible="True" X="195" Y="5" Width="95" Height="420"/>
+     <Label Caption="Light" ID="74">
+      <WindowState Visible="True" X="290" Y="385" Width="95" Height="40"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>4294967295</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+     </Label>
+     <Label Caption="Light" ID="75">
+      <WindowState Visible="True" X="195" Y="385" Width="95" Height="40"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>4294967295</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+     </Label>
+     <Slider Caption="Ch 16" ID="76" WidgetStyle="Slider" InvertedAppearance="false">
+      <WindowState Visible="True" X="290" Y="5" Width="95" Height="380"/>
       <Appearance>
        <FrameStyle>Sunken</FrameStyle>
        <ForegroundColor>4294967295</ForegroundColor>
@@ -556,18 +683,16 @@
        <Font>Default</Font>
       </Appearance>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="true">Level</SliderMode>
-      <Reset>
-       <Key>Q</Key>
-      </Reset>
+      <Reset/>
       <Level LowLimit="0" HighLimit="255" Value="0">
-       <Channel Fixture="3">2</Channel>
+       <Channel Fixture="15">0</Channel>
       </Level>
       <Playback>
        <Function>4294967295</Function>
       </Playback>
      </Slider>
-     <Slider Caption="Ch 16" ID="35" WidgetStyle="Slider" InvertedAppearance="false">
-      <WindowState Visible="True" X="290" Y="5" Width="95" Height="420"/>
+     <Slider Caption="Ch 15" ID="77" WidgetStyle="Slider" InvertedAppearance="false">
+      <WindowState Visible="True" X="195" Y="5" Width="95" Height="380"/>
       <Appearance>
        <FrameStyle>Sunken</FrameStyle>
        <ForegroundColor>4294967295</ForegroundColor>
@@ -576,16 +701,24 @@
        <Font>Default</Font>
       </Appearance>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="true">Level</SliderMode>
-      <Reset>
-       <Key>Q</Key>
-      </Reset>
+      <Reset/>
       <Level LowLimit="0" HighLimit="255" Value="0">
-       <Channel Fixture="3">3</Channel>
+       <Channel Fixture="14">0</Channel>
       </Level>
       <Playback>
        <Function>4294967295</Function>
       </Playback>
      </Slider>
+     <Label Caption="Light" ID="78">
+      <WindowState Visible="True" X="5" Y="385" Width="95" Height="40"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>4294967295</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+     </Label>
     </Frame>
    </Frame>
    <Frame Caption="Scenes" ID="163">
@@ -603,7 +736,7 @@
     <ShowEnableButton>False</ShowEnableButton>
     <Collapsed>False</Collapsed>
     <Disabled>False</Disabled>
-    <Button Caption="Stage Left" ID="165" Icon="">
+    <Button Caption="1 Stage Left" ID="165" Icon="">
      <WindowState Visible="True" X="5" Y="695" Width="100" Height="100"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
@@ -612,12 +745,12 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
-     <Function ID="1"/>
+     <Function ID="4294967295"/>
      <Action>Toggle</Action>
      <Key>1</Key>
      <Intensity Adjust="False">100</Intensity>
     </Button>
-    <Button Caption="Shadow" ID="2" Icon="">
+    <Button Caption="3" ID="2" Icon="">
      <WindowState Visible="True" X="215" Y="695" Width="100" Height="100"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
@@ -626,12 +759,12 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
-     <Function ID="2"/>
+     <Function ID="4294967295"/>
      <Action>Toggle</Action>
      <Key>3</Key>
      <Intensity Adjust="False">100</Intensity>
     </Button>
-    <Button Caption="Blue" ID="4" Icon="">
+    <Button Caption="4" ID="4" Icon="">
      <WindowState Visible="True" X="320" Y="695" Width="100" Height="100"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
@@ -640,12 +773,12 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
-     <Function ID="3"/>
+     <Function ID="4294967295"/>
      <Action>Toggle</Action>
      <Key>4</Key>
      <Intensity Adjust="False">100</Intensity>
     </Button>
-    <Button Caption="Stage Right" ID="10" Icon="">
+    <Button Caption="2 Stage Right" ID="10" Icon="">
      <WindowState Visible="True" X="110" Y="695" Width="100" Height="100"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
@@ -654,7 +787,7 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
-     <Function ID="0"/>
+     <Function ID="4294967295"/>
      <Action>Toggle</Action>
      <Key>2</Key>
      <Intensity Adjust="False">100</Intensity>
@@ -674,7 +807,7 @@
       <Function>1</Function>
      </Playback>
     </Slider>
-    <Slider Caption="Scene 2" ID="1" WidgetStyle="Slider" InvertedAppearance="false">
+    <Slider Caption="Scene 3" ID="1" WidgetStyle="Slider" InvertedAppearance="false">
      <WindowState Visible="True" X="215" Y="40" Width="100" Height="650"/>
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
@@ -686,10 +819,10 @@
      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
      <Level LowLimit="0" HighLimit="255" Value="0"/>
      <Playback>
-      <Function>2</Function>
+      <Function>4294967295</Function>
      </Playback>
     </Slider>
-    <Slider Caption="Scene 3" ID="3" WidgetStyle="Slider" InvertedAppearance="false">
+    <Slider Caption="Scene 4" ID="3" WidgetStyle="Slider" InvertedAppearance="false">
      <WindowState Visible="True" X="320" Y="40" Width="100" Height="650"/>
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
@@ -701,10 +834,10 @@
      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
      <Level LowLimit="0" HighLimit="255" Value="0"/>
      <Playback>
-      <Function>3</Function>
+      <Function>4294967295</Function>
      </Playback>
     </Slider>
-    <Slider Caption="Scene 0" ID="11" WidgetStyle="Slider" InvertedAppearance="false">
+    <Slider Caption="Scene 2" ID="11" WidgetStyle="Slider" InvertedAppearance="false">
      <WindowState Visible="True" X="110" Y="40" Width="100" Height="650"/>
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
@@ -716,7 +849,7 @@
      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
      <Level LowLimit="0" HighLimit="255" Value="0"/>
      <Playback>
-      <Function>0</Function>
+      <Function>4294967295</Function>
      </Playback>
     </Slider>
     <SpeedDial Caption="Fade In/Out" ID="8">
@@ -769,7 +902,7 @@
      </Preset>
     </SpeedDial>
     <Button Caption="CLR" ID="9" Icon="">
-     <WindowState Visible="True" X="425" Y="695" Width="45" Height="100"/>
+     <WindowState Visible="True" X="425" Y="590" Width="45" Height="100"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>4294967295</ForegroundColor>
@@ -782,7 +915,7 @@
      <Key>Q</Key>
      <Intensity Adjust="False">100</Intensity>
     </Button>
-    <Button Caption="Low Stairs" ID="15" Icon="">
+    <Button Caption="Scene" ID="80" Icon="">
      <WindowState Visible="True" X="5" Y="800" Width="100" Height="100"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
@@ -791,11 +924,12 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
-     <Function ID="20"/>
+     <Function ID="4294967295"/>
      <Action>Toggle</Action>
+     <Key>1</Key>
      <Intensity Adjust="False">100</Intensity>
     </Button>
-    <Button Caption="Low Left (Visitor)" ID="16" Icon="">
+    <Button Caption="Scene" ID="81" Icon="">
      <WindowState Visible="True" X="110" Y="800" Width="100" Height="100"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
@@ -804,11 +938,12 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
-     <Function ID="17"/>
+     <Function ID="4294967295"/>
      <Action>Toggle</Action>
+     <Key>2</Key>
      <Intensity Adjust="False">100</Intensity>
     </Button>
-    <Button Caption="Amelia" ID="17" Icon="">
+    <Button Caption="Scene" ID="82" Icon="">
      <WindowState Visible="True" X="215" Y="800" Width="100" Height="100"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
@@ -817,8 +952,23 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
-     <Function ID="15"/>
+     <Function ID="4294967295"/>
      <Action>Toggle</Action>
+     <Key>3</Key>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="Scene" ID="83" Icon="">
+     <WindowState Visible="True" X="320" Y="800" Width="100" Height="100"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>4294967295</ForegroundColor>
+      <BackgroundColor>4280559675</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="4294967295"/>
+     <Action>Toggle</Action>
+     <Key>4</Key>
      <Intensity Adjust="False">100</Intensity>
     </Button>
    </Frame>
@@ -849,7 +999,7 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
-     <Chaser>14</Chaser>
+     <Chaser>4294967295</Chaser>
      <NextPrevBehavior>0</NextPrevBehavior>
      <Next>
       <Key>Space</Key>
