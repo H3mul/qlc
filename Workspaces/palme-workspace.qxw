@@ -261,7 +261,9 @@
        <Font>Default</Font>
       </Appearance>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="true">Level</SliderMode>
-      <Reset/>
+      <Reset>
+       <Key>Q</Key>
+      </Reset>
       <Level LowLimit="0" HighLimit="255" Value="0">
        <Channel Fixture="1">0</Channel>
       </Level>
@@ -299,7 +301,9 @@
        <Font>Default</Font>
       </Appearance>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="true">Level</SliderMode>
-      <Reset/>
+      <Reset>
+       <Key>Q</Key>
+      </Reset>
       <Level LowLimit="0" HighLimit="255" Value="0">
        <Channel Fixture="3">0</Channel>
       </Level>
@@ -317,7 +321,9 @@
        <Font>Default</Font>
       </Appearance>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="true">Level</SliderMode>
-      <Reset/>
+      <Reset>
+       <Key>Q</Key>
+      </Reset>
       <Level LowLimit="0" HighLimit="255" Value="0">
        <Channel Fixture="2">0</Channel>
       </Level>
@@ -361,7 +367,9 @@
        <Font>Default</Font>
       </Appearance>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="true">Level</SliderMode>
-      <Reset/>
+      <Reset>
+       <Key>Q</Key>
+      </Reset>
       <Level LowLimit="0" HighLimit="255" Value="0">
        <Channel Fixture="4">0</Channel>
       </Level>
@@ -389,7 +397,9 @@
        <Font>Default</Font>
       </Appearance>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="true">Level</SliderMode>
-      <Reset/>
+      <Reset>
+       <Key>Q</Key>
+      </Reset>
       <Level LowLimit="0" HighLimit="255" Value="0">
        <Channel Fixture="5">0</Channel>
       </Level>
@@ -427,7 +437,9 @@
        <Font>Default</Font>
       </Appearance>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="true">Level</SliderMode>
-      <Reset/>
+      <Reset>
+       <Key>Q</Key>
+      </Reset>
       <Level LowLimit="0" HighLimit="255" Value="0">
        <Channel Fixture="7">0</Channel>
       </Level>
@@ -445,7 +457,9 @@
        <Font>Default</Font>
       </Appearance>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="true">Level</SliderMode>
-      <Reset/>
+      <Reset>
+       <Key>Q</Key>
+      </Reset>
       <Level LowLimit="0" HighLimit="255" Value="0">
        <Channel Fixture="6">0</Channel>
       </Level>
@@ -489,7 +503,9 @@
        <Font>Default</Font>
       </Appearance>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="true">Level</SliderMode>
-      <Reset/>
+      <Reset>
+       <Key>Q</Key>
+      </Reset>
       <Level LowLimit="0" HighLimit="255" Value="0">
        <Channel Fixture="8">0</Channel>
       </Level>
@@ -517,7 +533,9 @@
        <Font>Default</Font>
       </Appearance>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="true">Level</SliderMode>
-      <Reset/>
+      <Reset>
+       <Key>Q</Key>
+      </Reset>
       <Level LowLimit="0" HighLimit="255" Value="0">
        <Channel Fixture="9">0</Channel>
       </Level>
@@ -555,7 +573,9 @@
        <Font>Default</Font>
       </Appearance>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="true">Level</SliderMode>
-      <Reset/>
+      <Reset>
+       <Key>Q</Key>
+      </Reset>
       <Level LowLimit="0" HighLimit="255" Value="0">
        <Channel Fixture="11">0</Channel>
       </Level>
@@ -573,7 +593,9 @@
        <Font>Default</Font>
       </Appearance>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="true">Level</SliderMode>
-      <Reset/>
+      <Reset>
+       <Key>Q</Key>
+      </Reset>
       <Level LowLimit="0" HighLimit="255" Value="0">
        <Channel Fixture="10">0</Channel>
       </Level>
@@ -617,7 +639,9 @@
        <Font>Default</Font>
       </Appearance>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="true">Level</SliderMode>
-      <Reset/>
+      <Reset>
+       <Key>Q</Key>
+      </Reset>
       <Level LowLimit="0" HighLimit="255" Value="0">
        <Channel Fixture="12">0</Channel>
       </Level>
@@ -645,7 +669,9 @@
        <Font>Default</Font>
       </Appearance>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="true">Level</SliderMode>
-      <Reset/>
+      <Reset>
+       <Key>Q</Key>
+      </Reset>
       <Level LowLimit="0" HighLimit="255" Value="0">
        <Channel Fixture="13">0</Channel>
       </Level>
@@ -683,7 +709,9 @@
        <Font>Default</Font>
       </Appearance>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="true">Level</SliderMode>
-      <Reset/>
+      <Reset>
+       <Key>Q</Key>
+      </Reset>
       <Level LowLimit="0" HighLimit="255" Value="0">
        <Channel Fixture="15">0</Channel>
       </Level>
@@ -701,7 +729,9 @@
        <Font>Default</Font>
       </Appearance>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="true">Level</SliderMode>
-      <Reset/>
+      <Reset>
+       <Key>Q</Key>
+      </Reset>
       <Level LowLimit="0" HighLimit="255" Value="0">
        <Channel Fixture="14">0</Channel>
       </Level>
@@ -804,7 +834,7 @@
      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
      <Level LowLimit="0" HighLimit="255" Value="0"/>
      <Playback>
-      <Function>1</Function>
+      <Function>4294967295</Function>
      </Playback>
     </Slider>
     <Slider Caption="Scene 3" ID="1" WidgetStyle="Slider" InvertedAppearance="false">
@@ -864,15 +894,6 @@
      <Visibility>96</Visibility>
      <AbsoluteValue Minimum="0" Maximum="10000"/>
      <Time>1000</Time>
-     <Function FadeIn="6" FadeOut="6" Duration="6">0</Function>
-     <Function FadeIn="6" FadeOut="6" Duration="6">1</Function>
-     <Function FadeIn="6" FadeOut="6" Duration="6">2</Function>
-     <Function FadeIn="6" FadeOut="6" Duration="6">20</Function>
-     <Function FadeIn="6" FadeOut="6" Duration="6">17</Function>
-     <Function FadeIn="6" FadeOut="6" Duration="6">6</Function>
-     <Function FadeIn="6" FadeOut="6" Duration="6">3</Function>
-     <Function FadeIn="6" FadeOut="6" Duration="6">8</Function>
-     <Function FadeIn="6" FadeOut="6" Duration="6">15</Function>
      <Preset ID="23">
       <Name>0s</Name>
       <Value>0</Value>
