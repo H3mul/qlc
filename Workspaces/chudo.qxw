@@ -178,7 +178,7 @@
    <Channels>1</Channels>
   </Fixture>
   <Function ID="0" Type="Scene" Name="front floor">
-   <Speed FadeIn="1000" FadeOut="1000" Duration="0"/>
+   <Speed FadeIn="1000" FadeOut="1000" Duration="1000"/>
    <FixtureVal ID="3">0,255</FixtureVal>
    <FixtureVal ID="5">0,255</FixtureVal>
    <FixtureVal ID="7">0,255</FixtureVal>
@@ -186,17 +186,23 @@
    <FixtureVal ID="10">0,255</FixtureVal>
   </Function>
   <Function ID="1" Type="Scene" Name="Floor Spot">
-   <Speed FadeIn="1000" FadeOut="1000" Duration="0"/>
+   <Speed FadeIn="1000" FadeOut="1000" Duration="1000"/>
    <FixtureVal ID="3">0,255</FixtureVal>
   </Function>
   <Function ID="2" Type="Scene" Name="Stage Front">
-   <Speed FadeIn="1000" FadeOut="1000" Duration="0"/>
+   <Speed FadeIn="1000" FadeOut="1000" Duration="1000"/>
    <FixtureVal ID="0">0,255</FixtureVal>
    <FixtureVal ID="1">0,255</FixtureVal>
    <FixtureVal ID="14">0,255</FixtureVal>
    <FixtureVal ID="15">0,255</FixtureVal>
   </Function>
-  <Monitor DisplayMode="1" ShowLabels="1">
+  <Function ID="3" Type="Scene" Name="Stage Full">
+   <Speed FadeIn="1000" FadeOut="1000" Duration="1000"/>
+   <FixtureVal ID="6">0,255</FixtureVal>
+   <FixtureVal ID="9">0,255</FixtureVal>
+   <FixtureVal ID="11">0,255</FixtureVal>
+  </Function>
+  <Monitor DisplayMode="0" ShowLabels="1">
    <Font>Arial,9,-1,5,50,0,0,0,0,0</Font>
    <ChannelStyle>0</ChannelStyle>
    <ValueStyle>0</ValueStyle>
@@ -302,7 +308,7 @@
        <Font>Default</Font>
       </Appearance>
      </Label>
-     <Label Caption="Light" ID="25">
+     <Label Caption="R Side" ID="25">
       <WindowState Visible="True" X="195" Y="385" Width="95" Height="40"/>
       <Appearance>
        <FrameStyle>None</FrameStyle>
@@ -438,7 +444,7 @@
        <Font>Default</Font>
       </Appearance>
      </Label>
-     <Label Caption="Light" ID="57">
+     <Label Caption="Stage Right" ID="57">
       <WindowState Visible="True" X="195" Y="385" Width="95" Height="40"/>
       <Appearance>
        <FrameStyle>None</FrameStyle>
@@ -534,7 +540,7 @@
        <Function>4294967295</Function>
       </Playback>
      </Slider>
-     <Label Caption="Light" ID="63">
+     <Label Caption="Stage Left" ID="63">
       <WindowState Visible="True" X="100" Y="385" Width="95" Height="40"/>
       <Appearance>
        <FrameStyle>None</FrameStyle>
@@ -564,7 +570,7 @@
        <Function>4294967295</Function>
       </Playback>
      </Slider>
-     <Label Caption="Light" ID="65">
+     <Label Caption="Stage Center" ID="65">
       <WindowState Visible="True" X="290" Y="385" Width="95" Height="40"/>
       <Appearance>
        <FrameStyle>None</FrameStyle>
@@ -760,7 +766,7 @@
        <Function>4294967295</Function>
       </Playback>
      </Slider>
-     <Label Caption="Light" ID="78">
+     <Label Caption="L Side" ID="78">
       <WindowState Visible="True" X="5" Y="385" Width="95" Height="40"/>
       <Appearance>
        <FrameStyle>None</FrameStyle>
@@ -815,7 +821,7 @@
      <Key>3</Key>
      <Intensity Adjust="False">100</Intensity>
     </Button>
-    <Button Caption="4" ID="4" Icon="">
+    <Button Caption="Stage Full" ID="4" Icon="">
      <WindowState Visible="True" X="320" Y="695" Width="100" Height="100"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
@@ -824,7 +830,7 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
-     <Function ID="4294967295"/>
+     <Function ID="3"/>
      <Action>Toggle</Action>
      <Key>4</Key>
      <Intensity Adjust="False">100</Intensity>
@@ -873,7 +879,7 @@
       <Function>2</Function>
      </Playback>
     </Slider>
-    <Slider Caption="Scene 4" ID="3" WidgetStyle="Slider" InvertedAppearance="false">
+    <Slider Caption="Stage Full" ID="3" WidgetStyle="Slider" InvertedAppearance="false">
      <WindowState Visible="True" X="320" Y="40" Width="100" Height="650"/>
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
@@ -885,7 +891,7 @@
      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
      <Level LowLimit="0" HighLimit="255" Value="0"/>
      <Playback>
-      <Function>4294967295</Function>
+      <Function>3</Function>
      </Playback>
     </Slider>
     <Slider Caption="Spot" ID="11" WidgetStyle="Slider" InvertedAppearance="false">
@@ -974,7 +980,7 @@
      <Intensity Adjust="False">100</Intensity>
     </Button>
     <SpeedDial Caption="Duration" ID="0">
-     <WindowState Visible="True" X="425" Y="45" Width="40" Height="295"/>
+     <WindowState Visible="True" X="425" Y="40" Width="45" Height="240"/>
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -982,14 +988,26 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
-     <Visibility>32</Visibility>
+     <Visibility>0</Visibility>
      <AbsoluteValue Minimum="0" Maximum="10000"/>
-     <Time>2000</Time>
-     <Preset ID="16">
+     <Time>1000</Time>
+     <Function FadeIn="6" FadeOut="6" Duration="6">3</Function>
+     <Function FadeIn="6" FadeOut="6" Duration="6">2</Function>
+     <Function FadeIn="6" FadeOut="6" Duration="6">0</Function>
+     <Function FadeIn="6" FadeOut="6" Duration="6">1</Function>
+     <Preset ID="18">
+      <Name>500ms</Name>
+      <Value>500</Value>
+     </Preset>
+     <Preset ID="19">
       <Name>1s</Name>
       <Value>1000</Value>
      </Preset>
-     <Preset ID="17">
+     <Preset ID="20">
+      <Name>1.5s</Name>
+      <Value>1500</Value>
+     </Preset>
+     <Preset ID="21">
       <Name>2s</Name>
       <Value>2000</Value>
      </Preset>
