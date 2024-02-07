@@ -30,6 +30,7 @@ program
     .requiredOption('-o, --output <filename>', 'output edited qlc .qxw xml file')
     .option('--widget-bg-color <color hex>', 'set the background color of all widgets')
     .option('--widget-fg-color <color hex>', 'set the foreground color of all widgets')
+    .option('--set-reset-key <key>', 'set the reset key for all sliders')
     .showHelpAfterError();
 
 program.parse();
@@ -48,11 +49,19 @@ const virtualConsoleFrame = qlcData.Workspace.VirtualConsole[0].Frame[0];
 if (options.widgetBgColor || options.widgetFgColor) {
     traverse(virtualConsoleFrame, (element) => {
         if (options.widgetBgColor && element.hasOwnProperty("BackgroundColor")) {
-            element["BackgroundColor"] = colorHexToDec(options.widgetBgColor)
+            element["BackgroundColor"] = colorHexToDec(options.widgetBgColor);
         } 
 
         if (options.widgetFgColor && element.hasOwnProperty("ForegroundColor")) {
-            element["ForegroundColor"] = colorHexToDec(options.widgetFgColor)
+            element["ForegroundColor"] = colorHexToDec(options.widgetFgColor);
+        }
+    });
+}
+
+if (options.setResetKey) {
+    traverse(virtualConsoleFrame, (element) => {
+        if (element.hasOwnProperty("SliderMode")) {
+            element["Reset"] = [{ "Key": [options.setResetKey] }];
         }
     });
 }
