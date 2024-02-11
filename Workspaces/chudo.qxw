@@ -364,7 +364,7 @@
        <Font>Default</Font>
       </Appearance>
      </Label>
-     <Label Caption="Stage Side R" ID="25">
+     <Label Caption="Backstage Side R" ID="25">
       <WindowState Visible="True" X="195" Y="385" Width="95" Height="40"/>
       <Appearance>
        <FrameStyle>None</FrameStyle>
@@ -822,7 +822,7 @@
        <Function>4294967295</Function>
       </Playback>
      </Slider>
-     <Label Caption="Stage Side L" ID="78">
+     <Label Caption="Backstage Side L" ID="78">
       <WindowState Visible="True" X="5" Y="385" Width="95" Height="40"/>
       <Appearance>
        <FrameStyle>None</FrameStyle>
@@ -846,10 +846,10 @@
     <AllowChildren>True</AllowChildren>
     <AllowResize>True</AllowResize>
     <ShowHeader>True</ShowHeader>
-    <ShowEnableButton>False</ShowEnableButton>
+    <ShowEnableButton>True</ShowEnableButton>
     <Collapsed>False</Collapsed>
     <Disabled>False</Disabled>
-    <Button Caption="Floor" ID="165" Icon="">
+    <Button Caption="(1) Floor" ID="165" Icon="">
      <WindowState Visible="True" X="5" Y="695" Width="100" Height="100"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
@@ -863,7 +863,7 @@
      <Key>1</Key>
      <Intensity Adjust="False">100</Intensity>
     </Button>
-    <Button Caption="Stage Front" ID="2" Icon="">
+    <Button Caption="(2) Stage Front" ID="2" Icon="">
      <WindowState Visible="True" X="110" Y="695" Width="100" Height="100"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
@@ -877,7 +877,7 @@
      <Key>2</Key>
      <Intensity Adjust="False">100</Intensity>
     </Button>
-    <Button Caption="Stage Full" ID="4" Icon="">
+    <Button Caption="(4) Stage Full" ID="4" Icon="">
      <WindowState Visible="True" X="320" Y="695" Width="100" Height="100"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
@@ -891,7 +891,7 @@
      <Key>4</Key>
      <Intensity Adjust="False">100</Intensity>
     </Button>
-    <Button Caption="Floor Spot" ID="10" Icon="">
+    <Button Caption="(6) Floor Spot" ID="10" Icon="">
      <WindowState Visible="True" X="110" Y="800" Width="100" Height="100"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
@@ -979,7 +979,7 @@
      <Key>Q</Key>
      <Intensity Adjust="False">100</Intensity>
     </Button>
-    <Button Caption="Backstage Sides" ID="80" Icon="">
+    <Button Caption="(5) Backstage Sides" ID="80" Icon="">
      <WindowState Visible="True" X="5" Y="800" Width="100" Height="100"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
@@ -1006,7 +1006,7 @@
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
     </Button>
-    <Button Caption="Stage Front Center" ID="82" Icon="">
+    <Button Caption="(3) Stage Front Center" ID="82" Icon="">
      <WindowState Visible="True" X="215" Y="695" Width="100" Height="100"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
@@ -1082,7 +1082,7 @@
      <BackgroundImage>None</BackgroundImage>
      <Font>Default</Font>
     </Appearance>
-    <WindowState Visible="True" X="1270" Y="0" Width="535" Height="905"/>
+    <WindowState Visible="True" X="1275" Y="0" Width="535" Height="905"/>
     <AllowChildren>True</AllowChildren>
     <AllowResize>True</AllowResize>
     <ShowHeader>True</ShowHeader>
