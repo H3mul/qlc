@@ -3,15 +3,13 @@
 <Workspace xmlns="http://www.qlcplus.org/Workspace" CurrentWindow="VirtualConsole">
  <Creator>
   <Name>Q Light Controller Plus</Name>
-  <Version>4.12.7</Version>
-  <Author>hemul</Author>
+  <Version>4.12.6</Version>
+  <Author>Hemul</Author>
  </Creator>
  <Engine>
   <InputOutputMap>
    <Universe Name="Universe 1" ID="0">
-    <Output Plugin="DMX USB" UID="FT232R USB UART (S/N: AQ02VCGU)" Line="0">
-     <PluginParameters UniverseChannels="16"/>
-    </Output>
+    <Output Plugin="DMX USB" UID="None" Line="0"/>
    </Universe>
    <Universe Name="Universe 2" ID="1"/>
    <Universe Name="Universe 3" ID="2"/>
@@ -22,7 +20,7 @@
    <Model>Generic</Model>
    <Mode>1 Channel</Mode>
    <ID>0</ID>
-   <Name>Dimmer light #01</Name>
+   <Name>Stage Front Right 1</Name>
    <Universe>0</Universe>
    <Address>0</Address>
    <Channels>1</Channels>
@@ -32,7 +30,7 @@
    <Model>Generic</Model>
    <Mode>1 Channel</Mode>
    <ID>1</ID>
-   <Name>Dimmer light #02</Name>
+   <Name>Stage Front Right 2</Name>
    <Universe>0</Universe>
    <Address>1</Address>
    <Channels>1</Channels>
@@ -42,7 +40,7 @@
    <Model>Generic</Model>
    <Mode>1 Channel</Mode>
    <ID>2</ID>
-   <Name>Dimmer light #03</Name>
+   <Name>Stage Side Right</Name>
    <Universe>0</Universe>
    <Address>2</Address>
    <Channels>1</Channels>
@@ -52,7 +50,7 @@
    <Model>Generic</Model>
    <Mode>1 Channel</Mode>
    <ID>3</ID>
-   <Name>Dimmer light #04</Name>
+   <Name>Floor Spot</Name>
    <Universe>0</Universe>
    <Address>3</Address>
    <Channels>1</Channels>
@@ -62,7 +60,7 @@
    <Model>Generic</Model>
    <Mode>1 Channel</Mode>
    <ID>4</ID>
-   <Name>Dimmer light #05</Name>
+   <Name>None</Name>
    <Universe>0</Universe>
    <Address>4</Address>
    <Channels>1</Channels>
@@ -72,7 +70,7 @@
    <Model>Generic</Model>
    <Mode>1 Channel</Mode>
    <ID>5</ID>
-   <Name>Dimmer light #06</Name>
+   <Name>Floor Wide Left</Name>
    <Universe>0</Universe>
    <Address>5</Address>
    <Channels>1</Channels>
@@ -82,7 +80,7 @@
    <Model>Generic</Model>
    <Mode>1 Channel</Mode>
    <ID>6</ID>
-   <Name>Dimmer light #07</Name>
+   <Name>Stage Right</Name>
    <Universe>0</Universe>
    <Address>6</Address>
    <Channels>1</Channels>
@@ -92,7 +90,7 @@
    <Model>Generic</Model>
    <Mode>1 Channel</Mode>
    <ID>7</ID>
-   <Name>Dimmer light #08</Name>
+   <Name>Floor Fill Left</Name>
    <Universe>0</Universe>
    <Address>7</Address>
    <Channels>1</Channels>
@@ -102,7 +100,7 @@
    <Model>Generic</Model>
    <Mode>1 Channel</Mode>
    <ID>8</ID>
-   <Name>Dimmer light #09</Name>
+   <Name>Floor Fill Right</Name>
    <Universe>0</Universe>
    <Address>8</Address>
    <Channels>1</Channels>
@@ -112,7 +110,7 @@
    <Model>Generic</Model>
    <Mode>1 Channel</Mode>
    <ID>9</ID>
-   <Name>Dimmer light #10</Name>
+   <Name>Stage Left</Name>
    <Universe>0</Universe>
    <Address>9</Address>
    <Channels>1</Channels>
@@ -122,7 +120,7 @@
    <Model>Generic</Model>
    <Mode>1 Channel</Mode>
    <ID>10</ID>
-   <Name>Dimmer light #11</Name>
+   <Name>Floor Wide Right</Name>
    <Universe>0</Universe>
    <Address>10</Address>
    <Channels>1</Channels>
@@ -132,7 +130,7 @@
    <Model>Generic</Model>
    <Mode>1 Channel</Mode>
    <ID>11</ID>
-   <Name>Dimmer light #12</Name>
+   <Name>Stage Center</Name>
    <Universe>0</Universe>
    <Address>11</Address>
    <Channels>1</Channels>
@@ -142,7 +140,7 @@
    <Model>Generic</Model>
    <Mode>1 Channel</Mode>
    <ID>12</ID>
-   <Name>Dimmer light #13</Name>
+   <Name>Stage Side Left</Name>
    <Universe>0</Universe>
    <Address>12</Address>
    <Channels>1</Channels>
@@ -152,7 +150,7 @@
    <Model>Generic</Model>
    <Mode>1 Channel</Mode>
    <ID>13</ID>
-   <Name>Dimmer light #14</Name>
+   <Name>None</Name>
    <Universe>0</Universe>
    <Address>13</Address>
    <Channels>1</Channels>
@@ -162,7 +160,7 @@
    <Model>Generic</Model>
    <Mode>1 Channel</Mode>
    <ID>14</ID>
-   <Name>Dimmer light #15</Name>
+   <Name>Stage Front Left 1</Name>
    <Universe>0</Universe>
    <Address>14</Address>
    <Channels>1</Channels>
@@ -172,13 +170,13 @@
    <Model>Generic</Model>
    <Mode>1 Channel</Mode>
    <ID>15</ID>
-   <Name>Dimmer light #16</Name>
+   <Name>Stage Front Left 2</Name>
    <Universe>0</Universe>
    <Address>15</Address>
    <Channels>1</Channels>
   </Fixture>
-  <Function ID="0" Type="Scene" Name="front floor">
-   <Speed FadeIn="1500" FadeOut="1500" Duration="1500"/>
+  <Function ID="0" Type="Scene" Name="Floor">
+   <Speed FadeIn="1000" FadeOut="1000" Duration="1000"/>
    <FixtureVal ID="3">0,255</FixtureVal>
    <FixtureVal ID="5">0,255</FixtureVal>
    <FixtureVal ID="7">0,255</FixtureVal>
@@ -186,34 +184,65 @@
    <FixtureVal ID="10">0,255</FixtureVal>
   </Function>
   <Function ID="1" Type="Scene" Name="Floor Spot">
-   <Speed FadeIn="1500" FadeOut="1500" Duration="1500"/>
+   <Speed FadeIn="1000" FadeOut="1000" Duration="1000"/>
    <FixtureVal ID="3">0,255</FixtureVal>
   </Function>
   <Function ID="2" Type="Scene" Name="Stage Front">
-   <Speed FadeIn="1500" FadeOut="1500" Duration="1500"/>
+   <Speed FadeIn="1000" FadeOut="1000" Duration="1000"/>
    <FixtureVal ID="0">0,255</FixtureVal>
    <FixtureVal ID="1">0,255</FixtureVal>
    <FixtureVal ID="14">0,255</FixtureVal>
    <FixtureVal ID="15">0,255</FixtureVal>
   </Function>
   <Function ID="3" Type="Scene" Name="Stage Full">
-   <Speed FadeIn="1500" FadeOut="1500" Duration="1500"/>
+   <Speed FadeIn="1000" FadeOut="1000" Duration="1000"/>
    <FixtureVal ID="6">0,255</FixtureVal>
    <FixtureVal ID="9">0,255</FixtureVal>
-   <FixtureVal ID="11">0,255</FixtureVal>
+   <FixtureVal ID="11">0,170</FixtureVal>
   </Function>
   <Function ID="4" Type="Scene" Name="Left Side">
-   <Speed FadeIn="1500" FadeOut="1500" Duration="1500"/>
+   <Speed FadeIn="1000" FadeOut="1000" Duration="1000"/>
    <FixtureVal ID="12">0,255</FixtureVal>
   </Function>
   <Function ID="5" Type="Scene" Name="Right Side">
-   <Speed FadeIn="1500" FadeOut="1500" Duration="1500"/>
+   <Speed FadeIn="1000" FadeOut="1000" Duration="1000"/>
    <FixtureVal ID="2">0,255</FixtureVal>
   </Function>
   <Function ID="6" Type="Scene" Name="Stage Front Center">
    <Speed FadeIn="1000" FadeOut="1000" Duration="1000"/>
    <FixtureVal ID="1">0,255</FixtureVal>
    <FixtureVal ID="14">0,255</FixtureVal>
+  </Function>
+  <Function ID="7" Type="Scene" Name="Backstage Sides">
+   <Speed FadeIn="1000" FadeOut="1000" Duration="1000"/>
+   <FixtureVal ID="12">0,255</FixtureVal>
+   <FixtureVal ID="2">0,255</FixtureVal>
+  </Function>
+  <Function ID="8" Type="Chaser" Name="Scenes">
+   <Speed FadeIn="1000" FadeOut="1000" Duration="4294967294"/>
+   <Direction>Forward</Direction>
+   <RunOrder>SingleShot</RunOrder>
+   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="4294967294" FadeOut="0">3</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">9</Step>
+   <Step Number="2" FadeIn="0" Hold="4294967294" FadeOut="0">1</Step>
+   <Step Number="3" FadeIn="0" Hold="4294967294" FadeOut="0">10</Step>
+   <Step Number="4" FadeIn="0" Hold="4294967294" FadeOut="0">9</Step>
+   <Step Number="5" FadeIn="0" Hold="4294967294" FadeOut="0">10</Step>
+   <Step Number="6" FadeIn="0" Hold="4294967294" FadeOut="0">11</Step>
+   <Step Number="7" FadeIn="0" Hold="4294967294" FadeOut="0">7</Step>
+  </Function>
+  <Function ID="9" Type="Collection" Name="Floor And Front">
+   <Step Number="0">0</Step>
+   <Step Number="1">2</Step>
+  </Function>
+  <Function ID="10" Type="Scene" Name="Black">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+  </Function>
+  <Function ID="11" Type="Scene" Name="Stage Front Center Low">
+   <Speed FadeIn="1000" FadeOut="1000" Duration="1000"/>
+   <FixtureVal ID="1">0,125</FixtureVal>
+   <FixtureVal ID="14">0,125</FixtureVal>
   </Function>
   <Monitor DisplayMode="1" ShowLabels="0">
    <Font>Arial,9,-1,5,50,0,0,0,0,0</Font>
@@ -222,7 +251,7 @@
    <Grid Width="5" Height="3" Depth="4" Units="0"/>
    <FxItem ID="0" XPos="1354.6" YPos="1020.44"/>
    <FxItem ID="1" XPos="1686.1" YPos="1014.09"/>
-   <FxItem ID="2" XPos="4013.77" YPos="8.98689"/>
+   <FxItem ID="2" XPos="4014" YPos="0"/>
    <FxItem ID="3" XPos="2336.51" YPos="3021.1"/>
    <FxItem ID="5" XPos="1359.43" YPos="2366.01"/>
    <FxItem ID="6" XPos="1673.41" YPos="2368.41"/>
@@ -231,7 +260,7 @@
    <FxItem ID="9" XPos="3008.37" YPos="2394.39"/>
    <FxItem ID="10" XPos="3667.39" YPos="2393.07"/>
    <FxItem ID="11" XPos="3334.41" YPos="2394.24"/>
-   <FxItem ID="12" XPos="694.217" YPos="9.29426"/>
+   <FxItem ID="12" XPos="694" YPos="0"/>
    <FxItem ID="14" XPos="3012.21" YPos="1011.77"/>
    <FxItem ID="15" XPos="3322.1" YPos="1004.91"/>
   </Monitor>
@@ -471,7 +500,7 @@
        <Font>Default</Font>
       </Appearance>
      </Label>
-     <Label Caption="Stage Right" ID="57">
+     <Label Caption="Stage Left" ID="57">
       <WindowState Visible="True" X="195" Y="385" Width="95" Height="40"/>
       <Appearance>
        <FrameStyle>None</FrameStyle>
@@ -521,7 +550,7 @@
        <Function>4294967295</Function>
       </Playback>
      </Slider>
-     <Label Caption="Light" ID="60">
+     <Label Caption="None" ID="60">
       <WindowState Visible="True" X="5" Y="385" Width="95" Height="40"/>
       <Appearance>
        <FrameStyle>None</FrameStyle>
@@ -567,7 +596,7 @@
        <Function>4294967295</Function>
       </Playback>
      </Slider>
-     <Label Caption="Stage Left" ID="63">
+     <Label Caption="Stage Right" ID="63">
       <WindowState Visible="True" X="100" Y="385" Width="95" Height="40"/>
       <Appearance>
        <FrameStyle>None</FrameStyle>
@@ -703,7 +732,7 @@
        <Function>4294967295</Function>
       </Playback>
      </Slider>
-     <Label Caption="Light" ID="72">
+     <Label Caption="None" ID="72">
       <WindowState Visible="True" X="100" Y="385" Width="95" Height="40"/>
       <Appearance>
        <FrameStyle>None</FrameStyle>
@@ -835,7 +864,7 @@
      <Intensity Adjust="False">100</Intensity>
     </Button>
     <Button Caption="Stage Front" ID="2" Icon="">
-     <WindowState Visible="True" X="215" Y="695" Width="100" Height="100"/>
+     <WindowState Visible="True" X="110" Y="695" Width="100" Height="100"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>4294967295</ForegroundColor>
@@ -845,7 +874,7 @@
      </Appearance>
      <Function ID="2"/>
      <Action>Toggle</Action>
-     <Key>3</Key>
+     <Key>2</Key>
      <Intensity Adjust="False">100</Intensity>
     </Button>
     <Button Caption="Stage Full" ID="4" Icon="">
@@ -863,7 +892,7 @@
      <Intensity Adjust="False">100</Intensity>
     </Button>
     <Button Caption="Floor Spot" ID="10" Icon="">
-     <WindowState Visible="True" X="110" Y="695" Width="100" Height="100"/>
+     <WindowState Visible="True" X="110" Y="800" Width="100" Height="100"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>4294967295</ForegroundColor>
@@ -873,7 +902,7 @@
      </Appearance>
      <Function ID="1"/>
      <Action>Toggle</Action>
-     <Key>2</Key>
+     <Key>6</Key>
      <Intensity Adjust="False">100</Intensity>
     </Button>
     <Slider Caption="Floor" ID="164" WidgetStyle="Slider" InvertedAppearance="false">
@@ -892,7 +921,7 @@
      </Playback>
     </Slider>
     <Slider Caption="Stage Front" ID="1" WidgetStyle="Slider" InvertedAppearance="false">
-     <WindowState Visible="True" X="215" Y="40" Width="100" Height="650"/>
+     <WindowState Visible="True" X="110" Y="40" Width="100" Height="650"/>
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
       <ForegroundColor>4294967295</ForegroundColor>
@@ -921,8 +950,8 @@
       <Function>3</Function>
      </Playback>
     </Slider>
-    <Slider Caption="Spot" ID="11" WidgetStyle="Slider" InvertedAppearance="false">
-     <WindowState Visible="True" X="110" Y="40" Width="100" Height="650"/>
+    <Slider Caption="SF Center" ID="11" WidgetStyle="Slider" InvertedAppearance="false">
+     <WindowState Visible="True" X="215" Y="40" Width="100" Height="650"/>
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
       <ForegroundColor>4294967295</ForegroundColor>
@@ -933,7 +962,7 @@
      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
      <Level LowLimit="0" HighLimit="255" Value="0"/>
      <Playback>
-      <Function>1</Function>
+      <Function>6</Function>
      </Playback>
     </Slider>
     <Button Caption="CLR" ID="9" Icon="">
@@ -950,7 +979,7 @@
      <Key>Q</Key>
      <Intensity Adjust="False">100</Intensity>
     </Button>
-    <Button Caption="Left Side" ID="80" Icon="">
+    <Button Caption="Backstage Sides" ID="80" Icon="">
      <WindowState Visible="True" X="5" Y="800" Width="100" Height="100"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
@@ -959,13 +988,13 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
-     <Function ID="4"/>
+     <Function ID="7"/>
      <Action>Toggle</Action>
-     <Key>1</Key>
+     <Key>5</Key>
      <Intensity Adjust="False">100</Intensity>
     </Button>
-    <Button Caption="Right Side" ID="81" Icon="">
-     <WindowState Visible="True" X="110" Y="800" Width="100" Height="100"/>
+    <Button Caption="None" ID="81" Icon="">
+     <WindowState Visible="True" X="215" Y="800" Width="100" Height="100"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>4294967295</ForegroundColor>
@@ -973,13 +1002,12 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
-     <Function ID="5"/>
+     <Function ID="4294967295"/>
      <Action>Toggle</Action>
-     <Key>2</Key>
      <Intensity Adjust="False">100</Intensity>
     </Button>
     <Button Caption="Stage Front Center" ID="82" Icon="">
-     <WindowState Visible="True" X="215" Y="800" Width="100" Height="100"/>
+     <WindowState Visible="True" X="215" Y="695" Width="100" Height="100"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>4294967295</ForegroundColor>
@@ -992,7 +1020,7 @@
      <Key>3</Key>
      <Intensity Adjust="False">100</Intensity>
     </Button>
-    <Button Caption="Scene" ID="83" Icon="">
+    <Button Caption="None" ID="83" Icon="">
      <WindowState Visible="True" X="320" Y="800" Width="100" Height="100"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
@@ -1017,13 +1045,17 @@
      </Appearance>
      <Visibility>0</Visibility>
      <AbsoluteValue Minimum="0" Maximum="10000"/>
-     <Time>1500</Time>
-     <Function FadeIn="6" FadeOut="6" Duration="6">3</Function>
-     <Function FadeIn="6" FadeOut="6" Duration="6">2</Function>
-     <Function FadeIn="6" FadeOut="6" Duration="6">5</Function>
-     <Function FadeIn="6" FadeOut="6" Duration="6">4</Function>
-     <Function FadeIn="6" FadeOut="6" Duration="6">0</Function>
-     <Function FadeIn="6" FadeOut="6" Duration="6">1</Function>
+     <Time>1000</Time>
+     <Function FadeIn="6" FadeOut="6" Duration="0">3</Function>
+     <Function FadeIn="6" FadeOut="6" Duration="0">6</Function>
+     <Function FadeIn="6" FadeOut="6" Duration="0">2</Function>
+     <Function FadeIn="6" FadeOut="6" Duration="0">5</Function>
+     <Function FadeIn="6" FadeOut="6" Duration="0">4</Function>
+     <Function FadeIn="6" FadeOut="6" Duration="0">1</Function>
+     <Function FadeIn="6" FadeOut="6" Duration="0">0</Function>
+     <Function FadeIn="6" FadeOut="6" Duration="0">7</Function>
+     <Function FadeIn="6" FadeOut="6" Duration="0">8</Function>
+     <Function FadeIn="6" FadeOut="6" Duration="0">9</Function>
      <Preset ID="18">
       <Name>0.5s</Name>
       <Value>500</Value>
@@ -1050,7 +1082,7 @@
      <BackgroundImage>None</BackgroundImage>
      <Font>Default</Font>
     </Appearance>
-    <WindowState Visible="True" X="1275" Y="0" Width="535" Height="905"/>
+    <WindowState Visible="True" X="1270" Y="0" Width="535" Height="905"/>
     <AllowChildren>True</AllowChildren>
     <AllowResize>True</AllowResize>
     <ShowHeader>True</ShowHeader>
@@ -1080,6 +1112,26 @@
       <Key>Q</Key>
      </Stop>
      <SlidersMode>Crossfade</SlidersMode>
+    </CueList>
+    <CueList Caption="Cue list" ID="5">
+     <WindowState Visible="True" X="5" Y="40" Width="525" Height="380"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Chaser>8</Chaser>
+     <NextPrevBehavior>0</NextPrevBehavior>
+     <Next>
+      <Key>Space</Key>
+     </Next>
+     <Previous/>
+     <Playback/>
+     <Stop>
+      <Key>Q</Key>
+     </Stop>
     </CueList>
    </Frame>
   </Frame>
