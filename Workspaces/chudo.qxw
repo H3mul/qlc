@@ -178,7 +178,7 @@
    <Channels>1</Channels>
   </Fixture>
   <Function ID="0" Type="Scene" Name="Floor">
-   <Speed FadeIn="2000" FadeOut="2000" Duration="1000"/>
+   <Speed FadeIn="1500" FadeOut="1500" Duration="1000"/>
    <FixtureVal ID="3">0,255</FixtureVal>
    <FixtureVal ID="5">0,255</FixtureVal>
    <FixtureVal ID="7">0,255</FixtureVal>
@@ -186,42 +186,42 @@
    <FixtureVal ID="10">0,255</FixtureVal>
   </Function>
   <Function ID="1" Type="Scene" Name="Floor Spot">
-   <Speed FadeIn="2000" FadeOut="2000" Duration="1000"/>
+   <Speed FadeIn="1500" FadeOut="1500" Duration="1000"/>
    <FixtureVal ID="3">0,255</FixtureVal>
   </Function>
   <Function ID="2" Type="Scene" Name="Stage Front">
-   <Speed FadeIn="2000" FadeOut="2000" Duration="1000"/>
+   <Speed FadeIn="1500" FadeOut="1500" Duration="1000"/>
    <FixtureVal ID="0">0,255</FixtureVal>
    <FixtureVal ID="1">0,255</FixtureVal>
    <FixtureVal ID="14">0,255</FixtureVal>
    <FixtureVal ID="15">0,255</FixtureVal>
   </Function>
   <Function ID="3" Type="Scene" Name="Stage Full">
-   <Speed FadeIn="2000" FadeOut="2000" Duration="1000"/>
+   <Speed FadeIn="1500" FadeOut="1500" Duration="1000"/>
    <FixtureVal ID="6">0,255</FixtureVal>
    <FixtureVal ID="9">0,255</FixtureVal>
-   <FixtureVal ID="11">0,170</FixtureVal>
+   <FixtureVal ID="11">0,255</FixtureVal>
   </Function>
   <Function ID="4" Type="Scene" Name="Left Side">
-   <Speed FadeIn="2000" FadeOut="2000" Duration="1000"/>
+   <Speed FadeIn="1500" FadeOut="1500" Duration="1000"/>
    <FixtureVal ID="12">0,255</FixtureVal>
   </Function>
   <Function ID="5" Type="Scene" Name="Right Side">
-   <Speed FadeIn="2000" FadeOut="2000" Duration="1000"/>
+   <Speed FadeIn="1500" FadeOut="1500" Duration="1000"/>
    <FixtureVal ID="2">0,255</FixtureVal>
   </Function>
   <Function ID="6" Type="Scene" Name="Stage Front Center">
-   <Speed FadeIn="2000" FadeOut="2000" Duration="1000"/>
+   <Speed FadeIn="1500" FadeOut="1500" Duration="1000"/>
    <FixtureVal ID="1">0,255</FixtureVal>
    <FixtureVal ID="14">0,255</FixtureVal>
   </Function>
   <Function ID="7" Type="Scene" Name="Backstage Sides">
-   <Speed FadeIn="2000" FadeOut="2000" Duration="1000"/>
+   <Speed FadeIn="1500" FadeOut="1500" Duration="1000"/>
    <FixtureVal ID="12">0,255</FixtureVal>
    <FixtureVal ID="2">0,255</FixtureVal>
   </Function>
   <Function ID="8" Type="Chaser" Name="Scenes">
-   <Speed FadeIn="2000" FadeOut="2000" Duration="4294967294"/>
+   <Speed FadeIn="1500" FadeOut="1500" Duration="4294967294"/>
    <Direction>Forward</Direction>
    <RunOrder>SingleShot</RunOrder>
    <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
@@ -245,6 +245,59 @@
    <Speed FadeIn="1000" FadeOut="1000" Duration="1000"/>
    <FixtureVal ID="1">0,125</FixtureVal>
    <FixtureVal ID="14">0,125</FixtureVal>
+  </Function>
+  <Function ID="12" Type="Scene" Name="act1 low">
+   <Speed FadeIn="1500" FadeOut="1500" Duration="0"/>
+   <FixtureVal ID="0">0,71</FixtureVal>
+   <FixtureVal ID="1">0,71</FixtureVal>
+   <FixtureVal ID="6">0,116</FixtureVal>
+   <FixtureVal ID="9">0,116</FixtureVal>
+   <FixtureVal ID="11">0,116</FixtureVal>
+   <FixtureVal ID="14">0,71</FixtureVal>
+   <FixtureVal ID="15">0,71</FixtureVal>
+  </Function>
+  <Function ID="13" Type="Scene" Name="tavern low">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,33</FixtureVal>
+   <FixtureVal ID="1">0,33</FixtureVal>
+   <FixtureVal ID="3">0,77</FixtureVal>
+   <FixtureVal ID="5">0,77</FixtureVal>
+   <FixtureVal ID="7">0,77</FixtureVal>
+   <FixtureVal ID="8">0,77</FixtureVal>
+   <FixtureVal ID="10">0,77</FixtureVal>
+   <FixtureVal ID="14">0,33</FixtureVal>
+   <FixtureVal ID="15">0,33</FixtureVal>
+  </Function>
+  <Function ID="14" Type="Scene" Name="tavern high">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,90</FixtureVal>
+   <FixtureVal ID="1">0,90</FixtureVal>
+   <FixtureVal ID="3">0,140</FixtureVal>
+   <FixtureVal ID="5">0,97</FixtureVal>
+   <FixtureVal ID="7">0,97</FixtureVal>
+   <FixtureVal ID="8">0,97</FixtureVal>
+   <FixtureVal ID="10">0,97</FixtureVal>
+   <FixtureVal ID="14">0,90</FixtureVal>
+   <FixtureVal ID="15">0,90</FixtureVal>
+  </Function>
+  <Function ID="15" Type="Scene" Name="medved and princess low">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,90</FixtureVal>
+   <FixtureVal ID="1">0,90</FixtureVal>
+   <FixtureVal ID="2">0,0</FixtureVal>
+   <FixtureVal ID="3">0,102</FixtureVal>
+   <FixtureVal ID="4">0,0</FixtureVal>
+   <FixtureVal ID="5">0,36</FixtureVal>
+   <FixtureVal ID="6">0,0</FixtureVal>
+   <FixtureVal ID="7">0,36</FixtureVal>
+   <FixtureVal ID="8">0,94</FixtureVal>
+   <FixtureVal ID="9">0,0</FixtureVal>
+   <FixtureVal ID="10">0,36</FixtureVal>
+   <FixtureVal ID="11">0,0</FixtureVal>
+   <FixtureVal ID="12">0,0</FixtureVal>
+   <FixtureVal ID="13">0,0</FixtureVal>
+   <FixtureVal ID="14">0,90</FixtureVal>
+   <FixtureVal ID="15">0,90</FixtureVal>
   </Function>
   <Monitor DisplayMode="1" ShowLabels="0">
    <Font>Arial,9,-1,5,50,0,0,0,0,0</Font>
@@ -995,7 +1048,7 @@
      <Key>5</Key>
      <Intensity Adjust="False">100</Intensity>
     </Button>
-    <Button Caption="None" ID="81" Icon="">
+    <Button Caption="Stage Low" ID="81" Icon="">
      <WindowState Visible="True" X="215" Y="800" Width="100" Height="100"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
@@ -1004,7 +1057,7 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
-     <Function ID="4294967295"/>
+     <Function ID="12"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
     </Button>
@@ -1022,7 +1075,7 @@
      <Key>3</Key>
      <Intensity Adjust="False">100</Intensity>
     </Button>
-    <Button Caption="None" ID="83" Icon="">
+    <Button Caption="Tavern" ID="83" Icon="">
      <WindowState Visible="True" X="320" Y="800" Width="100" Height="100"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
@@ -1031,7 +1084,7 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
-     <Function ID="4294967295"/>
+     <Function ID="13"/>
      <Action>Toggle</Action>
      <Key>4</Key>
      <Intensity Adjust="False">100</Intensity>
@@ -1047,17 +1100,18 @@
      </Appearance>
      <Visibility>0</Visibility>
      <AbsoluteValue Minimum="0" Maximum="10000"/>
-     <Time>2000</Time>
+     <Time>1500</Time>
      <Function FadeIn="6" FadeOut="6" Duration="0">3</Function>
      <Function FadeIn="6" FadeOut="6" Duration="0">6</Function>
      <Function FadeIn="6" FadeOut="6" Duration="0">2</Function>
+     <Function FadeIn="6" FadeOut="6" Duration="0">8</Function>
      <Function FadeIn="6" FadeOut="6" Duration="0">5</Function>
      <Function FadeIn="6" FadeOut="6" Duration="0">4</Function>
      <Function FadeIn="6" FadeOut="6" Duration="0">1</Function>
+     <Function FadeIn="6" FadeOut="6" Duration="0">9</Function>
      <Function FadeIn="6" FadeOut="6" Duration="0">0</Function>
      <Function FadeIn="6" FadeOut="6" Duration="0">7</Function>
-     <Function FadeIn="6" FadeOut="6" Duration="0">8</Function>
-     <Function FadeIn="6" FadeOut="6" Duration="0">9</Function>
+     <Function FadeIn="6" FadeOut="6" Duration="0">12</Function>
      <Preset ID="18">
       <Name>0.5s</Name>
       <Value>500</Value>
