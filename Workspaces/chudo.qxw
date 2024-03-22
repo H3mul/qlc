@@ -4,14 +4,12 @@
  <Creator>
   <Name>Q Light Controller Plus</Name>
   <Version>4.12.6</Version>
-  <Author>22bob</Author>
+  <Author>Hemul</Author>
  </Creator>
  <Engine>
   <InputOutputMap>
    <Universe Name="Universe 1" ID="0">
-    <Output Plugin="DMX USB" UID=" (S/N: )" Line="0">
-     <PluginParameters UniverseChannels="18"/>
-    </Output>
+    <Output Plugin="DMX USB" UID="None" Line="0"/>
    </Universe>
    <Universe Name="Universe 2" ID="1"/>
    <Universe Name="Universe 3" ID="2"/>
@@ -482,11 +480,6 @@
    <Speed FadeIn="1000" FadeOut="1000" Duration="0"/>
    <FixtureVal ID="2">0,50</FixtureVal>
   </Function>
-  <Function ID="29" Type="Scene" Name="Wizard and Hozayka End" Path="Scenes">
-   <Speed FadeIn="1000" FadeOut="1000" Duration="0"/>
-   <FixtureVal ID="3">0,65</FixtureVal>
-   <FixtureVal ID="14">0,40</FixtureVal>
-  </Function>
   <Function ID="30" Type="Scene" Name="Act 1 high" Path="Scenes">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="0">0,255</FixtureVal>
@@ -507,7 +500,7 @@
    <FixtureVal ID="15">0,255</FixtureVal>
    <FixtureVal ID="16">0,0,1,0</FixtureVal>
   </Function>
-  <Function ID="31" Type="Scene" Name="Wizard and Hozayka End Updated" Path="Scenes">
+  <Function ID="31" Type="Scene" Name="Wizard and Hozayka End" Path="Scenes">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="0">0,0</FixtureVal>
    <FixtureVal ID="1">0,49</FixtureVal>
@@ -614,11 +607,11 @@
    <SpeedModes FadeIn="PerStep" FadeOut="PerStep" Duration="Common"/>
    <Step Number="0" FadeIn="0" Hold="4294967294" FadeOut="0">10</Step>
    <Step Number="1" FadeIn="1750" Hold="4294967294" FadeOut="1750">12</Step>
-   <Step Number="2" FadeIn="1750" Hold="4294967294" FadeOut="500" Note="King">30</Step>
+   <Step Number="2" FadeIn="1750" Hold="4294967294" FadeOut="500" Note="King arrives">30</Step>
    <Step Number="3" FadeIn="1750" Hold="4294967294" FadeOut="1750" Note="Bear + everyone leaves, princess alone">12</Step>
    <Step Number="4" FadeIn="1750" Hold="4294967294" FadeOut="1750" Note="King comes back">30</Step>
    <Step Number="5" FadeIn="0" Hold="4294967294" FadeOut="0" Note="Wizard ending">10</Step>
-   <Step Number="6" FadeIn="1500" Hold="4294967294" FadeOut="1500">13</Step>
+   <Step Number="6" FadeIn="1500" Hold="4294967294" FadeOut="1500" Note="Traktirshik enters">13</Step>
    <Step Number="7" FadeIn="1500" Hold="4294967294" FadeOut="1500" Note="Hunter + student">35</Step>
    <Step Number="8" FadeIn="1500" Hold="4294967294" FadeOut="1500" Note="Bear">13</Step>
    <Step Number="9" FadeIn="1500" Hold="4294967294" FadeOut="1500" Note="Kill a BEAR">14</Step>
@@ -630,9 +623,9 @@
    <Step Number="15" FadeIn="1500" Hold="4294967294" FadeOut="1500" Note="Everyone Leaves">15</Step>
    <Step Number="16" FadeIn="1500" Hold="4294967294" FadeOut="1500" Note="Papa Papa">35</Step>
    <Step Number="17" FadeIn="1500" Hold="4294967294" FadeOut="1500" Note="Bear + hunter leave">16</Step>
-   <Step Number="18" FadeIn="0" Hold="4294967294" FadeOut="0">10</Step>
-   <Step Number="19" FadeIn="7000" Hold="4294967294" FadeOut="3000" Note="Princess walks up">23</Step>
-   <Step Number="20" FadeIn="3000" Hold="4294967294" FadeOut="3000">7</Step>
+   <Step Number="18" FadeIn="0" Hold="4294967294" FadeOut="0" Note="Covers in place, intermission">10</Step>
+   <Step Number="19" FadeIn="7000" Hold="4294967294" FadeOut="3000" Note="Princess walks up steps">23</Step>
+   <Step Number="20" FadeIn="3000" Hold="4294967294" FadeOut="3000" Note="Svita comes up">7</Step>
    <Step Number="21" FadeIn="3000" Hold="4294967294" FadeOut="3000">19</Step>
    <Step Number="22" FadeIn="1500" Hold="4294967294" FadeOut="1500" Note="Poem left">24</Step>
    <Step Number="23" FadeIn="1500" Hold="4294967294" FadeOut="1500">19</Step>
@@ -641,7 +634,7 @@
    <Step Number="26" FadeIn="0" Hold="4294967294" FadeOut="0" Note="Gunshot">10</Step>
    <Step Number="27" FadeIn="3000" Hold="4294967294" FadeOut="1500" Note="Princess alone">28</Step>
    <Step Number="28" FadeIn="10000" Hold="4294967294" FadeOut="1500">20</Step>
-   <Step Number="29" FadeIn="1500" Hold="4294967294" FadeOut="1500" Note="princess stage left">24</Step>
+   <Step Number="29" FadeIn="1500" Hold="4294967294" FadeOut="1500" Note="Princess stage left">24</Step>
    <Step Number="30" FadeIn="1500" Hold="4294967294" FadeOut="1500" Note="Doktora, doktora!">12</Step>
    <Step Number="31" FadeIn="1500" Hold="4294967294" FadeOut="1500" Note="princess enters">7</Step>
    <Step Number="32" FadeIn="1500" Hold="4294967294" FadeOut="1500" Note="Vam uzhe skazali, 4toya umru">32</Step>
@@ -650,7 +643,7 @@
    <Step Number="35" FadeIn="6000" Hold="4294967294" FadeOut="4000">31</Step>
    <Step Number="36" FadeIn="0" Hold="4294967294" FadeOut="0" Note="Poem + book finish">10</Step>
    <Step Number="37" FadeIn="4000" Hold="4294967294" FadeOut="1500" Note="Wait for bear + princess to stand in center">22</Step>
-   <Step Number="38" FadeIn="1500" Hold="4294967294" FadeOut="1500">39</Step>
+   <Step Number="38" FadeIn="1500" Hold="4294967294" FadeOut="1500" Note="Dance front or svita comes out">39</Step>
    <Step Number="39" FadeIn="1500" Hold="4294967294" FadeOut="1500" Note="Svita comes downstairs">41</Step>
    <Step Number="40" FadeIn="0" Hold="4294967294" FadeOut="0">10</Step>
   </Function>
@@ -1632,7 +1625,7 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
-     <WindowState Visible="False" X="0" Y="470" Width="960" Height="430"/>
+     <WindowState Visible="False" X="5" Y="470" Width="960" Height="430"/>
      <AllowChildren>True</AllowChildren>
      <AllowResize>False</AllowResize>
      <ShowHeader>False</ShowHeader>
@@ -1751,21 +1744,8 @@
        <Function>15</Function>
       </Playback>
      </Slider>
-     <Button Caption="Fog On" ID="15" Icon="">
-      <WindowState Visible="False" X="855" Y="325" Width="100" Height="100"/>
-      <Appearance>
-       <FrameStyle>None</FrameStyle>
-       <ForegroundColor>4294967295</ForegroundColor>
-       <BackgroundColor>4280559675</BackgroundColor>
-       <BackgroundImage>None</BackgroundImage>
-       <Font>Default</Font>
-      </Appearance>
-      <Function ID="18"/>
-      <Action>Toggle</Action>
-      <Intensity Adjust="False">100</Intensity>
-     </Button>
      <Button Caption="Dream with Stage Front Low" ID="21" Icon="">
-      <WindowState Visible="False" X="425" Y="220" Width="100" Height="100"/>
+      <WindowState Visible="False" X="530" Y="325" Width="100" Height="100"/>
       <Appearance>
        <FrameStyle>None</FrameStyle>
        <ForegroundColor>4294967295</ForegroundColor>
@@ -1791,7 +1771,7 @@
       <Intensity Adjust="False">100</Intensity>
      </Button>
      <Button Caption="Wizard Hozayka End" ID="23" Icon="">
-      <WindowState Visible="False" X="425" Y="115" Width="100" Height="100"/>
+      <WindowState Visible="False" X="635" Y="325" Width="100" Height="100"/>
       <Appearance>
        <FrameStyle>None</FrameStyle>
        <ForegroundColor>4294967295</ForegroundColor>
@@ -1799,12 +1779,12 @@
        <BackgroundImage>None</BackgroundImage>
        <Font>Default</Font>
       </Appearance>
-      <Function ID="29"/>
+      <Function ID="31"/>
       <Action>Toggle</Action>
       <Intensity Adjust="False">100</Intensity>
      </Button>
      <Button Caption="Top and Sides" ID="28" Icon="">
-      <WindowState Visible="False" X="425" Y="10" Width="100" Height="100"/>
+      <WindowState Visible="False" X="740" Y="325" Width="100" Height="100"/>
       <Appearance>
        <FrameStyle>None</FrameStyle>
        <ForegroundColor>4294967295</ForegroundColor>
@@ -1817,6 +1797,66 @@
       <Key>6</Key>
       <Intensity Adjust="False">100</Intensity>
      </Button>
+     <Slider Caption="Dream low" ID="15" WidgetStyle="Slider" InvertedAppearance="false">
+      <WindowState Visible="False" X="425" Y="5" Width="100" Height="315"/>
+      <Appearance>
+       <FrameStyle>Sunken</FrameStyle>
+       <ForegroundColor>4294967295</ForegroundColor>
+       <BackgroundColor>4280559675</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
+      <Level LowLimit="0" HighLimit="255" Value="0"/>
+      <Playback>
+       <Function>20</Function>
+      </Playback>
+     </Slider>
+     <Slider Caption="Dream with Stage Front Low" ID="29" WidgetStyle="Slider" InvertedAppearance="false">
+      <WindowState Visible="False" X="530" Y="5" Width="100" Height="315"/>
+      <Appearance>
+       <FrameStyle>Sunken</FrameStyle>
+       <ForegroundColor>4294967295</ForegroundColor>
+       <BackgroundColor>4280559675</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
+      <Level LowLimit="0" HighLimit="255" Value="0"/>
+      <Playback>
+       <Function>19</Function>
+      </Playback>
+     </Slider>
+     <Slider Caption="Wizard Hozayka End" ID="30" WidgetStyle="Slider" InvertedAppearance="false">
+      <WindowState Visible="False" X="635" Y="5" Width="100" Height="315"/>
+      <Appearance>
+       <FrameStyle>Sunken</FrameStyle>
+       <ForegroundColor>4294967295</ForegroundColor>
+       <BackgroundColor>4280559675</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
+      <Level LowLimit="0" HighLimit="255" Value="0"/>
+      <Playback>
+       <Function>31</Function>
+      </Playback>
+     </Slider>
+     <Slider Caption="Top and Sides" ID="31" WidgetStyle="Slider" InvertedAppearance="false">
+      <WindowState Visible="False" X="740" Y="5" Width="100" Height="315"/>
+      <Appearance>
+       <FrameStyle>Sunken</FrameStyle>
+       <ForegroundColor>4294967295</ForegroundColor>
+       <BackgroundColor>4280559675</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
+      <Level LowLimit="0" HighLimit="255" Value="0"/>
+      <Playback>
+       <Function>38</Function>
+      </Playback>
+     </Slider>
     </Frame>
     <CueList Caption="Cue list" ID="5" Page="1">
      <WindowState Visible="True" X="5" Y="40" Width="960" Height="860"/>
