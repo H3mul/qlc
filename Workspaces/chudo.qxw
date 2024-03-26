@@ -4,12 +4,14 @@
  <Creator>
   <Name>Q Light Controller Plus</Name>
   <Version>4.12.6</Version>
-  <Author>Hemul</Author>
+  <Author>22bob</Author>
  </Creator>
  <Engine>
   <InputOutputMap>
    <Universe Name="Universe 1" ID="0">
-    <Output Plugin="DMX USB" UID="None" Line="0"/>
+    <Output Plugin="DMX USB" UID="None" Line="0">
+     <PluginParameters UniverseChannels="18"/>
+    </Output>
    </Universe>
    <Universe Name="Universe 2" ID="1"/>
    <Universe Name="Universe 3" ID="2"/>
@@ -186,7 +188,7 @@
    <Channels>2</Channels>
   </Fixture>
   <Function ID="0" Type="Scene" Name="Floor" Path="Groups">
-   <Speed FadeIn="1000" FadeOut="1000" Duration="1000"/>
+   <Speed FadeIn="1500" FadeOut="1500" Duration="1000"/>
    <FixtureVal ID="3">0,255</FixtureVal>
    <FixtureVal ID="5">0,255</FixtureVal>
    <FixtureVal ID="7">0,255</FixtureVal>
@@ -194,24 +196,24 @@
    <FixtureVal ID="10">0,255</FixtureVal>
   </Function>
   <Function ID="1" Type="Scene" Name="Floor Spot" Path="Groups">
-   <Speed FadeIn="1000" FadeOut="1000" Duration="1000"/>
+   <Speed FadeIn="1500" FadeOut="1500" Duration="1000"/>
    <FixtureVal ID="3">0,255</FixtureVal>
   </Function>
   <Function ID="2" Type="Scene" Name="Stage Front" Path="Groups">
-   <Speed FadeIn="1000" FadeOut="1000" Duration="1000"/>
+   <Speed FadeIn="1500" FadeOut="1500" Duration="1000"/>
    <FixtureVal ID="0">0,255</FixtureVal>
    <FixtureVal ID="1">0,255</FixtureVal>
    <FixtureVal ID="14">0,255</FixtureVal>
    <FixtureVal ID="15">0,255</FixtureVal>
   </Function>
   <Function ID="3" Type="Scene" Name="Stage Full" Path="Groups">
-   <Speed FadeIn="1000" FadeOut="1000" Duration="1000"/>
+   <Speed FadeIn="1500" FadeOut="1500" Duration="1000"/>
    <FixtureVal ID="6">0,255</FixtureVal>
    <FixtureVal ID="9">0,255</FixtureVal>
    <FixtureVal ID="11">0,255</FixtureVal>
   </Function>
   <Function ID="4" Type="Scene" Name="Tavern Right" Path="Groups">
-   <Speed FadeIn="1000" FadeOut="1000" Duration="0"/>
+   <Speed FadeIn="1500" FadeOut="1500" Duration="0"/>
    <FixtureVal ID="0">0,255</FixtureVal>
    <FixtureVal ID="1">0,0</FixtureVal>
    <FixtureVal ID="2">0,0</FixtureVal>
@@ -230,7 +232,7 @@
    <FixtureVal ID="15">0,0</FixtureVal>
   </Function>
   <Function ID="5" Type="Scene" Name="Tavern Left" Path="Groups">
-   <Speed FadeIn="1000" FadeOut="1000" Duration="0"/>
+   <Speed FadeIn="1500" FadeOut="1500" Duration="0"/>
    <FixtureVal ID="0">0,0</FixtureVal>
    <FixtureVal ID="1">0,0</FixtureVal>
    <FixtureVal ID="2">0,0</FixtureVal>
@@ -249,12 +251,12 @@
    <FixtureVal ID="15">0,255</FixtureVal>
   </Function>
   <Function ID="6" Type="Scene" Name="Stage Front Center" Path="Groups">
-   <Speed FadeIn="1000" FadeOut="1000" Duration="1000"/>
+   <Speed FadeIn="1500" FadeOut="1500" Duration="1000"/>
    <FixtureVal ID="1">0,255</FixtureVal>
    <FixtureVal ID="14">0,255</FixtureVal>
   </Function>
   <Function ID="7" Type="Scene" Name="Backstage Sides" Path="Groups">
-   <Speed FadeIn="1000" FadeOut="1000" Duration="1000"/>
+   <Speed FadeIn="1500" FadeOut="1500" Duration="1000"/>
    <FixtureVal ID="12">0,255</FixtureVal>
    <FixtureVal ID="2">0,255</FixtureVal>
   </Function>
@@ -272,15 +274,15 @@
    <Step Number="1">2</Step>
   </Function>
   <Function ID="10" Type="Scene" Name="Black">
-   <Speed FadeIn="1000" FadeOut="1000" Duration="0"/>
+   <Speed FadeIn="1500" FadeOut="1500" Duration="0"/>
   </Function>
   <Function ID="11" Type="Scene" Name="Stage Front Center Low" Path="Groups">
-   <Speed FadeIn="1000" FadeOut="1000" Duration="1000"/>
+   <Speed FadeIn="1500" FadeOut="1500" Duration="1000"/>
    <FixtureVal ID="1">0,125</FixtureVal>
    <FixtureVal ID="14">0,125</FixtureVal>
   </Function>
   <Function ID="12" Type="Scene" Name="Act 1 Low" Path="Scenes">
-   <Speed FadeIn="1000" FadeOut="1000" Duration="0"/>
+   <Speed FadeIn="1500" FadeOut="1500" Duration="0"/>
    <FixtureVal ID="0">0,71</FixtureVal>
    <FixtureVal ID="1">0,71</FixtureVal>
    <FixtureVal ID="6">0,116</FixtureVal>
@@ -290,7 +292,7 @@
    <FixtureVal ID="15">0,71</FixtureVal>
   </Function>
   <Function ID="13" Type="Scene" Name="tavern low" Path="Scenes">
-   <Speed FadeIn="1000" FadeOut="1000" Duration="0"/>
+   <Speed FadeIn="1500" FadeOut="1500" Duration="0"/>
    <FixtureVal ID="0">0,33</FixtureVal>
    <FixtureVal ID="1">0,33</FixtureVal>
    <FixtureVal ID="3">0,77</FixtureVal>
@@ -302,7 +304,7 @@
    <FixtureVal ID="15">0,33</FixtureVal>
   </Function>
   <Function ID="14" Type="Scene" Name="tavern high" Path="Scenes">
-   <Speed FadeIn="1000" FadeOut="1000" Duration="0"/>
+   <Speed FadeIn="1500" FadeOut="1500" Duration="0"/>
    <FixtureVal ID="0">0,90</FixtureVal>
    <FixtureVal ID="1">0,90</FixtureVal>
    <FixtureVal ID="3">0,140</FixtureVal>
@@ -314,13 +316,13 @@
    <FixtureVal ID="15">0,90</FixtureVal>
   </Function>
   <Function ID="15" Type="Scene" Name="bear and princess low" Path="Scenes">
-   <Speed FadeIn="1000" FadeOut="1000" Duration="0"/>
+   <Speed FadeIn="1500" FadeOut="1500" Duration="0"/>
    <FixtureVal ID="0">0,90</FixtureVal>
    <FixtureVal ID="1">0,90</FixtureVal>
    <FixtureVal ID="2">0,0</FixtureVal>
    <FixtureVal ID="3">0,102</FixtureVal>
    <FixtureVal ID="4">0,0</FixtureVal>
-   <FixtureVal ID="5">0,36</FixtureVal>
+   <FixtureVal ID="5">0,98</FixtureVal>
    <FixtureVal ID="6">0,0</FixtureVal>
    <FixtureVal ID="7">0,36</FixtureVal>
    <FixtureVal ID="8">0,94</FixtureVal>
@@ -353,7 +355,7 @@
    <FixtureVal ID="16">0,0,1,0</FixtureVal>
   </Function>
   <Function ID="17" Type="Scene" Name="Stage Curtain Top" Path="Groups">
-   <Speed FadeIn="1000" FadeOut="1000" Duration="0"/>
+   <Speed FadeIn="1500" FadeOut="1500" Duration="0"/>
    <FixtureVal ID="0">0,0</FixtureVal>
    <FixtureVal ID="1">0,0</FixtureVal>
    <FixtureVal ID="2">0,0</FixtureVal>
@@ -372,11 +374,11 @@
    <FixtureVal ID="15">0,0</FixtureVal>
   </Function>
   <Function ID="18" Type="Scene" Name="Fog On" Path="Groups">
-   <Speed FadeIn="1000" FadeOut="1000" Duration="0"/>
+   <Speed FadeIn="1500" FadeOut="1500" Duration="0"/>
    <FixtureVal ID="16">0,119,1,255</FixtureVal>
   </Function>
   <Function ID="19" Type="Scene" Name="Dream with Stage Front Low" Path="Scenes">
-   <Speed FadeIn="1000" FadeOut="1000" Duration="0"/>
+   <Speed FadeIn="1500" FadeOut="1500" Duration="0"/>
    <FixtureVal ID="0">0,0</FixtureVal>
    <FixtureVal ID="1">0,51</FixtureVal>
    <FixtureVal ID="2">0,255</FixtureVal>
@@ -396,7 +398,7 @@
    <FixtureVal ID="16">0,0,1,0</FixtureVal>
   </Function>
   <Function ID="20" Type="Scene" Name="Dream low candle" Path="Scenes">
-   <Speed FadeIn="1000" FadeOut="1000" Duration="0"/>
+   <Speed FadeIn="1500" FadeOut="1500" Duration="0"/>
    <FixtureVal ID="0">0,0</FixtureVal>
    <FixtureVal ID="1">0,41</FixtureVal>
    <FixtureVal ID="2">0,78</FixtureVal>
@@ -416,7 +418,7 @@
    <FixtureVal ID="16">0,0,1,0</FixtureVal>
   </Function>
   <Function ID="21" Type="Scene" Name="Dream low left" Path="Scenes">
-   <Speed FadeIn="1000" FadeOut="1000" Duration="0"/>
+   <Speed FadeIn="1500" FadeOut="1500" Duration="0"/>
    <FixtureVal ID="0">0,0</FixtureVal>
    <FixtureVal ID="1">0,91</FixtureVal>
    <FixtureVal ID="2">0,255</FixtureVal>
@@ -456,7 +458,7 @@
    <FixtureVal ID="16">0,0,1,0</FixtureVal>
   </Function>
   <Function ID="23" Type="Scene" Name="Backstage Sides Half" Path="Scenes">
-   <Speed FadeIn="1000" FadeOut="1000" Duration="0"/>
+   <Speed FadeIn="1500" FadeOut="1500" Duration="0"/>
    <FixtureVal ID="12">0,126</FixtureVal>
    <FixtureVal ID="2">0,126</FixtureVal>
   </Function>
@@ -465,11 +467,11 @@
    <Step Number="1">25</Step>
   </Function>
   <Function ID="25" Type="Scene" Name="Stage Front Left Low" Path="Groups">
-   <Speed FadeIn="1000" FadeOut="1000" Duration="0"/>
+   <Speed FadeIn="1500" FadeOut="1500" Duration="0"/>
    <FixtureVal ID="15">0,70</FixtureVal>
   </Function>
   <Function ID="26" Type="Scene" Name="Stage Front Right Low" Path="Groups">
-   <Speed FadeIn="1000" FadeOut="1000" Duration="0"/>
+   <Speed FadeIn="1500" FadeOut="1500" Duration="0"/>
    <FixtureVal ID="0">0,70</FixtureVal>
   </Function>
   <Function ID="27" Type="Collection" Name="Dream Stage Front Low Right">
@@ -477,8 +479,55 @@
    <Step Number="1">26</Step>
   </Function>
   <Function ID="28" Type="Scene" Name="Backstage Sides Right Low" Path="Groups">
-   <Speed FadeIn="1000" FadeOut="1000" Duration="0"/>
+   <Speed FadeIn="1500" FadeOut="1500" Duration="0"/>
    <FixtureVal ID="2">0,50</FixtureVal>
+  </Function>
+  <Function ID="29" Type="Chaser" Name="Chudo with poems">
+   <Speed FadeIn="0" FadeOut="0" Duration="4294967294"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="PerStep" FadeOut="PerStep" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="4294967294" FadeOut="0">10</Step>
+   <Step Number="1" FadeIn="1750" Hold="4294967294" FadeOut="1750">12</Step>
+   <Step Number="2" FadeIn="1750" Hold="4294967294" FadeOut="500" Note="King arrives">30</Step>
+   <Step Number="3" FadeIn="1750" Hold="4294967294" FadeOut="1750" Note="Bear + everyone leaves, princess alone">12</Step>
+   <Step Number="4" FadeIn="1750" Hold="4294967294" FadeOut="1750" Note="King comes back">30</Step>
+   <Step Number="5" FadeIn="0" Hold="4294967294" FadeOut="0" Note="Wizard ending">10</Step>
+   <Step Number="6" FadeIn="1500" Hold="4294967294" FadeOut="1500" Note="Traktirshik enters">13</Step>
+   <Step Number="7" FadeIn="1500" Hold="4294967294" FadeOut="1500" Note="Hunter + student">35</Step>
+   <Step Number="8" FadeIn="1500" Hold="4294967294" FadeOut="1500" Note="Bear">13</Step>
+   <Step Number="9" FadeIn="1500" Hold="4294967294" FadeOut="1500" Note="Kill a BEAR">14</Step>
+   <Step Number="10" FadeIn="1500" Hold="4294967294" FadeOut="1500" Note="After Fight">15</Step>
+   <Step Number="11" FadeIn="1500" Hold="4294967294" FadeOut="1500" Note="Traktirshik">13</Step>
+   <Step Number="12" FadeIn="1500" Hold="4294967294" FadeOut="1500" Note="Emilia comes out">36</Step>
+   <Step Number="13" FadeIn="1500" Hold="4294967294" FadeOut="1500" Note="Emilia enters">13</Step>
+   <Step Number="14" FadeIn="1500" Hold="4294967294" FadeOut="1500" Note="hit the drums">14</Step>
+   <Step Number="15" FadeIn="1500" Hold="4294967294" FadeOut="1500" Note="Everyone Leaves">15</Step>
+   <Step Number="16" FadeIn="1500" Hold="4294967294" FadeOut="1500" Note="Papa Papa">35</Step>
+   <Step Number="17" FadeIn="1500" Hold="4294967294" FadeOut="1500" Note="Bear + hunter leave">16</Step>
+   <Step Number="18" FadeIn="0" Hold="4294967294" FadeOut="0" Note="Covers in place, intermission">10</Step>
+   <Step Number="19" FadeIn="7000" Hold="4294967294" FadeOut="3000" Note="Princess walks up steps">23</Step>
+   <Step Number="20" FadeIn="3000" Hold="4294967294" FadeOut="3000" Note="Svita comes up">7</Step>
+   <Step Number="21" FadeIn="3000" Hold="4294967294" FadeOut="3000">19</Step>
+   <Step Number="22" FadeIn="1500" Hold="4294967294" FadeOut="1500" Note="Poem left">24</Step>
+   <Step Number="23" FadeIn="1500" Hold="4294967294" FadeOut="1500">19</Step>
+   <Step Number="24" FadeIn="1500" Hold="4294967294" FadeOut="1500" Note="Poem right">27</Step>
+   <Step Number="25" FadeIn="1500" Hold="4294967294" FadeOut="500">19</Step>
+   <Step Number="26" FadeIn="0" Hold="4294967294" FadeOut="0" Note="Gunshot">10</Step>
+   <Step Number="27" FadeIn="3000" Hold="4294967294" FadeOut="1500" Note="Princess alone">28</Step>
+   <Step Number="28" FadeIn="10000" Hold="4294967294" FadeOut="1500">20</Step>
+   <Step Number="29" FadeIn="1500" Hold="4294967294" FadeOut="1500" Note="Princess stage left">24</Step>
+   <Step Number="30" FadeIn="1500" Hold="4294967294" FadeOut="1500" Note="from DRUZIA to Doktora, doktora!">12</Step>
+   <Step Number="31" FadeIn="1500" Hold="4294967294" FadeOut="1500" Note="princess enters">7</Step>
+   <Step Number="32" FadeIn="1500" Hold="4294967294" FadeOut="1500" Note="Vam uzhe skazali, 4toya umru">32</Step>
+   <Step Number="33" FadeIn="1500" Hold="4294967294" FadeOut="1500" Note="Eto on! Eto on!">7</Step>
+   <Step Number="34" FadeIn="0" Hold="4294967294" FadeOut="0" Note="Poem + book finish">10</Step>
+   <Step Number="35" FadeIn="6000" Hold="4294967294" FadeOut="4000">31</Step>
+   <Step Number="36" FadeIn="0" Hold="4294967294" FadeOut="0" Note="Poem + book finish">10</Step>
+   <Step Number="37" FadeIn="4000" Hold="4294967294" FadeOut="1500" Note="Wait for bear + princess to stand in center">22</Step>
+   <Step Number="38" FadeIn="1500" Hold="4294967294" FadeOut="1500" Note="Dance front or svita comes out">39</Step>
+   <Step Number="39" FadeIn="1500" Hold="4294967294" FadeOut="1500" Note="Svita comes downstairs">41</Step>
+   <Step Number="40" FadeIn="0" Hold="4294967294" FadeOut="0">10</Step>
   </Function>
   <Function ID="30" Type="Scene" Name="Act 1 high" Path="Scenes">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
@@ -560,6 +609,26 @@
    <FixtureVal ID="15">0,0</FixtureVal>
    <FixtureVal ID="16">0,0,1,0</FixtureVal>
   </Function>
+  <Function ID="34" Type="Scene" Name="Sign">
+   <Speed FadeIn="1500" FadeOut="1500" Duration="0"/>
+   <FixtureVal ID="0">0,0</FixtureVal>
+   <FixtureVal ID="1">0,0</FixtureVal>
+   <FixtureVal ID="2">0,0</FixtureVal>
+   <FixtureVal ID="3">0,0</FixtureVal>
+   <FixtureVal ID="4">0,121</FixtureVal>
+   <FixtureVal ID="5">0,0</FixtureVal>
+   <FixtureVal ID="6">0,0</FixtureVal>
+   <FixtureVal ID="7">0,0</FixtureVal>
+   <FixtureVal ID="8">0,0</FixtureVal>
+   <FixtureVal ID="9">0,0</FixtureVal>
+   <FixtureVal ID="10">0,0</FixtureVal>
+   <FixtureVal ID="11">0,0</FixtureVal>
+   <FixtureVal ID="12">0,0</FixtureVal>
+   <FixtureVal ID="13">0,0</FixtureVal>
+   <FixtureVal ID="14">0,0</FixtureVal>
+   <FixtureVal ID="15">0,0</FixtureVal>
+   <FixtureVal ID="16">0,0,1,0</FixtureVal>
+  </Function>
   <Function ID="35" Type="Scene" Name="Tavern mid" Path="Scenes">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="0">0,71</FixtureVal>
@@ -611,14 +680,14 @@
    <Step Number="3" FadeIn="1750" Hold="4294967294" FadeOut="1750" Note="Bear + everyone leaves, princess alone">12</Step>
    <Step Number="4" FadeIn="1750" Hold="4294967294" FadeOut="1750" Note="King comes back">30</Step>
    <Step Number="5" FadeIn="0" Hold="4294967294" FadeOut="0" Note="Wizard ending">10</Step>
-   <Step Number="6" FadeIn="1500" Hold="4294967294" FadeOut="1500" Note="Traktirshik enters">13</Step>
+   <Step Number="6" FadeIn="2500" Hold="4294967294" FadeOut="1500" Note="Traktirshik enters">13</Step>
    <Step Number="7" FadeIn="1500" Hold="4294967294" FadeOut="1500" Note="Hunter + student">35</Step>
    <Step Number="8" FadeIn="1500" Hold="4294967294" FadeOut="1500" Note="Bear">13</Step>
    <Step Number="9" FadeIn="1500" Hold="4294967294" FadeOut="1500" Note="Kill a BEAR">14</Step>
    <Step Number="10" FadeIn="1500" Hold="4294967294" FadeOut="1500" Note="After Fight">15</Step>
    <Step Number="11" FadeIn="1500" Hold="4294967294" FadeOut="1500" Note="Traktirshik">13</Step>
    <Step Number="12" FadeIn="1500" Hold="4294967294" FadeOut="1500" Note="Emilia comes out">36</Step>
-   <Step Number="13" FadeIn="1500" Hold="4294967294" FadeOut="1500" Note="Dayte Ruku">13</Step>
+   <Step Number="13" FadeIn="1500" Hold="4294967294" FadeOut="1500" Note="Emilia enters">13</Step>
    <Step Number="14" FadeIn="1500" Hold="4294967294" FadeOut="1500" Note="hit the drums">14</Step>
    <Step Number="15" FadeIn="1500" Hold="4294967294" FadeOut="1500" Note="Everyone Leaves">15</Step>
    <Step Number="16" FadeIn="1500" Hold="4294967294" FadeOut="1500" Note="Papa Papa">35</Step>
@@ -626,29 +695,25 @@
    <Step Number="18" FadeIn="0" Hold="4294967294" FadeOut="0" Note="Covers in place, intermission">10</Step>
    <Step Number="19" FadeIn="7000" Hold="4294967294" FadeOut="3000" Note="Princess walks up steps">23</Step>
    <Step Number="20" FadeIn="3000" Hold="4294967294" FadeOut="3000" Note="Svita comes up">7</Step>
-   <Step Number="21" FadeIn="3000" Hold="4294967294" FadeOut="3000">19</Step>
-   <Step Number="22" FadeIn="1500" Hold="4294967294" FadeOut="1500" Note="Poem left">24</Step>
-   <Step Number="23" FadeIn="1500" Hold="4294967294" FadeOut="1500">19</Step>
-   <Step Number="24" FadeIn="1500" Hold="4294967294" FadeOut="1500" Note="Poem right">27</Step>
-   <Step Number="25" FadeIn="1500" Hold="4294967294" FadeOut="500">19</Step>
-   <Step Number="26" FadeIn="0" Hold="4294967294" FadeOut="0" Note="Gunshot">10</Step>
-   <Step Number="27" FadeIn="3000" Hold="4294967294" FadeOut="1500" Note="Princess alone">28</Step>
-   <Step Number="28" FadeIn="10000" Hold="4294967294" FadeOut="1500">20</Step>
-   <Step Number="29" FadeIn="1500" Hold="4294967294" FadeOut="1500" Note="Princess stage left">24</Step>
-   <Step Number="30" FadeIn="1500" Hold="4294967294" FadeOut="1500" Note="Doktora, doktora!">12</Step>
-   <Step Number="31" FadeIn="1500" Hold="4294967294" FadeOut="1500" Note="princess enters">7</Step>
-   <Step Number="32" FadeIn="1500" Hold="4294967294" FadeOut="1500" Note="Vam uzhe skazali, 4toya umru">32</Step>
-   <Step Number="33" FadeIn="1500" Hold="4294967294" FadeOut="1500" Note="Eto on! Eto on!">7</Step>
-   <Step Number="34" FadeIn="0" Hold="4294967294" FadeOut="0" Note="Poem + book finish">10</Step>
-   <Step Number="35" FadeIn="6000" Hold="4294967294" FadeOut="4000">31</Step>
-   <Step Number="36" FadeIn="0" Hold="4294967294" FadeOut="0" Note="Poem + book finish">10</Step>
-   <Step Number="37" FadeIn="4000" Hold="4294967294" FadeOut="1500" Note="Wait for bear + princess to stand in center">22</Step>
-   <Step Number="38" FadeIn="1500" Hold="4294967294" FadeOut="1500" Note="Dance front or svita comes out">39</Step>
-   <Step Number="39" FadeIn="1500" Hold="4294967294" FadeOut="1500" Note="Svita comes downstairs">41</Step>
-   <Step Number="40" FadeIn="0" Hold="4294967294" FadeOut="0">10</Step>
+   <Step Number="21" FadeIn="3000" Hold="4294967294" FadeOut="500" Note="Princess stage left">24</Step>
+   <Step Number="22" FadeIn="0" Hold="4294967294" FadeOut="0" Note="Gunshot">10</Step>
+   <Step Number="23" FadeIn="3000" Hold="4294967294" FadeOut="1500" Note="Princess alone">28</Step>
+   <Step Number="24" FadeIn="7000" Hold="4294967294" FadeOut="1500">20</Step>
+   <Step Number="25" FadeIn="1500" Hold="4294967294" FadeOut="1500" Note="Princess stage left">24</Step>
+   <Step Number="26" FadeIn="1500" Hold="4294967294" FadeOut="1500" Note="from DRUZIA to Doktora, doktora!">12</Step>
+   <Step Number="27" FadeIn="1500" Hold="4294967294" FadeOut="1500" Note="princess enters">7</Step>
+   <Step Number="28" FadeIn="1500" Hold="4294967294" FadeOut="1500" Note="Vam uzhe skazali, 4toya umru">32</Step>
+   <Step Number="29" FadeIn="1500" Hold="4294967294" FadeOut="1500" Note="Eto on! Eto on!">7</Step>
+   <Step Number="30" FadeIn="0" Hold="4294967294" FadeOut="0" Note="Poem + book finish">10</Step>
+   <Step Number="31" FadeIn="6000" Hold="4294967294" FadeOut="4000" Note="music changes">31</Step>
+   <Step Number="32" FadeIn="0" Hold="4294967294" FadeOut="0" Note="Poem + book finish">10</Step>
+   <Step Number="33" FadeIn="4000" Hold="4294967294" FadeOut="1500" Note="Wait for bear + princess to stand in center">22</Step>
+   <Step Number="34" FadeIn="1500" Hold="4294967294" FadeOut="1500" Note="Dance front or svita comes out">39</Step>
+   <Step Number="35" FadeIn="1500" Hold="4294967294" FadeOut="1500" Note="Svita comes downstairs">41</Step>
+   <Step Number="36" FadeIn="0" Hold="4294967294" FadeOut="0">10</Step>
   </Function>
   <Function ID="38" Type="Scene" Name="Top and Sides" Path="Groups">
-   <Speed FadeIn="1000" FadeOut="1000" Duration="0"/>
+   <Speed FadeIn="1500" FadeOut="1500" Duration="0"/>
    <FixtureVal ID="0">0,0</FixtureVal>
    <FixtureVal ID="1">0,0</FixtureVal>
    <FixtureVal ID="2">0,255</FixtureVal>
@@ -1035,7 +1100,7 @@
        <Function>4294967295</Function>
       </Playback>
      </Slider>
-     <Label Caption="None" ID="60">
+     <Label Caption="Sign" ID="60">
       <WindowState Visible="True" X="5" Y="385" Width="95" Height="40"/>
       <Appearance>
        <FrameStyle>None</FrameStyle>
@@ -1334,7 +1399,7 @@
     <ShowEnableButton>True</ShowEnableButton>
     <Collapsed>False</Collapsed>
     <Disabled>False</Disabled>
-    <Multipage PagesNum="2" CurrentPage="1"/>
+    <Multipage PagesNum="2" CurrentPage="0"/>
     <Shortcut Page="0" Name="Manual">
      <Key>F1</Key>
     </Shortcut>
@@ -1350,7 +1415,7 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
-     <WindowState Visible="False" X="5" Y="40" Width="960" Height="430"/>
+     <WindowState Visible="True" X="5" Y="40" Width="960" Height="430"/>
      <AllowChildren>True</AllowChildren>
      <AllowResize>False</AllowResize>
      <ShowHeader>False</ShowHeader>
@@ -1358,7 +1423,7 @@
      <Collapsed>False</Collapsed>
      <Disabled>False</Disabled>
      <Button Caption="(1) Stage Full" ID="8" Icon="">
-      <WindowState Visible="False" X="5" Y="325" Width="100" Height="100"/>
+      <WindowState Visible="True" X="5" Y="325" Width="100" Height="100"/>
       <Appearance>
        <FrameStyle>None</FrameStyle>
        <ForegroundColor>4294967295</ForegroundColor>
@@ -1372,7 +1437,7 @@
       <Intensity Adjust="False">100</Intensity>
      </Button>
      <Button Caption="(3) Stage Front Center" ID="12" Icon="">
-      <WindowState Visible="False" X="215" Y="325" Width="100" Height="100"/>
+      <WindowState Visible="True" X="215" Y="325" Width="100" Height="100"/>
       <Appearance>
        <FrameStyle>None</FrameStyle>
        <ForegroundColor>4294967295</ForegroundColor>
@@ -1386,7 +1451,7 @@
       <Intensity Adjust="False">100</Intensity>
      </Button>
      <Button Caption="(2) Stage Front" ID="13" Icon="">
-      <WindowState Visible="False" X="110" Y="325" Width="100" Height="100"/>
+      <WindowState Visible="True" X="110" Y="325" Width="100" Height="100"/>
       <Appearance>
        <FrameStyle>None</FrameStyle>
        <ForegroundColor>4294967295</ForegroundColor>
@@ -1400,7 +1465,7 @@
       <Intensity Adjust="False">100</Intensity>
      </Button>
      <Slider Caption="Stage Front" ID="16" WidgetStyle="Slider" InvertedAppearance="false">
-      <WindowState Visible="False" X="110" Y="5" Width="100" Height="315"/>
+      <WindowState Visible="True" X="110" Y="5" Width="100" Height="315"/>
       <Appearance>
        <FrameStyle>Sunken</FrameStyle>
        <ForegroundColor>4294967295</ForegroundColor>
@@ -1415,7 +1480,7 @@
       </Playback>
      </Slider>
      <Slider Caption="SF Center" ID="17" WidgetStyle="Slider" InvertedAppearance="false">
-      <WindowState Visible="False" X="215" Y="5" Width="100" Height="315"/>
+      <WindowState Visible="True" X="215" Y="5" Width="100" Height="315"/>
       <Appearance>
        <FrameStyle>Sunken</FrameStyle>
        <ForegroundColor>4294967295</ForegroundColor>
@@ -1430,7 +1495,7 @@
       </Playback>
      </Slider>
      <Slider Caption="Stage Full" ID="18" WidgetStyle="Slider" InvertedAppearance="false">
-      <WindowState Visible="False" X="5" Y="5" Width="100" Height="315"/>
+      <WindowState Visible="True" X="5" Y="5" Width="100" Height="315"/>
       <Appearance>
        <FrameStyle>Sunken</FrameStyle>
        <ForegroundColor>4294967295</ForegroundColor>
@@ -1445,7 +1510,7 @@
       </Playback>
      </Slider>
      <Button Caption="(4) Floor" ID="14" Icon="">
-      <WindowState Visible="False" X="320" Y="325" Width="100" Height="100"/>
+      <WindowState Visible="True" X="320" Y="325" Width="100" Height="100"/>
       <Appearance>
        <FrameStyle>None</FrameStyle>
        <ForegroundColor>4294967295</ForegroundColor>
@@ -1459,7 +1524,7 @@
       <Intensity Adjust="False">100</Intensity>
      </Button>
      <Button Caption="(5) Floor Spot" ID="10" Icon="">
-      <WindowState Visible="False" X="535" Y="325" Width="100" Height="100"/>
+      <WindowState Visible="True" X="535" Y="325" Width="100" Height="100"/>
       <Appearance>
        <FrameStyle>None</FrameStyle>
        <ForegroundColor>4294967295</ForegroundColor>
@@ -1473,7 +1538,7 @@
       <Intensity Adjust="False">100</Intensity>
      </Button>
      <Button Caption="(6) Backstage Sides" ID="43" Icon="">
-      <WindowState Visible="False" X="855" Y="325" Width="100" Height="100"/>
+      <WindowState Visible="True" X="855" Y="325" Width="100" Height="100"/>
       <Appearance>
        <FrameStyle>None</FrameStyle>
        <ForegroundColor>4294967295</ForegroundColor>
@@ -1487,7 +1552,7 @@
       <Intensity Adjust="False">100</Intensity>
      </Button>
      <Slider Caption="Backstage Sides" ID="46" WidgetStyle="Slider" InvertedAppearance="false">
-      <WindowState Visible="False" X="855" Y="5" Width="100" Height="315"/>
+      <WindowState Visible="True" X="855" Y="5" Width="100" Height="315"/>
       <Appearance>
        <FrameStyle>Sunken</FrameStyle>
        <ForegroundColor>4294967295</ForegroundColor>
@@ -1502,7 +1567,7 @@
       </Playback>
      </Slider>
      <Slider Caption="Floor Spot" ID="47" WidgetStyle="Slider" InvertedAppearance="false">
-      <WindowState Visible="False" X="535" Y="5" Width="100" Height="315"/>
+      <WindowState Visible="True" X="535" Y="5" Width="100" Height="315"/>
       <Appearance>
        <FrameStyle>Sunken</FrameStyle>
        <ForegroundColor>4294967295</ForegroundColor>
@@ -1517,7 +1582,7 @@
       </Playback>
      </Slider>
      <Slider Caption="Floor" ID="48" WidgetStyle="Slider" InvertedAppearance="false">
-      <WindowState Visible="False" X="320" Y="5" Width="100" Height="315"/>
+      <WindowState Visible="True" X="320" Y="5" Width="100" Height="315"/>
       <Appearance>
        <FrameStyle>Sunken</FrameStyle>
        <ForegroundColor>4294967295</ForegroundColor>
@@ -1532,7 +1597,7 @@
       </Playback>
      </Slider>
      <Button Caption="Tavern Right" ID="1" Icon="">
-      <WindowState Visible="False" X="635" Y="325" Width="100" Height="100"/>
+      <WindowState Visible="True" X="635" Y="325" Width="100" Height="100"/>
       <Appearance>
        <FrameStyle>None</FrameStyle>
        <ForegroundColor>4294967295</ForegroundColor>
@@ -1545,7 +1610,7 @@
       <Intensity Adjust="False">100</Intensity>
      </Button>
      <Slider Caption="Tavern Right" ID="2" WidgetStyle="Slider" InvertedAppearance="false">
-      <WindowState Visible="False" X="635" Y="5" Width="100" Height="315"/>
+      <WindowState Visible="True" X="635" Y="5" Width="100" Height="315"/>
       <Appearance>
        <FrameStyle>Sunken</FrameStyle>
        <ForegroundColor>4294967295</ForegroundColor>
@@ -1560,7 +1625,7 @@
       </Playback>
      </Slider>
      <Button Caption="Tavern Left" ID="3" Icon="">
-      <WindowState Visible="False" X="435" Y="325" Width="100" Height="100"/>
+      <WindowState Visible="True" X="435" Y="325" Width="100" Height="100"/>
       <Appearance>
        <FrameStyle>None</FrameStyle>
        <ForegroundColor>4294967295</ForegroundColor>
@@ -1573,7 +1638,7 @@
       <Intensity Adjust="False">100</Intensity>
      </Button>
      <Slider Caption="Tavern Left" ID="4" WidgetStyle="Slider" InvertedAppearance="false">
-      <WindowState Visible="False" X="435" Y="5" Width="100" Height="315"/>
+      <WindowState Visible="True" X="435" Y="5" Width="100" Height="315"/>
       <Appearance>
        <FrameStyle>Sunken</FrameStyle>
        <ForegroundColor>4294967295</ForegroundColor>
@@ -1588,7 +1653,7 @@
       </Playback>
      </Slider>
      <Button Caption="Stage Curtain Top" ID="6" Icon="">
-      <WindowState Visible="False" X="750" Y="325" Width="100" Height="100"/>
+      <WindowState Visible="True" X="750" Y="325" Width="100" Height="100"/>
       <Appearance>
        <FrameStyle>None</FrameStyle>
        <ForegroundColor>4294967295</ForegroundColor>
@@ -1602,7 +1667,7 @@
       <Intensity Adjust="False">100</Intensity>
      </Button>
      <Slider Caption="Curtain Top" ID="11" WidgetStyle="Slider" InvertedAppearance="false">
-      <WindowState Visible="False" X="750" Y="5" Width="100" Height="315"/>
+      <WindowState Visible="True" X="750" Y="5" Width="100" Height="315"/>
       <Appearance>
        <FrameStyle>Sunken</FrameStyle>
        <ForegroundColor>4294967295</ForegroundColor>
@@ -1625,7 +1690,7 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
-     <WindowState Visible="False" X="5" Y="470" Width="960" Height="430"/>
+     <WindowState Visible="True" X="5" Y="470" Width="960" Height="430"/>
      <AllowChildren>True</AllowChildren>
      <AllowResize>False</AllowResize>
      <ShowHeader>False</ShowHeader>
@@ -1633,7 +1698,7 @@
      <Collapsed>False</Collapsed>
      <Disabled>False</Disabled>
      <Button Caption="Tavern Low" ID="83" Icon="">
-      <WindowState Visible="False" X="110" Y="325" Width="100" Height="100"/>
+      <WindowState Visible="True" X="110" Y="325" Width="100" Height="100"/>
       <Appearance>
        <FrameStyle>None</FrameStyle>
        <ForegroundColor>4294967295</ForegroundColor>
@@ -1646,7 +1711,7 @@
       <Intensity Adjust="False">100</Intensity>
      </Button>
      <Button Caption="Act 1 Low" ID="81" Icon="">
-      <WindowState Visible="False" X="5" Y="325" Width="100" Height="100"/>
+      <WindowState Visible="True" X="5" Y="325" Width="100" Height="100"/>
       <Appearance>
        <FrameStyle>None</FrameStyle>
        <ForegroundColor>4294967295</ForegroundColor>
@@ -1659,7 +1724,7 @@
       <Intensity Adjust="False">100</Intensity>
      </Button>
      <Button Caption="Bear and Princess Low" ID="44" Icon="">
-      <WindowState Visible="False" X="320" Y="325" Width="100" Height="100"/>
+      <WindowState Visible="True" X="320" Y="325" Width="100" Height="100"/>
       <Appearance>
        <FrameStyle>None</FrameStyle>
        <ForegroundColor>4294967295</ForegroundColor>
@@ -1672,7 +1737,7 @@
       <Intensity Adjust="False">100</Intensity>
      </Button>
      <Button Caption="Tavern High" ID="45" Icon="">
-      <WindowState Visible="False" X="215" Y="325" Width="100" Height="100"/>
+      <WindowState Visible="True" X="215" Y="325" Width="100" Height="100"/>
       <Appearance>
        <FrameStyle>None</FrameStyle>
        <ForegroundColor>4294967295</ForegroundColor>
@@ -1685,7 +1750,7 @@
       <Intensity Adjust="False">100</Intensity>
      </Button>
      <Slider Caption="Act 1 Low" ID="49" WidgetStyle="Slider" InvertedAppearance="false">
-      <WindowState Visible="False" X="5" Y="5" Width="100" Height="315"/>
+      <WindowState Visible="True" X="5" Y="5" Width="100" Height="315"/>
       <Appearance>
        <FrameStyle>Sunken</FrameStyle>
        <ForegroundColor>4294967295</ForegroundColor>
@@ -1700,7 +1765,7 @@
       </Playback>
      </Slider>
      <Slider Caption="Tavern Low" ID="50" WidgetStyle="Slider" InvertedAppearance="false">
-      <WindowState Visible="False" X="110" Y="5" Width="100" Height="315"/>
+      <WindowState Visible="True" X="110" Y="5" Width="100" Height="315"/>
       <Appearance>
        <FrameStyle>Sunken</FrameStyle>
        <ForegroundColor>4294967295</ForegroundColor>
@@ -1715,7 +1780,7 @@
       </Playback>
      </Slider>
      <Slider Caption="Tavern High" ID="51" WidgetStyle="Slider" InvertedAppearance="false">
-      <WindowState Visible="False" X="215" Y="5" Width="100" Height="315"/>
+      <WindowState Visible="True" X="215" Y="5" Width="100" Height="315"/>
       <Appearance>
        <FrameStyle>Sunken</FrameStyle>
        <ForegroundColor>4294967295</ForegroundColor>
@@ -1730,7 +1795,7 @@
       </Playback>
      </Slider>
      <Slider Caption="B and P" ID="80" WidgetStyle="Slider" InvertedAppearance="false">
-      <WindowState Visible="False" X="320" Y="5" Width="100" Height="315"/>
+      <WindowState Visible="True" X="320" Y="5" Width="100" Height="315"/>
       <Appearance>
        <FrameStyle>Sunken</FrameStyle>
        <ForegroundColor>4294967295</ForegroundColor>
@@ -1745,7 +1810,7 @@
       </Playback>
      </Slider>
      <Button Caption="Dream with Stage Front Low" ID="21" Icon="">
-      <WindowState Visible="False" X="530" Y="325" Width="100" Height="100"/>
+      <WindowState Visible="True" X="530" Y="325" Width="100" Height="100"/>
       <Appearance>
        <FrameStyle>None</FrameStyle>
        <ForegroundColor>4294967295</ForegroundColor>
@@ -1758,7 +1823,7 @@
       <Intensity Adjust="False">100</Intensity>
      </Button>
      <Button Caption="Dream low" ID="22" Icon="">
-      <WindowState Visible="False" X="425" Y="325" Width="100" Height="100"/>
+      <WindowState Visible="True" X="425" Y="325" Width="100" Height="100"/>
       <Appearance>
        <FrameStyle>None</FrameStyle>
        <ForegroundColor>4294967295</ForegroundColor>
@@ -1771,7 +1836,7 @@
       <Intensity Adjust="False">100</Intensity>
      </Button>
      <Button Caption="Wizard Hozayka End" ID="23" Icon="">
-      <WindowState Visible="False" X="635" Y="325" Width="100" Height="100"/>
+      <WindowState Visible="True" X="635" Y="325" Width="100" Height="100"/>
       <Appearance>
        <FrameStyle>None</FrameStyle>
        <ForegroundColor>4294967295</ForegroundColor>
@@ -1784,7 +1849,7 @@
       <Intensity Adjust="False">100</Intensity>
      </Button>
      <Button Caption="Top and Sides" ID="28" Icon="">
-      <WindowState Visible="False" X="740" Y="325" Width="100" Height="100"/>
+      <WindowState Visible="True" X="740" Y="325" Width="100" Height="100"/>
       <Appearance>
        <FrameStyle>None</FrameStyle>
        <ForegroundColor>4294967295</ForegroundColor>
@@ -1798,7 +1863,7 @@
       <Intensity Adjust="False">100</Intensity>
      </Button>
      <Slider Caption="Dream low" ID="15" WidgetStyle="Slider" InvertedAppearance="false">
-      <WindowState Visible="False" X="425" Y="5" Width="100" Height="315"/>
+      <WindowState Visible="True" X="425" Y="5" Width="100" Height="315"/>
       <Appearance>
        <FrameStyle>Sunken</FrameStyle>
        <ForegroundColor>4294967295</ForegroundColor>
@@ -1813,7 +1878,7 @@
       </Playback>
      </Slider>
      <Slider Caption="Dream with Stage Front Low" ID="29" WidgetStyle="Slider" InvertedAppearance="false">
-      <WindowState Visible="False" X="530" Y="5" Width="100" Height="315"/>
+      <WindowState Visible="True" X="530" Y="5" Width="100" Height="315"/>
       <Appearance>
        <FrameStyle>Sunken</FrameStyle>
        <ForegroundColor>4294967295</ForegroundColor>
@@ -1828,7 +1893,7 @@
       </Playback>
      </Slider>
      <Slider Caption="Wizard Hozayka End" ID="30" WidgetStyle="Slider" InvertedAppearance="false">
-      <WindowState Visible="False" X="635" Y="5" Width="100" Height="315"/>
+      <WindowState Visible="True" X="635" Y="5" Width="100" Height="315"/>
       <Appearance>
        <FrameStyle>Sunken</FrameStyle>
        <ForegroundColor>4294967295</ForegroundColor>
@@ -1843,7 +1908,7 @@
       </Playback>
      </Slider>
      <Slider Caption="Top and Sides" ID="31" WidgetStyle="Slider" InvertedAppearance="false">
-      <WindowState Visible="False" X="740" Y="5" Width="100" Height="315"/>
+      <WindowState Visible="True" X="740" Y="5" Width="100" Height="315"/>
       <Appearance>
        <FrameStyle>Sunken</FrameStyle>
        <ForegroundColor>4294967295</ForegroundColor>
@@ -1859,7 +1924,7 @@
      </Slider>
     </Frame>
     <CueList Caption="Cue list" ID="5" Page="1">
-     <WindowState Visible="True" X="5" Y="40" Width="960" Height="860"/>
+     <WindowState Visible="False" X="5" Y="40" Width="960" Height="860"/>
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -1896,8 +1961,7 @@
     </Appearance>
     <Visibility>0</Visibility>
     <AbsoluteValue Minimum="0" Maximum="10000"/>
-    <Time>1000</Time>
-    <Function FadeIn="6" FadeOut="6" Duration="0">29</Function>
+    <Time>1500</Time>
     <Function FadeIn="6" FadeOut="6" Duration="0">38</Function>
     <Function FadeIn="6" FadeOut="6" Duration="0">4</Function>
     <Function FadeIn="6" FadeOut="6" Duration="0">13</Function>
@@ -1910,6 +1974,7 @@
     <Function FadeIn="6" FadeOut="6" Duration="0">6</Function>
     <Function FadeIn="6" FadeOut="6" Duration="0">2</Function>
     <Function FadeIn="6" FadeOut="6" Duration="0">17</Function>
+    <Function FadeIn="6" FadeOut="6" Duration="0">34</Function>
     <Function FadeIn="6" FadeOut="6" Duration="0">18</Function>
     <Function FadeIn="6" FadeOut="6" Duration="0">1</Function>
     <Function FadeIn="6" FadeOut="6" Duration="0">9</Function>
@@ -1958,6 +2023,20 @@
     <Function ID="4294967295"/>
     <Action>StopAll</Action>
     <Key>Q</Key>
+    <Intensity Adjust="False">100</Intensity>
+   </Button>
+   <Button Caption="Sign" ID="33" Icon="">
+    <WindowState Visible="True" X="1765" Y="430" Width="75" Height="120"/>
+    <Appearance>
+     <FrameStyle>None</FrameStyle>
+     <ForegroundColor>4294967295</ForegroundColor>
+     <BackgroundColor>4280559675</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <Function ID="34"/>
+    <Action>Toggle</Action>
+    <Key>6</Key>
     <Intensity Adjust="False">100</Intensity>
    </Button>
   </Frame>
