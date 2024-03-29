@@ -3,13 +3,13 @@
 <Workspace xmlns="http://www.qlcplus.org/Workspace" CurrentWindow="VirtualConsole">
  <Creator>
   <Name>Q Light Controller Plus</Name>
-  <Version>4.12.6</Version>
-  <Author>22bob</Author>
+  <Version>4.12.7</Version>
+  <Author>hemul</Author>
  </Creator>
  <Engine>
   <InputOutputMap>
    <Universe Name="Universe 1" ID="0">
-    <Output Plugin="DMX USB" UID="None" Line="0">
+    <Output Plugin="DMX USB" UID="FT232R USB UART (S/N: AQ02VCGU)" Line="0">
      <PluginParameters UniverseChannels="18"/>
     </Output>
    </Universe>
@@ -309,8 +309,8 @@
    <FixtureVal ID="1">0,90</FixtureVal>
    <FixtureVal ID="3">0,140</FixtureVal>
    <FixtureVal ID="5">0,97</FixtureVal>
-   <FixtureVal ID="7">0,97</FixtureVal>
-   <FixtureVal ID="8">0,97</FixtureVal>
+   <FixtureVal ID="7">0,150</FixtureVal>
+   <FixtureVal ID="8">0,150</FixtureVal>
    <FixtureVal ID="10">0,97</FixtureVal>
    <FixtureVal ID="14">0,90</FixtureVal>
    <FixtureVal ID="15">0,90</FixtureVal>
@@ -325,7 +325,7 @@
    <FixtureVal ID="5">0,98</FixtureVal>
    <FixtureVal ID="6">0,0</FixtureVal>
    <FixtureVal ID="7">0,36</FixtureVal>
-   <FixtureVal ID="8">0,94</FixtureVal>
+   <FixtureVal ID="8">0,123</FixtureVal>
    <FixtureVal ID="9">0,0</FixtureVal>
    <FixtureVal ID="10">0,36</FixtureVal>
    <FixtureVal ID="11">0,0</FixtureVal>
@@ -638,8 +638,8 @@
    <FixtureVal ID="4">0,0</FixtureVal>
    <FixtureVal ID="5">0,76</FixtureVal>
    <FixtureVal ID="6">0,0</FixtureVal>
-   <FixtureVal ID="7">0,76</FixtureVal>
-   <FixtureVal ID="8">0,76</FixtureVal>
+   <FixtureVal ID="7">0,131</FixtureVal>
+   <FixtureVal ID="8">0,85</FixtureVal>
    <FixtureVal ID="9">0,0</FixtureVal>
    <FixtureVal ID="10">0,76</FixtureVal>
    <FixtureVal ID="11">0,0</FixtureVal>
@@ -781,8 +781,8 @@
    <FixtureVal ID="4">0,0</FixtureVal>
    <FixtureVal ID="5">0,97</FixtureVal>
    <FixtureVal ID="6">0,0</FixtureVal>
-   <FixtureVal ID="7">0,97</FixtureVal>
-   <FixtureVal ID="8">0,97</FixtureVal>
+   <FixtureVal ID="7">0,200</FixtureVal>
+   <FixtureVal ID="8">0,200</FixtureVal>
    <FixtureVal ID="9">0,0</FixtureVal>
    <FixtureVal ID="10">0,97</FixtureVal>
    <FixtureVal ID="11">0,0</FixtureVal>
@@ -1399,7 +1399,7 @@
     <ShowEnableButton>True</ShowEnableButton>
     <Collapsed>False</Collapsed>
     <Disabled>False</Disabled>
-    <Multipage PagesNum="2" CurrentPage="0"/>
+    <Multipage PagesNum="2" CurrentPage="1"/>
     <Shortcut Page="0" Name="Manual">
      <Key>F1</Key>
     </Shortcut>
@@ -1415,7 +1415,7 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
-     <WindowState Visible="True" X="5" Y="40" Width="960" Height="430"/>
+     <WindowState Visible="False" X="5" Y="40" Width="960" Height="430"/>
      <AllowChildren>True</AllowChildren>
      <AllowResize>False</AllowResize>
      <ShowHeader>False</ShowHeader>
@@ -1423,7 +1423,7 @@
      <Collapsed>False</Collapsed>
      <Disabled>False</Disabled>
      <Button Caption="(1) Stage Full" ID="8" Icon="">
-      <WindowState Visible="True" X="5" Y="325" Width="100" Height="100"/>
+      <WindowState Visible="False" X="5" Y="325" Width="100" Height="100"/>
       <Appearance>
        <FrameStyle>None</FrameStyle>
        <ForegroundColor>4294967295</ForegroundColor>
@@ -1437,7 +1437,7 @@
       <Intensity Adjust="False">100</Intensity>
      </Button>
      <Button Caption="(3) Stage Front Center" ID="12" Icon="">
-      <WindowState Visible="True" X="215" Y="325" Width="100" Height="100"/>
+      <WindowState Visible="False" X="215" Y="325" Width="100" Height="100"/>
       <Appearance>
        <FrameStyle>None</FrameStyle>
        <ForegroundColor>4294967295</ForegroundColor>
@@ -1451,7 +1451,7 @@
       <Intensity Adjust="False">100</Intensity>
      </Button>
      <Button Caption="(2) Stage Front" ID="13" Icon="">
-      <WindowState Visible="True" X="110" Y="325" Width="100" Height="100"/>
+      <WindowState Visible="False" X="110" Y="325" Width="100" Height="100"/>
       <Appearance>
        <FrameStyle>None</FrameStyle>
        <ForegroundColor>4294967295</ForegroundColor>
@@ -1465,7 +1465,7 @@
       <Intensity Adjust="False">100</Intensity>
      </Button>
      <Slider Caption="Stage Front" ID="16" WidgetStyle="Slider" InvertedAppearance="false">
-      <WindowState Visible="True" X="110" Y="5" Width="100" Height="315"/>
+      <WindowState Visible="False" X="110" Y="5" Width="100" Height="315"/>
       <Appearance>
        <FrameStyle>Sunken</FrameStyle>
        <ForegroundColor>4294967295</ForegroundColor>
@@ -1480,7 +1480,7 @@
       </Playback>
      </Slider>
      <Slider Caption="SF Center" ID="17" WidgetStyle="Slider" InvertedAppearance="false">
-      <WindowState Visible="True" X="215" Y="5" Width="100" Height="315"/>
+      <WindowState Visible="False" X="215" Y="5" Width="100" Height="315"/>
       <Appearance>
        <FrameStyle>Sunken</FrameStyle>
        <ForegroundColor>4294967295</ForegroundColor>
@@ -1495,7 +1495,7 @@
       </Playback>
      </Slider>
      <Slider Caption="Stage Full" ID="18" WidgetStyle="Slider" InvertedAppearance="false">
-      <WindowState Visible="True" X="5" Y="5" Width="100" Height="315"/>
+      <WindowState Visible="False" X="5" Y="5" Width="100" Height="315"/>
       <Appearance>
        <FrameStyle>Sunken</FrameStyle>
        <ForegroundColor>4294967295</ForegroundColor>
@@ -1510,7 +1510,7 @@
       </Playback>
      </Slider>
      <Button Caption="(4) Floor" ID="14" Icon="">
-      <WindowState Visible="True" X="320" Y="325" Width="100" Height="100"/>
+      <WindowState Visible="False" X="320" Y="325" Width="100" Height="100"/>
       <Appearance>
        <FrameStyle>None</FrameStyle>
        <ForegroundColor>4294967295</ForegroundColor>
@@ -1524,7 +1524,7 @@
       <Intensity Adjust="False">100</Intensity>
      </Button>
      <Button Caption="(5) Floor Spot" ID="10" Icon="">
-      <WindowState Visible="True" X="535" Y="325" Width="100" Height="100"/>
+      <WindowState Visible="False" X="535" Y="325" Width="100" Height="100"/>
       <Appearance>
        <FrameStyle>None</FrameStyle>
        <ForegroundColor>4294967295</ForegroundColor>
@@ -1538,7 +1538,7 @@
       <Intensity Adjust="False">100</Intensity>
      </Button>
      <Button Caption="(6) Backstage Sides" ID="43" Icon="">
-      <WindowState Visible="True" X="855" Y="325" Width="100" Height="100"/>
+      <WindowState Visible="False" X="855" Y="325" Width="100" Height="100"/>
       <Appearance>
        <FrameStyle>None</FrameStyle>
        <ForegroundColor>4294967295</ForegroundColor>
@@ -1552,7 +1552,7 @@
       <Intensity Adjust="False">100</Intensity>
      </Button>
      <Slider Caption="Backstage Sides" ID="46" WidgetStyle="Slider" InvertedAppearance="false">
-      <WindowState Visible="True" X="855" Y="5" Width="100" Height="315"/>
+      <WindowState Visible="False" X="855" Y="5" Width="100" Height="315"/>
       <Appearance>
        <FrameStyle>Sunken</FrameStyle>
        <ForegroundColor>4294967295</ForegroundColor>
@@ -1567,7 +1567,7 @@
       </Playback>
      </Slider>
      <Slider Caption="Floor Spot" ID="47" WidgetStyle="Slider" InvertedAppearance="false">
-      <WindowState Visible="True" X="535" Y="5" Width="100" Height="315"/>
+      <WindowState Visible="False" X="535" Y="5" Width="100" Height="315"/>
       <Appearance>
        <FrameStyle>Sunken</FrameStyle>
        <ForegroundColor>4294967295</ForegroundColor>
@@ -1582,7 +1582,7 @@
       </Playback>
      </Slider>
      <Slider Caption="Floor" ID="48" WidgetStyle="Slider" InvertedAppearance="false">
-      <WindowState Visible="True" X="320" Y="5" Width="100" Height="315"/>
+      <WindowState Visible="False" X="320" Y="5" Width="100" Height="315"/>
       <Appearance>
        <FrameStyle>Sunken</FrameStyle>
        <ForegroundColor>4294967295</ForegroundColor>
@@ -1597,7 +1597,7 @@
       </Playback>
      </Slider>
      <Button Caption="Tavern Right" ID="1" Icon="">
-      <WindowState Visible="True" X="635" Y="325" Width="100" Height="100"/>
+      <WindowState Visible="False" X="635" Y="325" Width="100" Height="100"/>
       <Appearance>
        <FrameStyle>None</FrameStyle>
        <ForegroundColor>4294967295</ForegroundColor>
@@ -1610,7 +1610,7 @@
       <Intensity Adjust="False">100</Intensity>
      </Button>
      <Slider Caption="Tavern Right" ID="2" WidgetStyle="Slider" InvertedAppearance="false">
-      <WindowState Visible="True" X="635" Y="5" Width="100" Height="315"/>
+      <WindowState Visible="False" X="635" Y="5" Width="100" Height="315"/>
       <Appearance>
        <FrameStyle>Sunken</FrameStyle>
        <ForegroundColor>4294967295</ForegroundColor>
@@ -1625,7 +1625,7 @@
       </Playback>
      </Slider>
      <Button Caption="Tavern Left" ID="3" Icon="">
-      <WindowState Visible="True" X="435" Y="325" Width="100" Height="100"/>
+      <WindowState Visible="False" X="435" Y="325" Width="100" Height="100"/>
       <Appearance>
        <FrameStyle>None</FrameStyle>
        <ForegroundColor>4294967295</ForegroundColor>
@@ -1638,7 +1638,7 @@
       <Intensity Adjust="False">100</Intensity>
      </Button>
      <Slider Caption="Tavern Left" ID="4" WidgetStyle="Slider" InvertedAppearance="false">
-      <WindowState Visible="True" X="435" Y="5" Width="100" Height="315"/>
+      <WindowState Visible="False" X="435" Y="5" Width="100" Height="315"/>
       <Appearance>
        <FrameStyle>Sunken</FrameStyle>
        <ForegroundColor>4294967295</ForegroundColor>
@@ -1653,7 +1653,7 @@
       </Playback>
      </Slider>
      <Button Caption="Stage Curtain Top" ID="6" Icon="">
-      <WindowState Visible="True" X="750" Y="325" Width="100" Height="100"/>
+      <WindowState Visible="False" X="750" Y="325" Width="100" Height="100"/>
       <Appearance>
        <FrameStyle>None</FrameStyle>
        <ForegroundColor>4294967295</ForegroundColor>
@@ -1667,7 +1667,7 @@
       <Intensity Adjust="False">100</Intensity>
      </Button>
      <Slider Caption="Curtain Top" ID="11" WidgetStyle="Slider" InvertedAppearance="false">
-      <WindowState Visible="True" X="750" Y="5" Width="100" Height="315"/>
+      <WindowState Visible="False" X="750" Y="5" Width="100" Height="315"/>
       <Appearance>
        <FrameStyle>Sunken</FrameStyle>
        <ForegroundColor>4294967295</ForegroundColor>
@@ -1690,7 +1690,7 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
-     <WindowState Visible="True" X="5" Y="470" Width="960" Height="430"/>
+     <WindowState Visible="False" X="5" Y="470" Width="960" Height="430"/>
      <AllowChildren>True</AllowChildren>
      <AllowResize>False</AllowResize>
      <ShowHeader>False</ShowHeader>
@@ -1698,7 +1698,7 @@
      <Collapsed>False</Collapsed>
      <Disabled>False</Disabled>
      <Button Caption="Tavern Low" ID="83" Icon="">
-      <WindowState Visible="True" X="110" Y="325" Width="100" Height="100"/>
+      <WindowState Visible="False" X="110" Y="325" Width="100" Height="100"/>
       <Appearance>
        <FrameStyle>None</FrameStyle>
        <ForegroundColor>4294967295</ForegroundColor>
@@ -1711,7 +1711,7 @@
       <Intensity Adjust="False">100</Intensity>
      </Button>
      <Button Caption="Act 1 Low" ID="81" Icon="">
-      <WindowState Visible="True" X="5" Y="325" Width="100" Height="100"/>
+      <WindowState Visible="False" X="5" Y="325" Width="100" Height="100"/>
       <Appearance>
        <FrameStyle>None</FrameStyle>
        <ForegroundColor>4294967295</ForegroundColor>
@@ -1724,7 +1724,7 @@
       <Intensity Adjust="False">100</Intensity>
      </Button>
      <Button Caption="Bear and Princess Low" ID="44" Icon="">
-      <WindowState Visible="True" X="320" Y="325" Width="100" Height="100"/>
+      <WindowState Visible="False" X="320" Y="325" Width="100" Height="100"/>
       <Appearance>
        <FrameStyle>None</FrameStyle>
        <ForegroundColor>4294967295</ForegroundColor>
@@ -1737,7 +1737,7 @@
       <Intensity Adjust="False">100</Intensity>
      </Button>
      <Button Caption="Tavern High" ID="45" Icon="">
-      <WindowState Visible="True" X="215" Y="325" Width="100" Height="100"/>
+      <WindowState Visible="False" X="215" Y="325" Width="100" Height="100"/>
       <Appearance>
        <FrameStyle>None</FrameStyle>
        <ForegroundColor>4294967295</ForegroundColor>
@@ -1750,7 +1750,7 @@
       <Intensity Adjust="False">100</Intensity>
      </Button>
      <Slider Caption="Act 1 Low" ID="49" WidgetStyle="Slider" InvertedAppearance="false">
-      <WindowState Visible="True" X="5" Y="5" Width="100" Height="315"/>
+      <WindowState Visible="False" X="5" Y="5" Width="100" Height="315"/>
       <Appearance>
        <FrameStyle>Sunken</FrameStyle>
        <ForegroundColor>4294967295</ForegroundColor>
@@ -1765,7 +1765,7 @@
       </Playback>
      </Slider>
      <Slider Caption="Tavern Low" ID="50" WidgetStyle="Slider" InvertedAppearance="false">
-      <WindowState Visible="True" X="110" Y="5" Width="100" Height="315"/>
+      <WindowState Visible="False" X="110" Y="5" Width="100" Height="315"/>
       <Appearance>
        <FrameStyle>Sunken</FrameStyle>
        <ForegroundColor>4294967295</ForegroundColor>
@@ -1780,7 +1780,7 @@
       </Playback>
      </Slider>
      <Slider Caption="Tavern High" ID="51" WidgetStyle="Slider" InvertedAppearance="false">
-      <WindowState Visible="True" X="215" Y="5" Width="100" Height="315"/>
+      <WindowState Visible="False" X="215" Y="5" Width="100" Height="315"/>
       <Appearance>
        <FrameStyle>Sunken</FrameStyle>
        <ForegroundColor>4294967295</ForegroundColor>
@@ -1795,7 +1795,7 @@
       </Playback>
      </Slider>
      <Slider Caption="B and P" ID="80" WidgetStyle="Slider" InvertedAppearance="false">
-      <WindowState Visible="True" X="320" Y="5" Width="100" Height="315"/>
+      <WindowState Visible="False" X="320" Y="5" Width="100" Height="315"/>
       <Appearance>
        <FrameStyle>Sunken</FrameStyle>
        <ForegroundColor>4294967295</ForegroundColor>
@@ -1810,7 +1810,7 @@
       </Playback>
      </Slider>
      <Button Caption="Dream with Stage Front Low" ID="21" Icon="">
-      <WindowState Visible="True" X="530" Y="325" Width="100" Height="100"/>
+      <WindowState Visible="False" X="530" Y="325" Width="100" Height="100"/>
       <Appearance>
        <FrameStyle>None</FrameStyle>
        <ForegroundColor>4294967295</ForegroundColor>
@@ -1823,7 +1823,7 @@
       <Intensity Adjust="False">100</Intensity>
      </Button>
      <Button Caption="Dream low" ID="22" Icon="">
-      <WindowState Visible="True" X="425" Y="325" Width="100" Height="100"/>
+      <WindowState Visible="False" X="425" Y="325" Width="100" Height="100"/>
       <Appearance>
        <FrameStyle>None</FrameStyle>
        <ForegroundColor>4294967295</ForegroundColor>
@@ -1836,7 +1836,7 @@
       <Intensity Adjust="False">100</Intensity>
      </Button>
      <Button Caption="Wizard Hozayka End" ID="23" Icon="">
-      <WindowState Visible="True" X="635" Y="325" Width="100" Height="100"/>
+      <WindowState Visible="False" X="635" Y="325" Width="100" Height="100"/>
       <Appearance>
        <FrameStyle>None</FrameStyle>
        <ForegroundColor>4294967295</ForegroundColor>
@@ -1849,7 +1849,7 @@
       <Intensity Adjust="False">100</Intensity>
      </Button>
      <Button Caption="Top and Sides" ID="28" Icon="">
-      <WindowState Visible="True" X="740" Y="325" Width="100" Height="100"/>
+      <WindowState Visible="False" X="740" Y="325" Width="100" Height="100"/>
       <Appearance>
        <FrameStyle>None</FrameStyle>
        <ForegroundColor>4294967295</ForegroundColor>
@@ -1863,7 +1863,7 @@
       <Intensity Adjust="False">100</Intensity>
      </Button>
      <Slider Caption="Dream low" ID="15" WidgetStyle="Slider" InvertedAppearance="false">
-      <WindowState Visible="True" X="425" Y="5" Width="100" Height="315"/>
+      <WindowState Visible="False" X="425" Y="5" Width="100" Height="315"/>
       <Appearance>
        <FrameStyle>Sunken</FrameStyle>
        <ForegroundColor>4294967295</ForegroundColor>
@@ -1878,7 +1878,7 @@
       </Playback>
      </Slider>
      <Slider Caption="Dream with Stage Front Low" ID="29" WidgetStyle="Slider" InvertedAppearance="false">
-      <WindowState Visible="True" X="530" Y="5" Width="100" Height="315"/>
+      <WindowState Visible="False" X="530" Y="5" Width="100" Height="315"/>
       <Appearance>
        <FrameStyle>Sunken</FrameStyle>
        <ForegroundColor>4294967295</ForegroundColor>
@@ -1893,7 +1893,7 @@
       </Playback>
      </Slider>
      <Slider Caption="Wizard Hozayka End" ID="30" WidgetStyle="Slider" InvertedAppearance="false">
-      <WindowState Visible="True" X="635" Y="5" Width="100" Height="315"/>
+      <WindowState Visible="False" X="635" Y="5" Width="100" Height="315"/>
       <Appearance>
        <FrameStyle>Sunken</FrameStyle>
        <ForegroundColor>4294967295</ForegroundColor>
@@ -1908,7 +1908,7 @@
       </Playback>
      </Slider>
      <Slider Caption="Top and Sides" ID="31" WidgetStyle="Slider" InvertedAppearance="false">
-      <WindowState Visible="True" X="740" Y="5" Width="100" Height="315"/>
+      <WindowState Visible="False" X="740" Y="5" Width="100" Height="315"/>
       <Appearance>
        <FrameStyle>Sunken</FrameStyle>
        <ForegroundColor>4294967295</ForegroundColor>
@@ -1924,7 +1924,7 @@
      </Slider>
     </Frame>
     <CueList Caption="Cue list" ID="5" Page="1">
-     <WindowState Visible="False" X="5" Y="40" Width="960" Height="860"/>
+     <WindowState Visible="True" X="5" Y="40" Width="960" Height="860"/>
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
