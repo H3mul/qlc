@@ -309,8 +309,8 @@
    <FixtureVal ID="1">0,90</FixtureVal>
    <FixtureVal ID="3">0,140</FixtureVal>
    <FixtureVal ID="5">0,97</FixtureVal>
-   <FixtureVal ID="7">0,150</FixtureVal>
-   <FixtureVal ID="8">0,150</FixtureVal>
+   <FixtureVal ID="7">0,125</FixtureVal>
+   <FixtureVal ID="8">0,125</FixtureVal>
    <FixtureVal ID="10">0,97</FixtureVal>
    <FixtureVal ID="14">0,90</FixtureVal>
    <FixtureVal ID="15">0,90</FixtureVal>
@@ -638,7 +638,7 @@
    <FixtureVal ID="4">0,0</FixtureVal>
    <FixtureVal ID="5">0,76</FixtureVal>
    <FixtureVal ID="6">0,0</FixtureVal>
-   <FixtureVal ID="7">0,131</FixtureVal>
+   <FixtureVal ID="7">0,125</FixtureVal>
    <FixtureVal ID="8">0,85</FixtureVal>
    <FixtureVal ID="9">0,0</FixtureVal>
    <FixtureVal ID="10">0,76</FixtureVal>
@@ -781,8 +781,8 @@
    <FixtureVal ID="4">0,0</FixtureVal>
    <FixtureVal ID="5">0,97</FixtureVal>
    <FixtureVal ID="6">0,0</FixtureVal>
-   <FixtureVal ID="7">0,200</FixtureVal>
-   <FixtureVal ID="8">0,200</FixtureVal>
+   <FixtureVal ID="7">0,145</FixtureVal>
+   <FixtureVal ID="8">0,145</FixtureVal>
    <FixtureVal ID="9">0,0</FixtureVal>
    <FixtureVal ID="10">0,97</FixtureVal>
    <FixtureVal ID="11">0,0</FixtureVal>
@@ -867,7 +867,7 @@
       <Reset>
        <Key>Q</Key>
       </Reset>
-      <Level LowLimit="0" HighLimit="255" Value="0">
+      <Level LowLimit="0" HighLimit="255" Value="71">
        <Channel Fixture="0">0</Channel>
       </Level>
       <Playback>
@@ -897,7 +897,7 @@
       <Reset>
        <Key>Q</Key>
       </Reset>
-      <Level LowLimit="0" HighLimit="255" Value="0">
+      <Level LowLimit="0" HighLimit="255" Value="71">
        <Channel Fixture="1">0</Channel>
       </Level>
       <Playback>
@@ -937,7 +937,7 @@
       <Reset>
        <Key>Q</Key>
       </Reset>
-      <Level LowLimit="0" HighLimit="255" Value="0">
+      <Level LowLimit="0" HighLimit="255" Value="110">
        <Channel Fixture="3">0</Channel>
       </Level>
       <Playback>
@@ -1033,7 +1033,7 @@
       <Reset>
        <Key>Q</Key>
       </Reset>
-      <Level LowLimit="0" HighLimit="255" Value="0">
+      <Level LowLimit="0" HighLimit="255" Value="76">
        <Channel Fixture="5">0</Channel>
       </Level>
       <Playback>
@@ -1073,7 +1073,7 @@
       <Reset>
        <Key>Q</Key>
       </Reset>
-      <Level LowLimit="0" HighLimit="255" Value="0">
+      <Level LowLimit="0" HighLimit="255" Value="125">
        <Channel Fixture="7">0</Channel>
       </Level>
       <Playback>
@@ -1139,7 +1139,7 @@
       <Reset>
        <Key>Q</Key>
       </Reset>
-      <Level LowLimit="0" HighLimit="255" Value="0">
+      <Level LowLimit="0" HighLimit="255" Value="85">
        <Channel Fixture="8">0</Channel>
       </Level>
       <Playback>
@@ -1229,7 +1229,7 @@
       <Reset>
        <Key>Q</Key>
       </Reset>
-      <Level LowLimit="0" HighLimit="255" Value="0">
+      <Level LowLimit="0" HighLimit="255" Value="76">
        <Channel Fixture="10">0</Channel>
       </Level>
       <Playback>
@@ -1345,7 +1345,7 @@
       <Reset>
        <Key>Q</Key>
       </Reset>
-      <Level LowLimit="0" HighLimit="255" Value="0">
+      <Level LowLimit="0" HighLimit="255" Value="71">
        <Channel Fixture="15">0</Channel>
       </Level>
       <Playback>
@@ -1365,7 +1365,7 @@
       <Reset>
        <Key>Q</Key>
       </Reset>
-      <Level LowLimit="0" HighLimit="255" Value="0">
+      <Level LowLimit="0" HighLimit="255" Value="71">
        <Channel Fixture="14">0</Channel>
       </Level>
       <Playback>
