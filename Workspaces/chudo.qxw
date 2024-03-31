@@ -3,13 +3,13 @@
 <Workspace xmlns="http://www.qlcplus.org/Workspace" CurrentWindow="VirtualConsole">
  <Creator>
   <Name>Q Light Controller Plus</Name>
-  <Version>4.12.7</Version>
-  <Author>hemul</Author>
+  <Version>4.12.6</Version>
+  <Author>22bob</Author>
  </Creator>
  <Engine>
   <InputOutputMap>
    <Universe Name="Universe 1" ID="0">
-    <Output Plugin="DMX USB" UID="FT232R USB UART (S/N: AQ02VCGU)" Line="0">
+    <Output Plugin="DMX USB" UID="FT232R USB UART (S/N: A10KPF27)" Line="0">
      <PluginParameters UniverseChannels="18"/>
     </Output>
    </Universe>
@@ -308,10 +308,10 @@
    <FixtureVal ID="0">0,90</FixtureVal>
    <FixtureVal ID="1">0,90</FixtureVal>
    <FixtureVal ID="3">0,140</FixtureVal>
-   <FixtureVal ID="5">0,97</FixtureVal>
+   <FixtureVal ID="5">0,140</FixtureVal>
    <FixtureVal ID="7">0,125</FixtureVal>
    <FixtureVal ID="8">0,125</FixtureVal>
-   <FixtureVal ID="10">0,97</FixtureVal>
+   <FixtureVal ID="10">0,120</FixtureVal>
    <FixtureVal ID="14">0,90</FixtureVal>
    <FixtureVal ID="15">0,90</FixtureVal>
   </Function>
@@ -636,7 +636,7 @@
    <FixtureVal ID="2">0,0</FixtureVal>
    <FixtureVal ID="3">0,110</FixtureVal>
    <FixtureVal ID="4">0,0</FixtureVal>
-   <FixtureVal ID="5">0,76</FixtureVal>
+   <FixtureVal ID="5">0,100</FixtureVal>
    <FixtureVal ID="6">0,0</FixtureVal>
    <FixtureVal ID="7">0,125</FixtureVal>
    <FixtureVal ID="8">0,85</FixtureVal>
@@ -699,10 +699,10 @@
    <Step Number="22" FadeIn="0" Hold="4294967294" FadeOut="0" Note="Gunshot">10</Step>
    <Step Number="23" FadeIn="3000" Hold="4294967294" FadeOut="1500" Note="Princess alone">28</Step>
    <Step Number="24" FadeIn="7000" Hold="4294967294" FadeOut="1500">20</Step>
-   <Step Number="25" FadeIn="1500" Hold="4294967294" FadeOut="1500" Note="Princess stage left">24</Step>
+   <Step Number="25" FadeIn="3000" Hold="4294967294" FadeOut="1500" Note="Princess stage left">24</Step>
    <Step Number="26" FadeIn="1500" Hold="4294967294" FadeOut="1500" Note="from DRUZIA to Doktora, doktora!">12</Step>
    <Step Number="27" FadeIn="1500" Hold="4294967294" FadeOut="1500" Note="princess enters">7</Step>
-   <Step Number="28" FadeIn="1500" Hold="4294967294" FadeOut="1500" Note="Vam uzhe skazali, 4toya umru">32</Step>
+   <Step Number="28" FadeIn="2500" Hold="4294967294" FadeOut="1500" Note="Vam uzhe skazali, 4toya umru">32</Step>
    <Step Number="29" FadeIn="1500" Hold="4294967294" FadeOut="1500" Note="Eto on! Eto on!">7</Step>
    <Step Number="30" FadeIn="0" Hold="4294967294" FadeOut="0" Note="Poem + book finish">10</Step>
    <Step Number="31" FadeIn="6000" Hold="4294967294" FadeOut="4000" Note="music changes">31</Step>
@@ -867,7 +867,7 @@
       <Reset>
        <Key>Q</Key>
       </Reset>
-      <Level LowLimit="0" HighLimit="255" Value="71">
+      <Level LowLimit="0" HighLimit="255" Value="0">
        <Channel Fixture="0">0</Channel>
       </Level>
       <Playback>
@@ -897,7 +897,7 @@
       <Reset>
        <Key>Q</Key>
       </Reset>
-      <Level LowLimit="0" HighLimit="255" Value="71">
+      <Level LowLimit="0" HighLimit="255" Value="0">
        <Channel Fixture="1">0</Channel>
       </Level>
       <Playback>
@@ -937,7 +937,7 @@
       <Reset>
        <Key>Q</Key>
       </Reset>
-      <Level LowLimit="0" HighLimit="255" Value="110">
+      <Level LowLimit="0" HighLimit="255" Value="0">
        <Channel Fixture="3">0</Channel>
       </Level>
       <Playback>
@@ -1033,7 +1033,7 @@
       <Reset>
        <Key>Q</Key>
       </Reset>
-      <Level LowLimit="0" HighLimit="255" Value="76">
+      <Level LowLimit="0" HighLimit="255" Value="0">
        <Channel Fixture="5">0</Channel>
       </Level>
       <Playback>
@@ -1073,7 +1073,7 @@
       <Reset>
        <Key>Q</Key>
       </Reset>
-      <Level LowLimit="0" HighLimit="255" Value="125">
+      <Level LowLimit="0" HighLimit="255" Value="0">
        <Channel Fixture="7">0</Channel>
       </Level>
       <Playback>
@@ -1139,7 +1139,7 @@
       <Reset>
        <Key>Q</Key>
       </Reset>
-      <Level LowLimit="0" HighLimit="255" Value="85">
+      <Level LowLimit="0" HighLimit="255" Value="0">
        <Channel Fixture="8">0</Channel>
       </Level>
       <Playback>
@@ -1229,7 +1229,7 @@
       <Reset>
        <Key>Q</Key>
       </Reset>
-      <Level LowLimit="0" HighLimit="255" Value="76">
+      <Level LowLimit="0" HighLimit="255" Value="0">
        <Channel Fixture="10">0</Channel>
       </Level>
       <Playback>
@@ -1345,7 +1345,7 @@
       <Reset>
        <Key>Q</Key>
       </Reset>
-      <Level LowLimit="0" HighLimit="255" Value="71">
+      <Level LowLimit="0" HighLimit="255" Value="0">
        <Channel Fixture="15">0</Channel>
       </Level>
       <Playback>
@@ -1365,7 +1365,7 @@
       <Reset>
        <Key>Q</Key>
       </Reset>
-      <Level LowLimit="0" HighLimit="255" Value="71">
+      <Level LowLimit="0" HighLimit="255" Value="0">
        <Channel Fixture="14">0</Channel>
       </Level>
       <Playback>
