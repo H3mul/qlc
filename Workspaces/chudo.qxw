@@ -704,13 +704,12 @@
    <Step Number="27" FadeIn="1500" Hold="4294967294" FadeOut="1500" Note="princess enters">7</Step>
    <Step Number="28" FadeIn="2500" Hold="4294967294" FadeOut="1500" Note="Vam uzhe skazali, 4toya umru">32</Step>
    <Step Number="29" FadeIn="1500" Hold="4294967294" FadeOut="1500" Note="Eto on! Eto on!">7</Step>
-   <Step Number="30" FadeIn="0" Hold="4294967294" FadeOut="0" Note="Poem + book finish">10</Step>
-   <Step Number="31" FadeIn="6000" Hold="4294967294" FadeOut="4000" Note="music changes">31</Step>
-   <Step Number="32" FadeIn="0" Hold="4294967294" FadeOut="0" Note="Poem + book finish">10</Step>
-   <Step Number="33" FadeIn="4000" Hold="4294967294" FadeOut="1500" Note="Wait for bear + princess to stand in center">22</Step>
-   <Step Number="34" FadeIn="1500" Hold="4294967294" FadeOut="1500" Note="Dance front or svita comes out">39</Step>
-   <Step Number="35" FadeIn="1500" Hold="4294967294" FadeOut="1500" Note="Svita comes downstairs">41</Step>
-   <Step Number="36" FadeIn="0" Hold="4294967294" FadeOut="0">10</Step>
+   <Step Number="30" FadeIn="2000" Hold="4294967294" FadeOut="3000">42</Step>
+   <Step Number="31" FadeIn="0" Hold="4294967294" FadeOut="0" Note="Poem + book finish">10</Step>
+   <Step Number="32" FadeIn="4000" Hold="4294967294" FadeOut="1500" Note="Wait for bear + princess to stand in center">22</Step>
+   <Step Number="33" FadeIn="1500" Hold="4294967294" FadeOut="1500" Note="Dance front or svita comes out">39</Step>
+   <Step Number="34" FadeIn="1500" Hold="4294967294" FadeOut="1500" Note="Svita comes downstairs">41</Step>
+   <Step Number="35" FadeIn="0" Hold="4294967294" FadeOut="0">10</Step>
   </Function>
   <Function ID="38" Type="Scene" Name="Top and Sides" Path="Groups">
    <Speed FadeIn="1500" FadeOut="1500" Duration="0"/>
@@ -792,6 +791,26 @@
    <FixtureVal ID="15">0,90</FixtureVal>
    <FixtureVal ID="16">0,0,1,0</FixtureVal>
   </Function>
+  <Function ID="42" Type="Scene" Name="Backstage Sides + wizard" Path="Scenes">
+   <Speed FadeIn="1500" FadeOut="1500" Duration="1000"/>
+   <FixtureVal ID="12">0,255</FixtureVal>
+   <FixtureVal ID="2">0,255</FixtureVal>
+   <FixtureVal ID="7">0,0</FixtureVal>
+   <FixtureVal ID="8">0,0</FixtureVal>
+   <FixtureVal ID="3">0,52</FixtureVal>
+   <FixtureVal ID="5">0,0</FixtureVal>
+   <FixtureVal ID="10">0,0</FixtureVal>
+   <FixtureVal ID="4">0,0</FixtureVal>
+   <FixtureVal ID="11">0,0</FixtureVal>
+   <FixtureVal ID="13">0,0</FixtureVal>
+   <FixtureVal ID="14">0,45</FixtureVal>
+   <FixtureVal ID="15">0,0</FixtureVal>
+   <FixtureVal ID="0">0,0</FixtureVal>
+   <FixtureVal ID="1">0,45</FixtureVal>
+   <FixtureVal ID="9">0,0</FixtureVal>
+   <FixtureVal ID="6">0,0</FixtureVal>
+   <FixtureVal ID="16">0,0,1,0</FixtureVal>
+  </Function>
   <Monitor DisplayMode="1" ShowLabels="1">
    <Font>Arial,9,-1,5,50,0,0,0,0,0</Font>
    <ChannelStyle>0</ChannelStyle>
@@ -867,7 +886,7 @@
       <Reset>
        <Key>Q</Key>
       </Reset>
-      <Level LowLimit="0" HighLimit="255" Value="0">
+      <Level LowLimit="0" HighLimit="255" Value="71">
        <Channel Fixture="0">0</Channel>
       </Level>
       <Playback>
@@ -897,7 +916,7 @@
       <Reset>
        <Key>Q</Key>
       </Reset>
-      <Level LowLimit="0" HighLimit="255" Value="0">
+      <Level LowLimit="0" HighLimit="255" Value="71">
        <Channel Fixture="1">0</Channel>
       </Level>
       <Playback>
@@ -1093,7 +1112,7 @@
       <Reset>
        <Key>Q</Key>
       </Reset>
-      <Level LowLimit="0" HighLimit="255" Value="0">
+      <Level LowLimit="0" HighLimit="255" Value="116">
        <Channel Fixture="6">0</Channel>
       </Level>
       <Playback>
@@ -1169,7 +1188,7 @@
       <Reset>
        <Key>Q</Key>
       </Reset>
-      <Level LowLimit="0" HighLimit="255" Value="0">
+      <Level LowLimit="0" HighLimit="255" Value="116">
        <Channel Fixture="9">0</Channel>
       </Level>
       <Playback>
@@ -1209,7 +1228,7 @@
       <Reset>
        <Key>Q</Key>
       </Reset>
-      <Level LowLimit="0" HighLimit="255" Value="0">
+      <Level LowLimit="0" HighLimit="255" Value="116">
        <Channel Fixture="11">0</Channel>
       </Level>
       <Playback>
@@ -1345,7 +1364,7 @@
       <Reset>
        <Key>Q</Key>
       </Reset>
-      <Level LowLimit="0" HighLimit="255" Value="0">
+      <Level LowLimit="0" HighLimit="255" Value="71">
        <Channel Fixture="15">0</Channel>
       </Level>
       <Playback>
@@ -1365,7 +1384,7 @@
       <Reset>
        <Key>Q</Key>
       </Reset>
-      <Level LowLimit="0" HighLimit="255" Value="0">
+      <Level LowLimit="0" HighLimit="255" Value="71">
        <Channel Fixture="14">0</Channel>
       </Level>
       <Playback>
