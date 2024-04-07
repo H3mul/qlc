@@ -62,7 +62,7 @@
    <Model>Generic</Model>
    <Mode>1 Channel</Mode>
    <ID>4</ID>
-   <Name>None</Name>
+   <Name>Sign</Name>
    <Universe>0</Universe>
    <Address>4</Address>
    <Channels>1</Channels>
@@ -609,7 +609,7 @@
    <FixtureVal ID="15">0,0</FixtureVal>
    <FixtureVal ID="16">0,0,1,0</FixtureVal>
   </Function>
-  <Function ID="34" Type="Scene" Name="Sign">
+  <Function ID="34" Type="Scene" Name="Sign" Path="Groups">
    <Speed FadeIn="1500" FadeOut="1500" Duration="0"/>
    <FixtureVal ID="0">0,0</FixtureVal>
    <FixtureVal ID="1">0,0</FixtureVal>
@@ -811,7 +811,18 @@
    <FixtureVal ID="6">0,0</FixtureVal>
    <FixtureVal ID="16">0,0,1,0</FixtureVal>
   </Function>
-  <Monitor DisplayMode="1" ShowLabels="1">
+  <Function ID="43" Type="Chaser" Name="Lights Test">
+   <Speed FadeIn="500" FadeOut="500" Duration="4294967294"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
+   <Step Number="0" FadeIn="500" Hold="4294967294" FadeOut="500">0</Step>
+   <Step Number="1" FadeIn="500" Hold="4294967294" FadeOut="500">3</Step>
+   <Step Number="2" FadeIn="500" Hold="4294967294" FadeOut="500">2</Step>
+   <Step Number="3" FadeIn="500" Hold="4294967294" FadeOut="500">7</Step>
+   <Step Number="4" FadeIn="500" Hold="4294967294" FadeOut="500">17</Step>
+  </Function>
+  <Monitor DisplayMode="1" ShowLabels="0">
    <Font>Arial,9,-1,5,50,0,0,0,0,0</Font>
    <ChannelStyle>0</ChannelStyle>
    <ValueStyle>0</ValueStyle>
@@ -831,7 +842,6 @@
    <FxItem ID="13" XPos="2360" YPos="40"/>
    <FxItem ID="14" XPos="1678.88" YPos="1022.52"/>
    <FxItem ID="15" XPos="1362.1" YPos="1019.65"/>
-   <FxItem ID="16" XPos="4480" YPos="493.333"/>
   </Monitor>
  </Engine>
  <VirtualConsole>
@@ -886,7 +896,7 @@
       <Reset>
        <Key>Q</Key>
       </Reset>
-      <Level LowLimit="0" HighLimit="255" Value="71">
+      <Level LowLimit="0" HighLimit="255" Value="0">
        <Channel Fixture="0">0</Channel>
       </Level>
       <Playback>
@@ -916,7 +926,7 @@
       <Reset>
        <Key>Q</Key>
       </Reset>
-      <Level LowLimit="0" HighLimit="255" Value="71">
+      <Level LowLimit="0" HighLimit="255" Value="0">
        <Channel Fixture="1">0</Channel>
       </Level>
       <Playback>
@@ -1112,7 +1122,7 @@
       <Reset>
        <Key>Q</Key>
       </Reset>
-      <Level LowLimit="0" HighLimit="255" Value="116">
+      <Level LowLimit="0" HighLimit="255" Value="0">
        <Channel Fixture="6">0</Channel>
       </Level>
       <Playback>
@@ -1188,7 +1198,7 @@
       <Reset>
        <Key>Q</Key>
       </Reset>
-      <Level LowLimit="0" HighLimit="255" Value="116">
+      <Level LowLimit="0" HighLimit="255" Value="0">
        <Channel Fixture="9">0</Channel>
       </Level>
       <Playback>
@@ -1228,7 +1238,7 @@
       <Reset>
        <Key>Q</Key>
       </Reset>
-      <Level LowLimit="0" HighLimit="255" Value="116">
+      <Level LowLimit="0" HighLimit="255" Value="0">
        <Channel Fixture="11">0</Channel>
       </Level>
       <Playback>
@@ -1364,7 +1374,7 @@
       <Reset>
        <Key>Q</Key>
       </Reset>
-      <Level LowLimit="0" HighLimit="255" Value="71">
+      <Level LowLimit="0" HighLimit="255" Value="0">
        <Channel Fixture="15">0</Channel>
       </Level>
       <Playback>
@@ -1384,7 +1394,7 @@
       <Reset>
        <Key>Q</Key>
       </Reset>
-      <Level LowLimit="0" HighLimit="255" Value="71">
+      <Level LowLimit="0" HighLimit="255" Value="0">
        <Channel Fixture="14">0</Channel>
       </Level>
       <Playback>
@@ -1418,13 +1428,14 @@
     <ShowEnableButton>True</ShowEnableButton>
     <Collapsed>False</Collapsed>
     <Disabled>False</Disabled>
-    <Multipage PagesNum="2" CurrentPage="1"/>
+    <Multipage PagesNum="3" CurrentPage="1"/>
     <Shortcut Page="0" Name="Manual">
      <Key>F1</Key>
     </Shortcut>
     <Shortcut Page="1" Name="Cue">
      <Key>F2</Key>
     </Shortcut>
+    <Shortcut Page="2" Name="Lights Test"/>
     <PagesLoop>True</PagesLoop>
     <Frame Caption="" ID="7">
      <Appearance>
@@ -1952,6 +1963,32 @@
       <Font>Default</Font>
      </Appearance>
      <Chaser>37</Chaser>
+     <PlaybackLayout>1</PlaybackLayout>
+     <NextPrevBehavior>0</NextPrevBehavior>
+     <Next>
+      <Key>Space</Key>
+     </Next>
+     <Previous>
+      <Key>Shift+Space</Key>
+     </Previous>
+     <Playback>
+      <Key>S</Key>
+     </Playback>
+     <Stop>
+      <Key>Q</Key>
+     </Stop>
+     <SlidersMode>Crossfade</SlidersMode>
+    </CueList>
+    <CueList Caption="Cue list" ID="32" Page="2">
+     <WindowState Visible="False" X="5" Y="40" Width="960" Height="220"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Chaser>43</Chaser>
      <PlaybackLayout>1</PlaybackLayout>
      <NextPrevBehavior>0</NextPrevBehavior>
      <Next>
