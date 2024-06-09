@@ -187,6 +187,7 @@
    <Universe>0</Universe>
    <Address>16</Address>
    <Channels>7</Channels>
+   <ExcludeFade>1,2,3,4,5,6</ExcludeFade>
   </Fixture>
   <Fixture>
    <Manufacturer>EasyDancing</Manufacturer>
@@ -197,6 +198,7 @@
    <Universe>0</Universe>
    <Address>30</Address>
    <Channels>7</Channels>
+   <ExcludeFade>1,2,3,4,5,6</ExcludeFade>
   </Fixture>
   <Fixture>
    <Manufacturer>EasyDancing</Manufacturer>
@@ -207,6 +209,7 @@
    <Universe>0</Universe>
    <Address>23</Address>
    <Channels>7</Channels>
+   <ExcludeFade>1,2,3,4,5,6</ExcludeFade>
   </Fixture>
   <Fixture>
    <Manufacturer>EasyDancing</Manufacturer>
@@ -217,7 +220,16 @@
    <Universe>0</Universe>
    <Address>37</Address>
    <Channels>7</Channels>
+   <ExcludeFade>1,2,3,4,5,6</ExcludeFade>
   </Fixture>
+  <FixtureGroup ID="0">
+   <Name>LED</Name>
+   <Size X="1" Y="1"/>
+   <Head X="0" Y="0" Fixture="19">0</Head>
+   <Head X="0" Y="1" Fixture="16">0</Head>
+   <Head X="0" Y="2" Fixture="18">0</Head>
+   <Head X="0" Y="3" Fixture="17">0</Head>
+  </FixtureGroup>
   <Function ID="0" Type="Scene" Name="Floor" Path="Chudo/Groups">
    <Speed FadeIn="1500" FadeOut="1500" Duration="1000"/>
    <FixtureVal ID="3">0,255</FixtureVal>
@@ -291,7 +303,7 @@
    <FixtureVal ID="12">0,255</FixtureVal>
    <FixtureVal ID="2">0,255</FixtureVal>
   </Function>
-  <Function ID="8" Type="Chaser" Name="Тамара">
+  <Function ID="8" Type="Chaser" Name="Тамара" Path="Cues">
    <Speed FadeIn="0" FadeOut="0" Duration="4294967294"/>
    <Direction>Forward</Direction>
    <RunOrder>SingleShot</RunOrder>
@@ -883,7 +895,7 @@
    <FixtureVal ID="11"/>
    <FixtureVal ID="13"/>
   </Function>
-  <Function ID="59" Type="Chaser" Name="Дядя Пуд">
+  <Function ID="59" Type="Chaser" Name="Дядя Пуд" Path="Cues">
    <Speed FadeIn="0" FadeOut="0" Duration="4294967294"/>
    <Direction>Forward</Direction>
    <RunOrder>SingleShot</RunOrder>
@@ -925,7 +937,7 @@
    <FixtureVal ID="11"/>
    <FixtureVal ID="13"/>
   </Function>
-  <Function ID="64" Type="Chaser" Name="Чудный Мальчик">
+  <Function ID="64" Type="Chaser" Name="Чудный Мальчик" Path="Cues">
    <Speed FadeIn="0" FadeOut="0" Duration="4294967294"/>
    <Direction>Forward</Direction>
    <RunOrder>SingleShot</RunOrder>
@@ -1079,7 +1091,7 @@
    <Step Number="0">69</Step>
    <Step Number="1">73</Step>
   </Function>
-  <Function ID="76" Type="Chaser" Name="Береза">
+  <Function ID="76" Type="Chaser" Name="Береза" Path="Cues">
    <Speed FadeIn="0" FadeOut="0" Duration="4294967294"/>
    <Direction>Forward</Direction>
    <RunOrder>SingleShot</RunOrder>
@@ -1702,7 +1714,7 @@
     <ShowEnableButton>True</ShowEnableButton>
     <Collapsed>False</Collapsed>
     <Disabled>False</Disabled>
-    <Multipage PagesNum="5" CurrentPage="1"/>
+    <Multipage PagesNum="5" CurrentPage="0"/>
     <Shortcut Page="0" Name="Manual">
      <Key>F1</Key>
     </Shortcut>
