@@ -10,7 +10,9 @@
   <InputOutputMap>
    <BeatGenerator BeatType="Disabled" BPM="0"/>
    <Universe Name="Universe 1" ID="0">
-    <Output Plugin="DMX USB" UID="None" Line="0"/>
+    <Output Plugin="DMX USB" UID=" (S/N: )" Line="0">
+     <PluginParameters UniverseChannels="44"/>
+    </Output>
    </Universe>
    <Universe Name="Universe 2" ID="1"/>
    <Universe Name="Universe 3" ID="2"/>
@@ -300,12 +302,6 @@
    <Step Number="3" FadeIn="1500" Hold="0" FadeOut="1500" Note="&quot;Увидимся через неделю.&quot;">49</Step>
    <Step Number="4" FadeIn="2500" Hold="4294967294" FadeOut="1500" Note="Береза">47</Step>
    <Step Number="5" FadeIn="0" Hold="4294967294" FadeOut="0">10</Step>
-   <Step Number="6" FadeIn="2500" Hold="4294967294" FadeOut="1500" Note="Береза">47</Step>
-   <Step Number="7" FadeIn="0" Hold="4294967294" FadeOut="0">10</Step>
-   <Step Number="8" FadeIn="0" Hold="4294967294" FadeOut="0">51</Step>
-   <Step Number="9" FadeIn="0" Hold="4294967294" FadeOut="0">10</Step>
-   <Step Number="10" FadeIn="2500" Hold="4294967294" FadeOut="1500" Note="Береза">47</Step>
-   <Step Number="11" FadeIn="0" Hold="4294967294" FadeOut="0">10</Step>
   </Function>
   <Function ID="9" Type="Collection" Name="Floor And Front">
    <Step Number="0">0</Step>
@@ -772,15 +768,15 @@
   </Function>
   <Function ID="46" Type="Scene" Name="Floor Focus" Path="Сказки/Тамара">
    <Speed FadeIn="1500" FadeOut="1500" Duration="0"/>
-   <FixtureVal ID="0">0,90</FixtureVal>
-   <FixtureVal ID="1">0,90</FixtureVal>
+   <FixtureVal ID="0">0,180</FixtureVal>
+   <FixtureVal ID="1">0,180</FixtureVal>
    <FixtureVal ID="3">0,140</FixtureVal>
    <FixtureVal ID="5">0,97</FixtureVal>
    <FixtureVal ID="7">0,150</FixtureVal>
    <FixtureVal ID="8">0,150</FixtureVal>
    <FixtureVal ID="10">0,97</FixtureVal>
-   <FixtureVal ID="14">0,90</FixtureVal>
-   <FixtureVal ID="15">0,90</FixtureVal>
+   <FixtureVal ID="14">0,180</FixtureVal>
+   <FixtureVal ID="15">0,180</FixtureVal>
   </Function>
   <Function ID="47" Type="Scene" Name="Main stage and front" Path="Сказки/Тамара">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
@@ -837,7 +833,7 @@
    <FixtureVal ID="17">0,255,1,255,2,134,3,255,4,220</FixtureVal>
    <FixtureVal ID="19">0,255,1,0,2,134,3,255,4,220</FixtureVal>
   </Function>
-  <Function ID="53" Type="Chaser" Name="Storm Stage Effect Complex">
+  <Function ID="53" Type="Chaser" Name="Storm Stage Effect Complex" Path="Effects">
    <Speed FadeIn="1500" FadeOut="1500" Duration="1500"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
@@ -905,7 +901,7 @@
    <FixtureVal ID="12">0,200</FixtureVal>
    <FixtureVal ID="2">0,200</FixtureVal>
   </Function>
-  <Function ID="61" Type="Chaser" Name="Storm Stage Effect Simple">
+  <Function ID="61" Type="Chaser" Name="Storm Stage Effect Simple" Path="Effects">
    <Speed FadeIn="2000" FadeOut="2000" Duration="2000"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
@@ -1048,7 +1044,7 @@
    <Speed FadeIn="1500" FadeOut="1500" Duration="1000"/>
    <FixtureVal ID="3">0,255</FixtureVal>
   </Function>
-  <Function ID="73" Type="Chaser" Name="Lightning Flash">
+  <Function ID="73" Type="Chaser" Name="Lightning Flash" Path="Effects">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <Direction>Forward</Direction>
    <RunOrder>SingleShot</RunOrder>
@@ -1082,6 +1078,19 @@
   <Function ID="75" Type="Collection" Name="night right and lightning flash">
    <Step Number="0">69</Step>
    <Step Number="1">73</Step>
+  </Function>
+  <Function ID="76" Type="Chaser" Name="Береза">
+   <Speed FadeIn="0" FadeOut="0" Duration="4294967294"/>
+   <Direction>Forward</Direction>
+   <RunOrder>SingleShot</RunOrder>
+   <SpeedModes FadeIn="PerStep" FadeOut="PerStep" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">10</Step>
+   <Step Number="1" FadeIn="1500" Hold="4294967294" FadeOut="1500">47</Step>
+   <Step Number="2" FadeIn="0" Hold="4294967294" FadeOut="0">10</Step>
+   <Step Number="3" FadeIn="500" Hold="0" FadeOut="500">51</Step>
+   <Step Number="4" FadeIn="0" Hold="0" FadeOut="0">10</Step>
+   <Step Number="5" FadeIn="1500" Hold="0" FadeOut="1500">47</Step>
+   <Step Number="6" FadeIn="0" Hold="0" FadeOut="0">10</Step>
   </Function>
   <Monitor DisplayMode="1" ShowLabels="0">
    <Font>Arial,9,-1,5,50,0,0,0,0,0</Font>
@@ -2229,7 +2238,7 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
-     <Chaser>59</Chaser>
+     <Chaser>8</Chaser>
      <PlaybackLayout>1</PlaybackLayout>
      <NextPrevBehavior>0</NextPrevBehavior>
      <Next>
