@@ -4,15 +4,13 @@
  <Creator>
   <Name>Q Light Controller Plus</Name>
   <Version>4.13.0</Version>
-  <Author>hemul</Author>
+  <Author>Hemul</Author>
  </Creator>
  <Engine>
   <InputOutputMap>
    <BeatGenerator BeatType="Disabled" BPM="0"/>
    <Universe Name="Universe 1" ID="0">
-    <Output Plugin="DMX USB" UID="FT232R USB UART (S/N: AQ02VCGU)" Line="0">
-     <PluginParameters UniverseChannels="44"/>
-    </Output>
+    <Output Plugin="DMX USB" UID="None" Line="0"/>
    </Universe>
    <Universe Name="Universe 2" ID="1"/>
    <Universe Name="Universe 3" ID="2"/>
@@ -218,7 +216,7 @@
    <Address>37</Address>
    <Channels>7</Channels>
   </Fixture>
-  <Function ID="0" Type="Scene" Name="Floor" Path="Groups">
+  <Function ID="0" Type="Scene" Name="Floor" Path="Chudo/Groups">
    <Speed FadeIn="1500" FadeOut="1500" Duration="1000"/>
    <FixtureVal ID="3">0,255</FixtureVal>
    <FixtureVal ID="5">0,255</FixtureVal>
@@ -226,24 +224,24 @@
    <FixtureVal ID="8">0,255</FixtureVal>
    <FixtureVal ID="10">0,255</FixtureVal>
   </Function>
-  <Function ID="1" Type="Scene" Name="Floor Spot" Path="Groups">
+  <Function ID="1" Type="Scene" Name="Floor Spot" Path="Chudo/Groups">
    <Speed FadeIn="1500" FadeOut="1500" Duration="1000"/>
    <FixtureVal ID="3">0,255</FixtureVal>
   </Function>
-  <Function ID="2" Type="Scene" Name="Stage Front" Path="Groups">
+  <Function ID="2" Type="Scene" Name="Stage Front" Path="Chudo/Groups">
    <Speed FadeIn="1500" FadeOut="1500" Duration="1000"/>
    <FixtureVal ID="0">0,255</FixtureVal>
    <FixtureVal ID="1">0,255</FixtureVal>
    <FixtureVal ID="14">0,255</FixtureVal>
    <FixtureVal ID="15">0,255</FixtureVal>
   </Function>
-  <Function ID="3" Type="Scene" Name="Stage Full" Path="Groups">
+  <Function ID="3" Type="Scene" Name="Stage Full" Path="Chudo/Groups">
    <Speed FadeIn="1500" FadeOut="1500" Duration="1000"/>
    <FixtureVal ID="6">0,255</FixtureVal>
    <FixtureVal ID="9">0,255</FixtureVal>
    <FixtureVal ID="11">0,255</FixtureVal>
   </Function>
-  <Function ID="4" Type="Scene" Name="Tavern Right" Path="Groups">
+  <Function ID="4" Type="Scene" Name="Tavern Right" Path="Chudo/Groups">
    <Speed FadeIn="1500" FadeOut="1500" Duration="0"/>
    <FixtureVal ID="0">0,255</FixtureVal>
    <FixtureVal ID="1">0,0</FixtureVal>
@@ -262,7 +260,7 @@
    <FixtureVal ID="14">0,0</FixtureVal>
    <FixtureVal ID="15">0,0</FixtureVal>
   </Function>
-  <Function ID="5" Type="Scene" Name="Tavern Left" Path="Groups">
+  <Function ID="5" Type="Scene" Name="Tavern Left" Path="Chudo/Groups">
    <Speed FadeIn="1500" FadeOut="1500" Duration="0"/>
    <FixtureVal ID="0">0,0</FixtureVal>
    <FixtureVal ID="1">0,0</FixtureVal>
@@ -281,12 +279,12 @@
    <FixtureVal ID="14">0,0</FixtureVal>
    <FixtureVal ID="15">0,255</FixtureVal>
   </Function>
-  <Function ID="6" Type="Scene" Name="Stage Front Center" Path="Groups">
+  <Function ID="6" Type="Scene" Name="Stage Front Center" Path="Chudo/Groups">
    <Speed FadeIn="1500" FadeOut="1500" Duration="1000"/>
    <FixtureVal ID="1">0,255</FixtureVal>
    <FixtureVal ID="14">0,255</FixtureVal>
   </Function>
-  <Function ID="7" Type="Scene" Name="Backstage Sides" Path="Groups">
+  <Function ID="7" Type="Scene" Name="Backstage Sides" Path="Chudo/Groups">
    <Speed FadeIn="1500" FadeOut="1500" Duration="1000"/>
    <FixtureVal ID="12">0,255</FixtureVal>
    <FixtureVal ID="2">0,255</FixtureVal>
@@ -316,7 +314,7 @@
   <Function ID="10" Type="Scene" Name="Black">
    <Speed FadeIn="1500" FadeOut="1500" Duration="0"/>
   </Function>
-  <Function ID="11" Type="Scene" Name="Stage Front Center Low" Path="Groups">
+  <Function ID="11" Type="Scene" Name="Stage Front Center Low" Path="Chudo/Groups">
    <Speed FadeIn="1500" FadeOut="1500" Duration="1000"/>
    <FixtureVal ID="1">0,125</FixtureVal>
    <FixtureVal ID="14">0,125</FixtureVal>
@@ -393,7 +391,7 @@
    <FixtureVal ID="14">0,22</FixtureVal>
    <FixtureVal ID="15">0,22</FixtureVal>
   </Function>
-  <Function ID="17" Type="Scene" Name="Stage Curtain Top" Path="Groups">
+  <Function ID="17" Type="Scene" Name="Stage Curtain Top" Path="Chudo/Groups">
    <Speed FadeIn="1500" FadeOut="1500" Duration="0"/>
    <FixtureVal ID="0">0,0</FixtureVal>
    <FixtureVal ID="1">0,0</FixtureVal>
@@ -412,7 +410,7 @@
    <FixtureVal ID="14">0,0</FixtureVal>
    <FixtureVal ID="15">0,0</FixtureVal>
   </Function>
-  <Function ID="18" Type="Scene" Name="Fog On" Path="Groups">
+  <Function ID="18" Type="Scene" Name="Fog On" Path="Chudo/Groups">
    <Speed FadeIn="1500" FadeOut="1500" Duration="0"/>
   </Function>
   <Function ID="19" Type="Scene" Name="Dream with Stage Front Low" Path="Chudo">
@@ -500,11 +498,11 @@
    <Step Number="0">19</Step>
    <Step Number="1">25</Step>
   </Function>
-  <Function ID="25" Type="Scene" Name="Stage Front Left Low" Path="Groups">
+  <Function ID="25" Type="Scene" Name="Stage Front Left Low" Path="Chudo/Groups">
    <Speed FadeIn="1500" FadeOut="1500" Duration="0"/>
    <FixtureVal ID="15">0,70</FixtureVal>
   </Function>
-  <Function ID="26" Type="Scene" Name="Stage Front Right Low" Path="Groups">
+  <Function ID="26" Type="Scene" Name="Stage Front Right Low" Path="Chudo/Groups">
    <Speed FadeIn="1500" FadeOut="1500" Duration="0"/>
    <FixtureVal ID="0">0,70</FixtureVal>
   </Function>
@@ -512,7 +510,7 @@
    <Step Number="0">19</Step>
    <Step Number="1">26</Step>
   </Function>
-  <Function ID="28" Type="Scene" Name="Backstage Sides Right Low" Path="Groups">
+  <Function ID="28" Type="Scene" Name="Backstage Sides Right Low" Path="Chudo/Groups">
    <Speed FadeIn="1500" FadeOut="1500" Duration="0"/>
    <FixtureVal ID="2">0,50</FixtureVal>
   </Function>
@@ -597,7 +595,7 @@
    <FixtureVal ID="14">0,0</FixtureVal>
    <FixtureVal ID="15">0,0</FixtureVal>
   </Function>
-  <Function ID="34" Type="Scene" Name="Основной" Path="Сказки/Саша">
+  <Function ID="34" Type="Scene" Name="mid high" Path="Сказки/Саша">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="0">0,255</FixtureVal>
    <FixtureVal ID="1">0,255</FixtureVal>
@@ -654,7 +652,7 @@
    <FixtureVal ID="14">0,25</FixtureVal>
    <FixtureVal ID="15">0,25</FixtureVal>
   </Function>
-  <Function ID="37" Type="Scene" Name="Драматичный" Path="Сказки/Саша">
+  <Function ID="37" Type="Scene" Name="mid low blue" Path="Сказки/Саша">
    <Speed FadeIn="1500" FadeOut="1500" Duration="0"/>
    <FixtureVal ID="0">0,71</FixtureVal>
    <FixtureVal ID="1">0,71</FixtureVal>
@@ -663,8 +661,12 @@
    <FixtureVal ID="11">0,116</FixtureVal>
    <FixtureVal ID="14">0,71</FixtureVal>
    <FixtureVal ID="15">0,71</FixtureVal>
+   <FixtureVal ID="16">0,255,1,0,2,50,3,255,4,0,5,0,6,0</FixtureVal>
+   <FixtureVal ID="18">0,255,1,0,2,50,3,255,4,0,5,0,6,0</FixtureVal>
+   <FixtureVal ID="17">0,255,1,0,2,50,3,255,4,0,5,0,6,0</FixtureVal>
+   <FixtureVal ID="19">0,255,1,0,2,50,3,255,4,0,5,0,6,0</FixtureVal>
   </Function>
-  <Function ID="38" Type="Scene" Name="Top and Sides" Path="Groups">
+  <Function ID="38" Type="Scene" Name="Top and Sides" Path="Chudo/Groups">
    <Speed FadeIn="1500" FadeOut="1500" Duration="0"/>
    <FixtureVal ID="0">0,0</FixtureVal>
    <FixtureVal ID="1">0,0</FixtureVal>
@@ -740,28 +742,28 @@
    <FixtureVal ID="14">0,90</FixtureVal>
    <FixtureVal ID="15">0,90</FixtureVal>
   </Function>
-  <Function ID="42" Type="Scene" Name="LED Brightness" Path="Groups/LED">
+  <Function ID="42" Type="Scene" Name="LED Brightness" Path="Chudo/Groups/LED">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="16">0,255</FixtureVal>
    <FixtureVal ID="17">0,255</FixtureVal>
    <FixtureVal ID="18">0,255</FixtureVal>
    <FixtureVal ID="19">0,255</FixtureVal>
   </Function>
-  <Function ID="43" Type="Scene" Name="LED Red" Path="Groups/LED">
+  <Function ID="43" Type="Scene" Name="LED Red" Path="Chudo/Groups/LED">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="16">1,255</FixtureVal>
    <FixtureVal ID="17">1,255</FixtureVal>
    <FixtureVal ID="18">1,255</FixtureVal>
    <FixtureVal ID="19">1,255</FixtureVal>
   </Function>
-  <Function ID="44" Type="Scene" Name="LED Blue" Path="Groups/LED">
+  <Function ID="44" Type="Scene" Name="LED Blue" Path="Chudo/Groups/LED">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="16">3,255</FixtureVal>
    <FixtureVal ID="17">3,251</FixtureVal>
    <FixtureVal ID="18">3,255</FixtureVal>
    <FixtureVal ID="19">3,255</FixtureVal>
   </Function>
-  <Function ID="45" Type="Scene" Name="LED Green" Path="Groups/LED">
+  <Function ID="45" Type="Scene" Name="LED Green" Path="Chudo/Groups/LED">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="16">2,255</FixtureVal>
    <FixtureVal ID="17">2,255</FixtureVal>
@@ -799,7 +801,7 @@
    <FixtureVal ID="14">0,255</FixtureVal>
    <FixtureVal ID="15">0,255</FixtureVal>
   </Function>
-  <Function ID="48" Type="Scene" Name="Floor Center" Path="Groups">
+  <Function ID="48" Type="Scene" Name="Floor Center" Path="Chudo/Groups">
    <Speed FadeIn="1500" FadeOut="1500" Duration="0"/>
    <FixtureVal ID="0">0,90</FixtureVal>
    <FixtureVal ID="1">0,90</FixtureVal>
@@ -885,7 +887,7 @@
    <FixtureVal ID="11"/>
    <FixtureVal ID="13"/>
   </Function>
-  <Function ID="59" Type="Chaser" Name="Саша">
+  <Function ID="59" Type="Chaser" Name="Дядя Пуд">
    <Speed FadeIn="0" FadeOut="0" Duration="4294967294"/>
    <Direction>Forward</Direction>
    <RunOrder>SingleShot</RunOrder>
@@ -893,11 +895,9 @@
    <Step Number="0" FadeIn="0" Hold="4294967294" FadeOut="0">10</Step>
    <Step Number="1" FadeIn="1500" Hold="0" FadeOut="1500">34</Step>
    <Step Number="2" FadeIn="1500" Hold="0" FadeOut="1500">37</Step>
-   <Step Number="3" FadeIn="0" Hold="4294967294" FadeOut="0">10</Step>
-   <Step Number="4" FadeIn="1500" Hold="0" FadeOut="1500">29</Step>
-   <Step Number="5" FadeIn="0" Hold="4294967294" FadeOut="0">10</Step>
-   <Step Number="6" FadeIn="1500" Hold="0" FadeOut="1500">37</Step>
-   <Step Number="7" FadeIn="0" Hold="4294967294" FadeOut="0">10</Step>
+   <Step Number="3" FadeIn="1500" Hold="0" FadeOut="1500">29</Step>
+   <Step Number="4" FadeIn="1500" Hold="0" FadeOut="1500">37</Step>
+   <Step Number="5" FadeIn="1500" Hold="4294967294" FadeOut="1500">34</Step>
   </Function>
   <Function ID="60" Type="Scene" Name="Backstage Sides Low" Path="Сказки/Саша/Storm">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
@@ -928,12 +928,122 @@
    <FixtureVal ID="11"/>
    <FixtureVal ID="13"/>
   </Function>
-  <Function ID="64" Type="Chaser" Name="Чудной Мальчик">
-   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+  <Function ID="64" Type="Chaser" Name="Чудный Мальчик">
+   <Speed FadeIn="0" FadeOut="0" Duration="4294967294"/>
    <Direction>Forward</Direction>
-   <RunOrder>Loop</RunOrder>
-   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
-   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">14</Step>
+   <RunOrder>SingleShot</RunOrder>
+   <SpeedModes FadeIn="PerStep" FadeOut="PerStep" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="4294967294" FadeOut="0">10</Step>
+   <Step Number="1" FadeIn="1500" Hold="0" FadeOut="1500">65</Step>
+   <Step Number="2" FadeIn="1500" Hold="0" FadeOut="1500">66</Step>
+   <Step Number="3" FadeIn="1500" Hold="0" FadeOut="1500">68</Step>
+   <Step Number="4" FadeIn="1500" Hold="0" FadeOut="1500">67</Step>
+   <Step Number="5" FadeIn="1500" Hold="0" FadeOut="1500">66</Step>
+   <Step Number="6" FadeIn="1500" Hold="4294967294" FadeOut="1500">69</Step>
+   <Step Number="7" FadeIn="1500" Hold="4294967294" FadeOut="1500">70</Step>
+   <Step Number="8" FadeIn="1500" Hold="4294967294" FadeOut="1500">71</Step>
+   <Step Number="9" FadeIn="1500" Hold="4294967294" FadeOut="1500">72</Step>
+   <Step Number="10" FadeIn="1500" Hold="4294967294" FadeOut="1500">71</Step>
+  </Function>
+  <Function ID="65" Type="Scene" Name="Start Floor" Path="Сказки/Чудный мальчик">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,175</FixtureVal>
+   <FixtureVal ID="1">0,175</FixtureVal>
+   <FixtureVal ID="2">0,0</FixtureVal>
+   <FixtureVal ID="3">0,140</FixtureVal>
+   <FixtureVal ID="4">0,0</FixtureVal>
+   <FixtureVal ID="5">0,97</FixtureVal>
+   <FixtureVal ID="6">0,0</FixtureVal>
+   <FixtureVal ID="7">0,150</FixtureVal>
+   <FixtureVal ID="8">0,150</FixtureVal>
+   <FixtureVal ID="9">0,0</FixtureVal>
+   <FixtureVal ID="10">0,97</FixtureVal>
+   <FixtureVal ID="11">0,0</FixtureVal>
+   <FixtureVal ID="12">0,0</FixtureVal>
+   <FixtureVal ID="13">0,0</FixtureVal>
+   <FixtureVal ID="14">0,175</FixtureVal>
+   <FixtureVal ID="15">0,175</FixtureVal>
+  </Function>
+  <Function ID="66" Type="Scene" Name="mid high" Path="Сказки/Чудный мальчик">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,255</FixtureVal>
+   <FixtureVal ID="1">0,255</FixtureVal>
+   <FixtureVal ID="2">0,0</FixtureVal>
+   <FixtureVal ID="3">0,0</FixtureVal>
+   <FixtureVal ID="4">0,0</FixtureVal>
+   <FixtureVal ID="5">0,0</FixtureVal>
+   <FixtureVal ID="6">0,177</FixtureVal>
+   <FixtureVal ID="7">0,0</FixtureVal>
+   <FixtureVal ID="8">0,0</FixtureVal>
+   <FixtureVal ID="9">0,177</FixtureVal>
+   <FixtureVal ID="10">0,0</FixtureVal>
+   <FixtureVal ID="11">0,177</FixtureVal>
+   <FixtureVal ID="12">0,0</FixtureVal>
+   <FixtureVal ID="13">0,255</FixtureVal>
+   <FixtureVal ID="14">0,255</FixtureVal>
+   <FixtureVal ID="15">0,255</FixtureVal>
+  </Function>
+  <Function ID="67" Type="Scene" Name="Stairs" Path="Сказки/Чудный мальчик">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,110</FixtureVal>
+   <FixtureVal ID="1">0,0</FixtureVal>
+   <FixtureVal ID="2">0,0</FixtureVal>
+   <FixtureVal ID="3">0,0</FixtureVal>
+   <FixtureVal ID="4">0,0</FixtureVal>
+   <FixtureVal ID="5"/>
+   <FixtureVal ID="6">0,0</FixtureVal>
+   <FixtureVal ID="7">0,0</FixtureVal>
+   <FixtureVal ID="8">0,110</FixtureVal>
+   <FixtureVal ID="9">0,0</FixtureVal>
+   <FixtureVal ID="10">0,0</FixtureVal>
+   <FixtureVal ID="11">0,0</FixtureVal>
+   <FixtureVal ID="12">0,0</FixtureVal>
+   <FixtureVal ID="13">0,0</FixtureVal>
+   <FixtureVal ID="14">0,0</FixtureVal>
+   <FixtureVal ID="15">0,0</FixtureVal>
+  </Function>
+  <Function ID="68" Type="Collection" Name="mid high and stairs">
+   <Step Number="0">67</Step>
+   <Step Number="1">66</Step>
+  </Function>
+  <Function ID="69" Type="Scene" Name="Night Right" Path="Сказки/Чудный мальчик">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="1">0,0</FixtureVal>
+   <FixtureVal ID="0">0,180</FixtureVal>
+   <FixtureVal ID="6">0,180</FixtureVal>
+  </Function>
+  <Function ID="70" Type="Scene" Name="mid low" Path="Сказки/Чудный мальчик">
+   <Speed FadeIn="1500" FadeOut="1500" Duration="0"/>
+   <FixtureVal ID="0">0,71</FixtureVal>
+   <FixtureVal ID="1">0,71</FixtureVal>
+   <FixtureVal ID="6">0,116</FixtureVal>
+   <FixtureVal ID="9">0,116</FixtureVal>
+   <FixtureVal ID="11">0,116</FixtureVal>
+   <FixtureVal ID="14">0,71</FixtureVal>
+   <FixtureVal ID="15">0,71</FixtureVal>
+  </Function>
+  <Function ID="71" Type="Scene" Name="Bazar" Path="Сказки/Чудный мальчик">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,175</FixtureVal>
+   <FixtureVal ID="1">0,175</FixtureVal>
+   <FixtureVal ID="2">0,0</FixtureVal>
+   <FixtureVal ID="3">0,140</FixtureVal>
+   <FixtureVal ID="4">0,0</FixtureVal>
+   <FixtureVal ID="5">0,97</FixtureVal>
+   <FixtureVal ID="6">0,0</FixtureVal>
+   <FixtureVal ID="7">0,150</FixtureVal>
+   <FixtureVal ID="8">0,150</FixtureVal>
+   <FixtureVal ID="9">0,0</FixtureVal>
+   <FixtureVal ID="10">0,97</FixtureVal>
+   <FixtureVal ID="11">0,0</FixtureVal>
+   <FixtureVal ID="12">0,0</FixtureVal>
+   <FixtureVal ID="13">0,255</FixtureVal>
+   <FixtureVal ID="14">0,175</FixtureVal>
+   <FixtureVal ID="15">0,175</FixtureVal>
+  </Function>
+  <Function ID="72" Type="Scene" Name="Floor Spot Focus" Path="Сказки/Чудный мальчик">
+   <Speed FadeIn="1500" FadeOut="1500" Duration="1000"/>
+   <FixtureVal ID="3">0,255</FixtureVal>
   </Function>
   <Monitor DisplayMode="1" ShowLabels="0">
    <Font>Arial,9,-1,5,50,0,0,0,0,0</Font>
@@ -945,10 +1055,10 @@
    <FxItem ID="2" XPos="4014" YPos="0"/>
    <FxItem ID="3" XPos="2336.51" YPos="3021.1"/>
    <FxItem ID="5" XPos="1359.43" YPos="2366.01"/>
-   <FxItem ID="6" XPos="1673.41" YPos="2368.41"/>
+   <FxItem ID="6" XPos="3360.39" YPos="2390.48"/>
    <FxItem ID="7" XPos="1689.97" YPos="1722.29"/>
    <FxItem ID="8" XPos="3013.57" YPos="1705.94"/>
-   <FxItem ID="9" XPos="3353.69" YPos="2394.39"/>
+   <FxItem ID="9" XPos="1671.87" YPos="2373.73"/>
    <FxItem ID="10" XPos="3667.39" YPos="2393.07"/>
    <FxItem ID="11" XPos="3053.83" YPos="2394.24"/>
    <FxItem ID="12" XPos="676.456" YPos="21.5054"/>
@@ -2073,7 +2183,7 @@
      </Slider>
     </Frame>
     <CueList Caption="Cue list" ID="5" Page="1">
-     <WindowState Visible="True" X="5" Y="40" Width="960" Height="385"/>
+     <WindowState Visible="True" X="5" Y="40" Width="960" Height="860"/>
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -2081,7 +2191,7 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
-     <Chaser>8</Chaser>
+     <Chaser>59</Chaser>
      <PlaybackLayout>1</PlaybackLayout>
      <NextPrevBehavior>0</NextPrevBehavior>
      <Next>
@@ -2295,31 +2405,6 @@
       <Function>42</Function>
      </Playback>
     </Slider>
-    <CueList Caption="Cue list" ID="88" Page="1">
-     <WindowState Visible="True" X="5" Y="435" Width="960" Height="385"/>
-     <Appearance>
-      <FrameStyle>Sunken</FrameStyle>
-      <ForegroundColor>Default</ForegroundColor>
-      <BackgroundColor>Default</BackgroundColor>
-      <BackgroundImage>None</BackgroundImage>
-      <Font>Default</Font>
-     </Appearance>
-     <Chaser>59</Chaser>
-     <NextPrevBehavior>0</NextPrevBehavior>
-     <Next>
-      <Key>Space</Key>
-     </Next>
-     <Previous>
-      <Key>Shift+Space</Key>
-     </Previous>
-     <Playback>
-      <Key>S</Key>
-     </Playback>
-     <Stop>
-      <Key>Q</Key>
-     </Stop>
-     <SlidersMode>Crossfade</SlidersMode>
-    </CueList>
     <CueList Caption="Cue list" ID="89" Page="4">
      <WindowState Visible="False" X="5" Y="40" Width="960" Height="860"/>
      <Appearance>
@@ -2423,7 +2508,7 @@
    </Button>
   </Frame>
   <Properties>
-   <Size Width="1920" Height="910"/>
+   <Size Width="2000" Height="1500"/>
    <GrandMaster ChannelMode="Intensity" ValueMode="Reduce" SliderMode="Normal"/>
   </Properties>
  </VirtualConsole>
