@@ -1193,22 +1193,21 @@
    <Step Number="52" FadeIn="1500" Hold="4294967294" FadeOut="1500" Note="На воде">37</Step>
    <Step Number="53" FadeIn="1500" Hold="4294967294" FadeOut="1500" Note="бросают">29</Step>
    <Step Number="54" FadeIn="1500" Hold="4294967294" FadeOut="1500" Note="грустная музыка, шторм кончается">37</Step>
-   <Step Number="55" FadeIn="1500" Hold="4294967294" FadeOut="1500" Note="пуд падает на сундук -- до конца БЕРЕЗА 5">34</Step>
-   <Step Number="56" FadeIn="1500" Hold="4294967294" FadeOut="1500" Note="ПИМПЕРЛЕ: Занавес-, дети на лестнице">87</Step>
+   <Step Number="55" FadeIn="1500" Hold="4294967294" FadeOut="1500" Note="пуд падает на сундук -- до БЕРЕЗА 5">34</Step>
+   <Step Number="56" FadeIn="1500" Hold="4294967294" FadeOut="1500" Note="дети спускаются ПИМПЕРЛЕ: Занавес-, дети на лестнице">87</Step>
    <Step Number="57" FadeIn="1500" Hold="4294967294" FadeOut="1500" Note="Шляпа">86</Step>
    <Step Number="58" FadeIn="1500" Hold="4294967294" FadeOut="1500" Note="выбегает из света, второе &quot;Пимперлэ&quot;">87</Step>
    <Step Number="59" FadeIn="1500" Hold="4294967294" FadeOut="1500" Note="Занавес+, MIC ON">93</Step>
    <Step Number="60" FadeIn="1500" Hold="4294967294" FadeOut="1500" Note="Пимперлэ спрыгивает">71</Step>
-   <Step Number="61" FadeIn="1500" Hold="4294967294" FadeOut="1500" Note="Занавес-">88</Step>
-   <Step Number="62" FadeIn="1500" Hold="4294967294" FadeOut="1500" Note="Just in case">71</Step>
-   <Step Number="63" FadeIn="1500" Hold="4294967294" FadeOut="1500" Note="Занавес+">89</Step>
-   <Step Number="64" FadeIn="1500" Hold="4294967294" FadeOut="1500" Note="умерает, начинают петь">90</Step>
-   <Step Number="65" FadeIn="1500" Hold="4294967294" FadeOut="1500" Note="шут спрыгивает вниз">87</Step>
-   <Step Number="66" FadeIn="1500" Hold="4294967294" FadeOut="1500" Note="&quot;Я вас люблю&quot;">2</Step>
-   <Step Number="67" FadeIn="0" Hold="4294967294" FadeOut="0" Note="Все уходят">10</Step>
-   <Step Number="68" FadeIn="1500" Hold="4294967294" FadeOut="1500" Note="5 сек">66</Step>
-   <Step Number="69" FadeIn="2500" Hold="4294967294" FadeOut="2500" Note="спускаются">91</Step>
-   <Step Number="70" FadeIn="0" Hold="4294967294" FadeOut="0" Note="Все уходят">10</Step>
+   <Step Number="61" FadeIn="1500" Hold="4294967294" FadeOut="2500" Note="Занавес-, Ася и Тамара">88</Step>
+   <Step Number="62" FadeIn="2500" Hold="4294967294" FadeOut="3000" Note="Занавес+">89</Step>
+   <Step Number="63" FadeIn="3000" Hold="4294967294" FadeOut="3000" Note="умерает, начинают петь">90</Step>
+   <Step Number="64" FadeIn="3000" Hold="4294967294" FadeOut="1500" Note="шут спрыгивает вниз">87</Step>
+   <Step Number="65" FadeIn="1500" Hold="4294967294" FadeOut="1500" Note="&quot;Я вас люблю&quot;">2</Step>
+   <Step Number="66" FadeIn="0" Hold="4294967294" FadeOut="0" Note="Все уходят">10</Step>
+   <Step Number="67" FadeIn="1500" Hold="4294967294" FadeOut="1500" Note="5 сек">66</Step>
+   <Step Number="68" FadeIn="2500" Hold="4294967294" FadeOut="2500" Note="спускаются">91</Step>
+   <Step Number="69" FadeIn="0" Hold="4294967294" FadeOut="0" Note="Все уходят">10</Step>
   </Function>
   <Function ID="78" Type="Scene" Name="Sides and Top" Path="Сказки/Два Ивана">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
@@ -1481,7 +1480,7 @@
       <Reset>
        <Key>Q</Key>
       </Reset>
-      <Level LowLimit="0" HighLimit="255" Value="255">
+      <Level LowLimit="0" HighLimit="255" Value="175">
        <Channel Fixture="0">0</Channel>
       </Level>
       <Playback>
@@ -1511,7 +1510,7 @@
       <Reset>
        <Key>Q</Key>
       </Reset>
-      <Level LowLimit="0" HighLimit="255" Value="255">
+      <Level LowLimit="0" HighLimit="255" Value="175">
        <Channel Fixture="1">0</Channel>
       </Level>
       <Playback>
@@ -1551,7 +1550,7 @@
       <Reset>
        <Key>Q</Key>
       </Reset>
-      <Level LowLimit="0" HighLimit="255" Value="0">
+      <Level LowLimit="0" HighLimit="255" Value="255">
        <Channel Fixture="3">0</Channel>
       </Level>
       <Playback>
@@ -1647,7 +1646,7 @@
       <Reset>
        <Key>Q</Key>
       </Reset>
-      <Level LowLimit="0" HighLimit="255" Value="0">
+      <Level LowLimit="0" HighLimit="255" Value="97">
        <Channel Fixture="5">0</Channel>
       </Level>
       <Playback>
@@ -1687,7 +1686,7 @@
       <Reset>
        <Key>Q</Key>
       </Reset>
-      <Level LowLimit="0" HighLimit="255" Value="0">
+      <Level LowLimit="0" HighLimit="255" Value="150">
        <Channel Fixture="7">0</Channel>
       </Level>
       <Playback>
@@ -1707,7 +1706,7 @@
       <Reset>
        <Key>Q</Key>
       </Reset>
-      <Level LowLimit="0" HighLimit="255" Value="177">
+      <Level LowLimit="0" HighLimit="255" Value="0">
        <Channel Fixture="6">0</Channel>
       </Level>
       <Playback>
@@ -1753,7 +1752,7 @@
       <Reset>
        <Key>Q</Key>
       </Reset>
-      <Level LowLimit="0" HighLimit="255" Value="0">
+      <Level LowLimit="0" HighLimit="255" Value="150">
        <Channel Fixture="8">0</Channel>
       </Level>
       <Playback>
@@ -1783,7 +1782,7 @@
       <Reset>
        <Key>Q</Key>
       </Reset>
-      <Level LowLimit="0" HighLimit="255" Value="177">
+      <Level LowLimit="0" HighLimit="255" Value="0">
        <Channel Fixture="9">0</Channel>
       </Level>
       <Playback>
@@ -1823,7 +1822,7 @@
       <Reset>
        <Key>Q</Key>
       </Reset>
-      <Level LowLimit="0" HighLimit="255" Value="177">
+      <Level LowLimit="0" HighLimit="255" Value="0">
        <Channel Fixture="11">0</Channel>
       </Level>
       <Playback>
@@ -1843,7 +1842,7 @@
       <Reset>
        <Key>Q</Key>
       </Reset>
-      <Level LowLimit="0" HighLimit="255" Value="0">
+      <Level LowLimit="0" HighLimit="255" Value="97">
        <Channel Fixture="10">0</Channel>
       </Level>
       <Playback>
@@ -1919,7 +1918,7 @@
       <Reset>
        <Key>Q</Key>
       </Reset>
-      <Level LowLimit="0" HighLimit="255" Value="179">
+      <Level LowLimit="0" HighLimit="255" Value="0">
        <Channel Fixture="13">0</Channel>
       </Level>
       <Playback>
@@ -1959,7 +1958,7 @@
       <Reset>
        <Key>Q</Key>
       </Reset>
-      <Level LowLimit="0" HighLimit="255" Value="255">
+      <Level LowLimit="0" HighLimit="255" Value="175">
        <Channel Fixture="15">0</Channel>
       </Level>
       <Playback>
@@ -1979,7 +1978,7 @@
       <Reset>
        <Key>Q</Key>
       </Reset>
-      <Level LowLimit="0" HighLimit="255" Value="255">
+      <Level LowLimit="0" HighLimit="255" Value="175">
        <Channel Fixture="14">0</Channel>
       </Level>
       <Playback>
